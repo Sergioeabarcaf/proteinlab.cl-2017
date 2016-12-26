@@ -95,9 +95,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.text-center {
+  text-align: center;
+}
 
+.text-justify {
+  text-align: justify;
+}
 
+.padding-bottom {
+    padding-bottom: 40px;
+}
 
+.padding-lat {
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 
 
