@@ -15,8 +15,15 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
     <!-- Normalize -->
     <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -72,17 +79,44 @@
     </nav>
 
     <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
 
     <!-- Services Section -->
     <section id="services" class="services-section">
@@ -90,6 +124,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Que hacemos</h1>
+                    <p>ProteinLab UTEM desarrolla actividades de: Investigación Aplicada, Actividades Experimentales, Transferencia Tecnológica e Innovación.</p><br>
+                    <p>Nuestro enfoque es el trabajo interdisciplinario y colaborativo entre investigadores, industria, estado, y sociedad civil para mejorar la calidad de vida de las personas y aportar en el desarrollo de mayor competitividad en la industria.</p>
                 </div>
             </div>
         </div>
@@ -98,13 +134,46 @@
     <!-- Services Section -->
     <section id="portfolio" class="portfolio-section">
         <div class="container">
+            <!-- Portfolio Section -->
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Proyectos</h1>
+                    <h2 class="page-header">Portfolio Heading</h2>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="portfolio-item.html">
+                        <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="portfolio-item.html">
+                        <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="portfolio-item.html">
+                        <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="portfolio-item.html">
+                        <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="portfolio-item.html">
+                        <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="portfolio-item.html">
+                        <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    </a>
                 </div>
             </div>
         </div>
     </section>
+
+
 
     <!-- About Section -->
     <section id="about" class="about-section">
@@ -112,6 +181,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Quienes somos</h1>
+                    <p class="text-justify">El programa de Prospectiva e Innovación Tecnológica – ProteinLab UTEM – es un grupo interdisciplinario de investigación aplicada, innovación y diseño en el ámbito de las tecnologías digitales.</p><br>
+                    <p class="text-justify">ProteinLab UTEM desarrolla sus actividades a través de dinámicas de trabajo colaborativo entre investigadores profesionales y estudiantes de diversas disciplinas tanto en el interior de la UTEM como con otras instituciones nacionales e internacionales, El equipo esta compuesto por Diseñadores, Ingenieros Electrónicos e Informáticos.</p><br>
+                    <p class="text-justify"> ProteinLab depende de la Dirección de Investigación y Desarrollo Académico UTEM, por lo que sus acciones son transversales a todas las facultades de la institución</p><br><br>
                 </div>
             </div>
         </div>
@@ -139,6 +211,12 @@
     <script src="js/scrolling-nav.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 </body>
 
