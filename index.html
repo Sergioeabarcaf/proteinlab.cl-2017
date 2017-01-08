@@ -195,8 +195,49 @@
     <section id="contact" class="contact-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contacto</h1>
+                <h1>Contacto</h1>
+                <div class="col-lg-6">
+                    <div class="map-responsive">
+                    <iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" src="https://maps.google.com/maps?q=Dieciocho 414, Santiago, Región Metropolitana, &t=&z=16&ie=UTF8&iwloc=&output=embed" marginwidth="0"><a class="addmaps" href="http://one-page-wordpress-theme.org"id="get-map-data" mce_href="http://maps.google.com/maps/">one-page-wordpress-theme.org</a><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="addmaps" href="http://www.embedgooglemap.net"id="get-map-data" mce_href="http://maps.google.com/maps/">embedgooglemap.net</a></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="form_name" class="col-sm-2 control-label">Nombre *</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="form_name" placeholder="Ingrese su Nombre" required="required" data-error="Se requiere el Nombre.">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form_email" class="col-sm-2 control-label">Email *</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="form_email" placeholder="Ingrese su Email" required="required" data-error="Se requiere su Email.">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form_name" class="col-sm-2 control-label">Telefono</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="form_name" placeholder="Ingrese su Telefono">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form_message" class="col-sm-2 control-label">Mensaje *</label>
+                            <div class="col-sm-10">
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Por favor ingresar mensaje."></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted"><strong>*</strong> Estos campos son obligatorios.</p>
+                                </div>
+                            </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <input type="submit" class="btn btn-success btn-send" value="Enviar mensaje">
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
