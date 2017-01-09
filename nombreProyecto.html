@@ -160,6 +160,24 @@
             </div> 
         </section>
 
+        <section id="partners">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="page-header">Partners</h2>
+                </div>
+                <div class="col-lg-3">
+                    <div class="imgAbt">
+                        <img  width="220" height="220" src="http://placehold.it/500x300" alt="..." class="img-circle pull-left gap-right">
+                        
+                    </div>
+                </div>
+                <div class="col-lg-8 text-center" >
+                    <div id="textslide"><p></p></div>
+                </div>
+            </div> 
+        </section>
+        
+
         <footer>
             <p>footer</p>
         </footer>
@@ -181,6 +199,28 @@
             e.src='https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+        
+        <script type="text/javascript">
+            var quotes = [
+                "1) Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a .clearfix and o",
+                "2) Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a .clearfix and o",
+                "3) Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a .clearfix and o",
+                "4) Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a .clearfix and o",
+                "5) Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a .clearfix and o",
+                ];
+
+            var i = 0;
+
+            setInterval(function() {
+            $("#textslide").html(quotes[i]);
+                if (i == quotes.length) {
+                    i = 0;
+                }
+                else {
+                    i++;
+                }
+            }, 3 * 1000);
         </script>
     </body>
 </html>
