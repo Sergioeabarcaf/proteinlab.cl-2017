@@ -1,8 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//rutas
 import { APP_ROUTING } from './app.routes';
 
+//servicios
+import { ProyectosService } from './service/proyectos.service';
+
+//componentes
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
@@ -25,7 +30,9 @@ import { FooterComponent } from './components/shared/footer/footer.component';
     BrowserModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [
+    ProyectosService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
