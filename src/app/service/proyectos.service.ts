@@ -79,7 +79,6 @@ export class ProyectosService {
   ];
 
   constructor() {
-    console.log("Servicio Proyectos listo")
    }
 
    getProyectos():Proyecto[]{
