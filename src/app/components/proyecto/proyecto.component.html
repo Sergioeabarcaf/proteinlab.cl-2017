@@ -1,3 +1,16 @@
-<p>
-  proyecto works!
-</p>
+<h1>{{ proyecto.nombre | uppercase }}</h1>
+<hr>
+<div class="row">
+  <div class="col-md-4">
+    <img [src]="proyecto.imagenGrupal" class="img-fluid" [alt]="proyecto.nombre">
+    <br><br>
+    <button (click)="regresar()"
+      type="button" class="btn btn-danger btn-block">Regresar
+    </button>
+  </div>
+  <div class="col-md-8">
+    <h3>{{ proyecto.nombre }}</h3>
+    <hr>
+    <p>{{ proyecto.descripcion }}</p>
+  </div>
+</div>

@@ -5,7 +5,7 @@ export class ProyectosService {
 
   private proyectos:Proyecto[] = [
     {
-      nombre:"Proyecto 1",
+      nombre:"proyecto1",
       descripcion:"jhakjhakahkjahjkahkajhakja",
       categoria:"Textil",
       imagen1:"http://via.placeholder.com/700x450",
@@ -17,7 +17,7 @@ export class ProyectosService {
       partnerMSJ:"blajlaklaklaklak"
     },
     {
-      nombre:"Proyecto 2",
+      nombre:"proyecto2",
       descripcion:"jhakjhakahkjahjkahkajhakja",
       categoria:"iot",
       imagen1:"http://via.placeholder.com/700x450",
@@ -29,7 +29,7 @@ export class ProyectosService {
       partnerMSJ:"blajlaklaklaklak"
     },
     {
-      nombre:"Proyecto 3",
+      nombre:"proyecto3",
       descripcion:"jhakjhakahkjahjkahkajhakja",
       categoria:"SmartCities",
       imagen1:"http://via.placeholder.com/700x450",
@@ -41,7 +41,7 @@ export class ProyectosService {
       partnerMSJ:"blajlaklaklaklak"
     },
     {
-      nombre:"Proyecto 4",
+      nombre:"proyecto4",
       descripcion:"jhakjhakahkjahjkahkajhakja",
       categoria:"iot",
       imagen1:"http://via.placeholder.com/700x450",
@@ -53,7 +53,7 @@ export class ProyectosService {
       partnerMSJ:"blajlaklaklaklak"
     },
     {
-      nombre:"Proyecto 5",
+      nombre:"proyecto5",
       descripcion:"jhakjhakahkjahjkahkajhakja",
       categoria:"Textil",
       imagen1:"http://via.placeholder.com/700x450",
@@ -65,7 +65,7 @@ export class ProyectosService {
       partnerMSJ:"blajlaklaklaklak"
     },
     {
-      nombre:"Proyecto 6",
+      nombre:"proyecto6",
       descripcion:"jhakjhakahkjahjkahkajhakja",
       categoria:"iot",
       imagen1:"http://via.placeholder.com/700x450",
@@ -84,6 +84,10 @@ export class ProyectosService {
 
    getProyectos():Proyecto[]{
      return this.proyectos;
+   }
+
+   getProyecto( idx:string ){
+     return this.proyectos[idx];
    }
 
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProyectosService, Proyecto } from '../../service/proyectos.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-proyectos',
@@ -10,11 +11,14 @@ export class ProyectosComponent implements OnInit {
 
   proyectos:Proyecto[] = [];
 
-  constructor( private _proyectosService:ProyectosService ) { }
+  constructor( private _proyectosService:ProyectosService, private router:Router ) { }
 
   ngOnInit() {
     this.proyectos = this._proyectosService.getProyectos();
-    console.log(this.proyectos);
+  }
+
+  verProyecto( idx:number ){
+    this.router.navigate( ['/proyecto',idx] )
   }
 
 }

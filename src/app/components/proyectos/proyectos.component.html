@@ -5,12 +5,14 @@
 
 <div class="container">
   <div class="card-columns">
-    <div class="card" *ngFor="let proyecto of proyectos">
-      <img class="card-img-top" [src]=proyecto.imagenGrupal [alt]="proyecto.nombre">
+    <div class="card" *ngFor="let proyecto of proyectos; let i = index">
+      <img class="card-img-top rounded" [src]=proyecto.imagenGrupal [alt]="proyecto.nombre">
       <div class="card-body">
         <h4 class="card-title">{{ proyecto.nombre }}</h4>
         <p class="card-text">{{ proyecto.descripcion }}</p>
-        <a href="#" class="btn btn-primary btn-block">Saber más</a>
+        <button (click)="verProyecto(i)"
+          type="button" class="btn btn-primary btn-block">Ver más ...
+        </button>
       </div>
       <div class="card-footer">
         <small class="text-muted">Categoria: {{ proyecto.categoria }}</small>
