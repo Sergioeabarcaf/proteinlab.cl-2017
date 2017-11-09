@@ -83,7 +83,12 @@ export class EquipoService {
     }
   ];
 
-  constructor() { }
+  constructor() {
+  }
+
+  getEquipo():Equipo[]{
+    return this.equipo;
+  }
 
 }
 
