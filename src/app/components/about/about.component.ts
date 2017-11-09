@@ -17,6 +17,8 @@ export class AboutComponent implements OnInit {
   ngOnInit() {
     this.proyectos = this._proyectosService.getProyectos();
     this.equipo = this._equipoService.getEquipo();
+    console.log(this.proyectos);
+    console.log(this.equipo);
   }
 
 }
