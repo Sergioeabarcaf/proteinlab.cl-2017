@@ -1,16 +1,59 @@
-<h1>{{ proyecto.nombre | uppercase }}</h1>
-<hr>
-<div class="row">
-  <div class="col-md-4">
-    <img [src]="proyecto.imagenGrupal" class="img-fluid" [alt]="proyecto.nombre">
-    <br><br>
-    <button (click)="regresar()"
-      type="button" class="btn btn-danger btn-block">Regresar
-    </button>
+<div class="container">
+  <div class="row">
+      <div class="col-lg-12">
+          <h1 class="page-header">ProteinLab - {{ proyecto.nombre }}</h1>
+          <hr>
+          <nav aria-label="breadcrumb" role="navigation">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="home">Home</a></li>
+              <li class="breadcrumb-item"><a href="proyectos">Proyectos</a></li>
+              <li class="breadcrumb-item active" aria-current="proyecto"> {{ proyecto.nombre }}</li>
+            </ol>
+          </nav>
+      </div>
   </div>
-  <div class="col-md-8">
-    <h3>{{ proyecto.nombre }}</h3>
-    <hr>
-    <p>{{ proyecto.descripcion }}</p>
-  </div>
+  <br>
+  <section id="about">
+      <div class="row">
+          <div class="col-md-6">
+              <img class="img-fluid" [src]="proyecto.imagenGrupal" [alt]="proyecto.nombre">
+          </div>
+          <div class="col-md-6">
+              <p class="text-justify"> {{ proyecto.descripcion }}</p>
+          </div>
+      </div>
+  </section>
+  <br>
+  <section id="team">
+      <div class="row">
+          <div class="col-lg-12">
+              <h2 class="page-header">Galeria de imagenes del proyecto</h2>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <img class="img-fluid" [src]="proyecto.imagen1" [alt]="proyecto.imagen1">
+          </div>
+          <div class="col-md-4 col-sm-6">
+              <img class="img-fluid" [src]="proyecto.imagen2" [alt]="proyecto.imagen2">
+          </div>
+          <div class="col-md-4 col-sm-6">
+              <img class="img-fluid" [src]="proyecto.imagen3" [alt]="proyecto.imagen3">
+          </div>
+      </div>
+  </section>
+  <br>
+  <section id="partners">
+      <div class="row">
+          <div class="col-lg-12">
+              <h2 class="page-header">Partners</h2>
+          </div>
+          <div class="col-lg-5">
+              <div class="text-center">
+                  <img  width="180" height="180" [src]="proyecto.partnerIMG" [alt]="proyecto.partnerIMG" class="rounded-circle">
+              </div>
+          </div>
+          <div class="col-lg-7 text-center" >
+              <p>{{ proyecto.partnerMSJ }}</p>
+          </div>
+      </div>
+  </section>
 </div>
