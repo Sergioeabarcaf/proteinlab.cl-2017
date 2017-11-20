@@ -4,7 +4,13 @@ import { ProyectosService, Proyecto } from '../../service/proyectos.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styles: []
+  styles: [`.carousel-item {
+						  height: 35em;
+						}
+						#queHacemos{
+							padding-top: 1em;
+						}
+`]
 })
 export class HomeComponent implements OnInit {
 
