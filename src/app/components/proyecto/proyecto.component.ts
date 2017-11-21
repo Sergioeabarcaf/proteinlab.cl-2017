@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProyectosService, Proyecto } from '../../service/proyectos.service';
+import { EquipoService } from '../../service/equipo.service';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
@@ -10,10 +11,12 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class ProyectoComponent {
 
   proyecto:any = {};
+  equipo:any = {};
 
-  constructor(private activatedRoute:ActivatedRoute, private _proyectoService: ProyectosService, private route:Router) {
+  constructor(private activatedRoute:ActivatedRoute, private _proyectoService: ProyectosService, private _equipoService: EquipoService, private route:Router) {
     this.activatedRoute.params.subscribe( params => {
       this.proyecto = this._proyectoService.getProyecto( params['id']);
+      this.equipo = this._equipoService.getIntegrante(this.proyecto.integrantes)
     })
    }
 

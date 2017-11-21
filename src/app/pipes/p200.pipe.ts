@@ -12,13 +12,7 @@ export class P200Pipe implements PipeTransform {
       return par;
     }
     else{
-      let dif = 200 - value.length;
-      console.log(dif)
-      for(let i=1; i<=dif; i++){
-        value += " ";
-      }
-      console.log(value.length);
-      return value;
+      return value
     }
   }
 }

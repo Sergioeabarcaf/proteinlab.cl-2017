@@ -3,6 +3,8 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class EquipoService {
 
+  private equipoProyecto:Equipo[] = [];
+
   private equipo:Equipo[] = [
     {
       nombre: "Paz Ayala",
@@ -54,7 +56,7 @@ export class EquipoService {
       linkedin: "http://www.linkedin.com/victor"
     },
     {
-      nombre: "Fransico Sanchez",
+      nombre: "Francisco Sanchez",
       area: "Informatica",
       descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
       imagen: "http://via.placeholder.com/700x450",
@@ -88,6 +90,18 @@ export class EquipoService {
 
   getEquipo():Equipo[]{
     return this.equipo;
+  }
+
+  getIntegrante( nombre:string ):Equipo[]{
+    let integrantes:any = nombre.split(",");
+    for(let aux=0;aux<integrantes.length;aux++){
+      for(let i=0;i<this.equipo.length;i++){
+        if(integrantes[aux]==this.equipo[i].nombre){
+          this.equipoProyecto[aux] = this.equipo[i];
+        }
+      }
+    }
+    return this.equipoProyecto;
   }
 
 }

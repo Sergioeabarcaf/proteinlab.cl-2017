@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
   constructor( private _proyectosService:ProyectosService ) { }
 
   ngOnInit() {
-    this.proyectos = this._proyectosService.getProyectos();
+    this.proyectos = this._proyectosService.getProyectoLimit(3);
   }
 
 }
