@@ -18,7 +18,7 @@ export class ProyectosService {
     },
     {
       nombre:"proyecto2",
-      descripcion:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      descripcion:"Lorem ipsum dolor sit ametzdsdfsfsdfsdfsfdsfdf, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       categoria:"iot",
       imagen1:"http://via.placeholder.com/700x450",
       imagen2:"http://via.placeholder.com/700x450",
@@ -42,7 +42,7 @@ export class ProyectosService {
     },
     {
       nombre:"proyecto4",
-      descripcion:"jhakjhakahkjahjkahkajhakja",
+      descripcion:"jhakjhakahkjahjkahasdfdasfdsdfsdfsdfsdfsdfsdfsdfsdfsdfsdkajhakja",
       categoria:"iot",
       imagen1:"http://via.placeholder.com/700x450",
       imagen2:"http://via.placeholder.com/700x450",
@@ -54,7 +54,7 @@ export class ProyectosService {
     },
     {
       nombre:"proyecto5",
-      descripcion:"jhakjhakahkjahjkahkajhakja",
+      descripcion:"jhakjhakahkjahjkadsfsdfsdfsdfsdfsdfsdfsdffdhkajhakja",
       categoria:"Textil",
       imagen1:"http://via.placeholder.com/700x450",
       imagen2:"http://via.placeholder.com/700x450",
@@ -66,7 +66,7 @@ export class ProyectosService {
     },
     {
       nombre:"proyecto6",
-      descripcion:"jhakjhakahkjahjkahkajhakja",
+      descripcion:"jhakjhakahkjahjkahsdfdskajhakja",
       categoria:"iot",
       imagen1:"http://via.placeholder.com/700x450",
       imagen2:"http://via.placeholder.com/700x450",
