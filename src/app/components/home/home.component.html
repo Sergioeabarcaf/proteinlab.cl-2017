@@ -44,23 +44,23 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="card-deck">
-            <div class="card bg-danger text-white">
+            <div class="card bg-light text-muted">
               <div class="card-body">
                 <h4 class="card-title">Que hacemos</h4>
                 <p class="text text-justify font-weight-light">ProteinLab UTEM desarrolla actividades de: Investigación Aplicada, Actividades Experimentales, Transferencia Tecnológica e Innovación.</p>
                 <p class="text text-justify font-weight-light">Nuestro enfoque es el trabajo interdisciplinario y colaborativo entre investigadores, industria, estado, y sociedad civil para mejorar la calidad de vida de las personas y aportar en el desarrollo de mayor competitividad en la industria.</p>
               </div>
             </div>
-            <div class="card bg-danger text-white">
-            <div class="card-body">
-              <h4 class="card-title">Quienes somos</h4>
-              <p class="text-justify font-weight-light">El programa de Prospectiva e Innovación Tecnológica – ProteinLab UTEM – es un grupo interdisciplinario de investigación aplicada, innovación y diseño en el ámbito de las tecnologías digitales.</p>
-              <p class="text-justify font-weight-light">ProteinLab UTEM desarrolla sus actividades a través de dinámicas de trabajo colaborativo entre investigadores profesionales y estudiantes de diversas disciplinas tanto en el interior de la UTEM como con otras instituciones nacionales e internacionales, El equipo esta compuesto por Diseñadores, Ingenieros Electrónicos e Informáticos.</p>
-              <p class="text-justify font-weight-light"> ProteinLab depende de la Dirección de Investigación y Desarrollo Académico UTEM, por lo que sus acciones son transversales a todas las facultades de la institución</p><br>
-              <a class="btn btn-danger btn-block" href="about" role="button">Saber más</a>
-            </div>
+            <div class="card bg-light text-muted">
+              <div class="card-body">
+                <h4 class="card-title">Quienes somos</h4>
+                <p class="text-justify font-weight-light">El programa de Prospectiva e Innovación Tecnológica – ProteinLab UTEM – es un grupo interdisciplinario de investigación aplicada, innovación y diseño en el ámbito de las tecnologías digitales.</p>
+                <p class="text-justify font-weight-light">ProteinLab UTEM desarrolla sus actividades a través de dinámicas de trabajo colaborativo entre Diseñadores, Ingenieros Electrónicos e Informáticos.</p>
+              </div>
           </div>
           </div>
+          <br>
+          <a class="btn btn-dark btn-block" href="about" role="button">Saber más</a>
         </div>
       </div>
   </div>
@@ -74,14 +74,14 @@
         <img class="d-block h-100 w-100" src="http://placehold.it/1900x1080&text=Desliza_Para_Conocer" alt="Proyecto1">
         <div class="carousel-caption d-none d-md-block">
           <h3>Slide 1</h3>
-          <a class="btn btn-danger" href="proyectos" role="button">Conoce todos los proyectos</a>
+          <a class="btn btn-dark" href="proyectos" role="button">Conoce todos los proyectos</a>
         </div>
       </div>
       <div class="carousel-item" *ngFor="let proyecto of proyectos; let i = index">
         <img class="h-100 w-100" [src]=proyecto.imagenGrupal [alt]="proyecto.nombre">
         <div class="carousel-caption d-none d-md-block">
           <h3>{{ proyecto.nombre }}</h3>
-          <a class="btn btn-danger" href="proyectos" role="button">Conoce todos los proyectos</a>
+          <a class="btn btn-dark" href="proyectos" role="button">Conoce todos los proyectos</a>
         </div>
       </div>
     </div>
@@ -100,7 +100,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12">
-        <h1 class="text-center">Contacto</h1>
+        <h2 class="text-center text-muted">Contacto</h2>
       </div>
     </div>
     <br>
@@ -115,32 +115,32 @@
             <div class="panel-body">
               <form id="contactForm" name="contactForm" method="post" class="form-horizontal" role="form">
                   <div class="form-group">
-                    <label for="inputName" class="col-lg-2 control-label">Nombre</label>
+                    <label for="inputName" class="col-lg-2 control-label text-muted">Nombre</label>
                     <div class="col-lg-12">
                         <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Ingrese su nombre" required="required">
                     </div>
                   </div>
                   <div class="form-group">
-                      <label for="inputEmail1" class="col-lg-2 control-label">Email</label>
+                      <label for="inputEmail1" class="col-lg-2 control-label text-muted">Email</label>
                       <div class="col-lg-12">
                         <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Ingrese su Correo Electronico" required="required">
                       </div>
                   </div>
                   <div class="form-group">
-                      <label for="inputSubject" class="col-lg-2 control-label">Asunto</label>
+                      <label for="inputSubject" class="col-lg-2 control-label text-muted">Asunto</label>
                       <div class="col-lg-12">
                         <input type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Ingrese el Asunto del Mensaje" required="required">
                       </div>
                   </div>
                   <div class="form-group">
-                      <label for="inputPassword1" class="col-lg-2 control-label">Mensaje</label>
+                      <label for="inputPassword1" class="col-lg-2 control-label text-muted">Mensaje</label>
                       <div class="col-lg-12">
                         <textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Ingrese su Mensaje" required="required"></textarea>
                       </div>
                   </div>
                   <div class="form-group">
                       <div class="col-lg-offset-2 col-lg-10">
-                          <button type="submit"  id="form-submit" class="btn btn-danger btn-send">
+                          <button type="submit"  id="form-submit" class="btn btn-dark btn-send">
                             Enviar Mensaje
                           </button>
                           <!-- <div id="msgSubmit" class="h3 text-center hidden">Mensaje Enviado!</div>
