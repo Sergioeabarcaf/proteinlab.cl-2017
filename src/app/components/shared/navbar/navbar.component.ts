@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Proyecto , ProyectosService } from '../../../service/proyectos.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  proyectos:Proyecto[] = [];
+
+  constructor( private _proyectosService:ProyectosService, private router:Router ) { }
 
   ngOnInit() {
+    this.proyectos = this._proyectosService.getProyectos();
+  }
+
+  verProyecto( idx:number ){
+    this.router.navigate( ['/proyecto',idx] )
   }
 
 }
