@@ -5,15 +5,15 @@ export class ProyectosService {
 
   private proyectos:Proyecto[] = [
     {
-      nombre:"proyecto1",
-      descripcion:"Cacha que chuta el descueve apitutao yapa sale rayar la papa andar a pata apiñarse. Cachero bronca iñipiñi pillín picada el descueve hacer gancho en la pitilla levantao de raja latero apagar tele. Bacán compa promo cuático chuta doblao apestao pinganilla tula flaite aguja patiperro dale chela. Seco nica pasao a gladiolo, patiperro chanta guata hacer chupete charquicán cafiche vender la pescá chamullento marepoto filo. Echarse al pollo cachero sacar pica rayar la papa talla. Caleta pinganilla carrete chuta, jarana apitutao pancorazo nica mina quina arrugón. Como husca chucha chispeza ni ahí luca Perro muerto copete el descueve paquear ene marepoto comprar terreno tata. Uña y mugre guacala quina, embarrarla un palo colao tuto. Caleta es un cacho estar pal gato estar flor, pije atao apañar bronca cuático piyama de palo kilterri chomba chulongo pagar el piso te creo. Apagar tele polola tusunami me estai...? puchito Apiñarse po pucha, tocando el violín chorear buche nica como piojo aguja pa",
-      categoria:"Textil",
+      nombre:"Posicionamiento Outdoor/Indoor",
+      descripcion:"Proyecto colaborativo de carácter internacional en posicionamiento outdoor/indoor entre el Centre Tecnològic de Telecomunicacions de Catalunya (CTCC), España y Proteinlab UTEM. Proteinlab UTEM trabaja en el concepto, diseño y desarrollo de nuevos productos, aplicaciones y servicios orientados a usuarios finales basados en tecnologías de posicionamiento desarrolladas por el CTTC. El proyecto aborda un reto social: Permitir el acceso asequible a todo el potencial de las señales del sistema global de navegación por satélite (GNSS) civiles y se basa en un avance tecnológico que está alcanzando la madurez, el software definido por radio en dispositivos de bajo coste, junto con un diseño de producto sensible al contexto, centrado en el usuario y un ecosistema de innovación abierta liderado por una comunidad de usuarios y desarrolladores a travéz de un enfoque 'Bootom Up'. La implementación de este proyecto en Chile permitirá evaluar las diferentes capas técnicas, sociales y economicas de la tecnología en entornos reales y permitirá abordar retos sociales como la inclusión digital, contribuyendo a hacer mas asequible la tecnologia GNSS para usos civiles. Este proyecto aborda el diseño e implementación de dos prototipos experimentles de posicionamiento interior y exterior que permitirán evaluar la integración de tecnologías inteligentes y de diseño de productos, asi como el testeo de su interacción con usuarios reales. Los resultados del proyecto permitirán el diseño de aplicaciones y nuevos productos en diversos contextos tales como: Smart Cities, e-inclusion y e-Health o bien en contextos sociales, comercio, producción, servicios basados en localización (LBS)",
+      categoria:"Investigacion",
       imagen1:"http://via.placeholder.com/700x450",
       imagen2:"http://via.placeholder.com/700x450",
       imagen3:"http://via.placeholder.com/700x450",
       imagenGrupal:"http://via.placeholder.com/700x450",
-      integrantes:"Diego Vilchez,Helene Schmelzer,Carla Perez",
-      partner:"Soy el dueño 1",
+      integrantes:"Helene Schmelzer,Sergio Abarca",
+      partner:"CTTC",
       partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
