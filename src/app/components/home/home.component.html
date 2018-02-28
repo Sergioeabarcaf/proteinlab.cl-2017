@@ -60,6 +60,15 @@
           </div>
           </div>
           <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <img src="assets/img/accionProteinlab.png" width="100%" alt="">
+        </div>
+      </div>
+      <div class="rowº">
+        <div class="col-12">
           <a class="btn btn-dark btn-block" [routerLink]="['/about']" role="button">Saber más</a>
         </div>
       </div>
@@ -71,16 +80,16 @@
   <div id="carouselProyectos" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block h-100 w-100" src="http://placehold.it/1900x1080&text=Desliza_Para_Conocer" alt="Proyecto1">
-        <div class="carousel-caption d-none d-md-block">
-          <h3>Slide 1</h3>
-          <a class="btn btn-dark" href="proyectos" role="button">Conoce todos los proyectos</a>
+        <img class="d-block h-75 w-100" src="http://placehold.it/1900x1080&text=Desliza_Para_Conocer" alt="Proyecto1">
+        <div class="carousel-caption">
+          <h3 class=" d-none d-md-block">Slide 1</h3>
+          <a class="btn btn-dark" [routerLink]="['/proyectos']" role="button">Conoce todos los proyectos</a>
         </div>
       </div>
-      <div class="carousel-item" *ngFor="let proyecto of proyectos; let i = index">
-        <img class="h-100 w-100" [src]=proyecto.imagenGrupal [alt]="proyecto.nombre">
-        <div class="carousel-caption d-none d-md-block">
-          <h3>{{ proyecto.nombre }}</h3>
+      <div class="carousel-item" *ngFor="let proyecto of proyectosAll; let i = index">
+        <img class="h-75 w-100" [src]=proyecto.imagenGrupal [alt]="proyecto.nombre">
+        <div class="carousel-caption">
+          <h3 class="d-none d-md-block">{{ proyecto.nombre }}</h3>
           <a class="btn btn-dark" [routerLink]="['/proyectos']" role="button">Conoce todos los proyectos</a>
         </div>
       </div>
