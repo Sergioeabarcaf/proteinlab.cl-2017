@@ -5,14 +5,14 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class P200Pipe implements PipeTransform {
 
-  transform( value: string ): any {
-    if(value.length > 200){
-      let par = value.substr(0,197);
+  transform( value: string[] ): any {
+    if(value[0].length > 200){
+      let par = value[0].substr(0,197);
       par += "...";
       return par;
     }
     else{
-      return value
+      return value[0];
     }
   }
 }
