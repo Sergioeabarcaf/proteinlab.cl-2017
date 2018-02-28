@@ -4,8 +4,8 @@
           <h1 class="page-header">ProteinLab</h1>
           <nav aria-label="breadcrumb" role="navigation">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="home">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="About">Quienes Somos</li>
+              <li class="breadcrumb-item"><a [routerLink]="['/home']">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="about">Quienes Somos</li>
             </ol>
           </nav>
       </div>
@@ -25,6 +25,7 @@
       <br>
       <div class="row">
         <div class="col-md-12 text-center">
+          <hr>
           <h3>¿Qué hacemos?</h3>
           <p class="text-justify">ProteinLab UTEM desarrolla actividades de: Investigación Aplicada, Actividades Experimentales, Transferencia Tecnológica e Innovación.</p><br>
           <p class="text-justify">Nuestro enfoque es el trabajo interdisciplinario y colaborativo entre investigadores, industria, estado, y sociedad civil para mejorar la calidad de vida de las personas y aportar en el desarrollo de mayor competitividad en la industria.</p>
@@ -33,11 +34,13 @@
       <br>
       <div class="row">
         <div class="col-md-6 text-center">
+          <hr>
           <h3>¿Cómo nos vinculamos con la docencia?</h3>
           <p class="text-justify">ProteinLab UTEM desarrolla actividades de: Investigación Aplicada, Actividades Experimentales, Transferencia Tecnológica e Innovación.</p><br>
           <p class="text-justify">Nuestro enfoque es el trabajo interdisciplinario y colaborativo entre investigadores, industria, estado, y sociedad civil para mejorar la calidad de vida de las personas y aportar en el desarrollo de mayor competitividad en la industria.</p>
         </div>
         <div class="col-md-6 text-center">
+          <hr>
           <h3>¿Cual es nuestra infrastructura?</h3>
           <p class="text-justify">ProteinLab UTEM desarrolla actividades de: Investigación Aplicada, Actividades Experimentales, Transferencia Tecnológica e Innovación.</p><br>
           <p class="text-justify">Nuestro enfoque es el trabajo interdisciplinario y colaborativo entre investigadores, industria, estado, y sociedad civil para mejorar la calidad de vida de las personas y aportar en el desarrollo de mayor competitividad en la industria.</p>
@@ -45,6 +48,7 @@
       </div>
       <div class="row">
         <div class="col-md-12 text-center">
+          <hr>
           <h3>Imagenes Espacios Proteinlab</h3>
         </div>
       </div>
@@ -57,12 +61,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" *ngFor="let persona of equipo">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3" *ngFor="let persona of equipo">
         <div class="card border-secondary mb-3">
           <img class="card-img-top rounded" [src]="persona.imagen" [alt]="persona.imagen">
           <div class="card-body">
             <h5 class="card-title text-center">{{ persona.nombre }}</h5>
-            <p class="card-text">{{ persona.descripcion }}</p>
+            <p class="card-text text-center" style="font-size: 12px;">{{ persona.descripcion }}</p>
           </div>
           <div class="text-center">
             <a [href]="persona.linkedin" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a>
@@ -76,17 +80,19 @@
     </div>
   </section>
 
-  <section id="partners">
+  <!-- <section id="partners">
     <div class="row">
       <div class="col-lg-12">
           <h2 class="page-header">Nuestros Clientes</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2" *ngFor="let partner of proyectos">
-          <img class="img-fluid customer-img" [src]="partner.partnerIMG" alt="">
-          <p class="text-center text-secondary"><small>{{partner.partner}}</small></p>
+      <div *ngFor="let partner of proyectos">
+        <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2" *ngIf="partner.partner">
+            <img class="img-fluid" [src]="partner.partnerIMG" [alt]="partner.partner">
+            <p class="text-center text-secondary"><small>{{partner.partner}}</small></p>
+        </div>
       </div>
     </div>
-  </section>
+  </section> -->
 </div>
