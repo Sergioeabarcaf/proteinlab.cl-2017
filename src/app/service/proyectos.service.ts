@@ -47,7 +47,7 @@ export class ProyectosService {
       integrantes: "vacio",
       partner:null,
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -63,7 +63,7 @@ export class ProyectosService {
       integrantes:"vacio",
       partner:null,
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -80,7 +80,7 @@ export class ProyectosService {
       integrantes:"vacio",
       partner:null,
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -96,7 +96,7 @@ export class ProyectosService {
       integrantes:"vacio",
       partner:null,
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -117,7 +117,7 @@ export class ProyectosService {
       integrantes:"Diego Vilches",
       partner:"Matías Hernán",
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -134,7 +134,7 @@ export class ProyectosService {
       integrantes:"Diego Vilches",
       partner:"Claudio Paredes",
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -154,7 +154,7 @@ export class ProyectosService {
       integrantes:"vacio",
       partner:null,
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -174,7 +174,7 @@ export class ProyectosService {
       integrantes:"vacio",
       partner:null,
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -193,7 +193,7 @@ export class ProyectosService {
       integrantes:"Freshwater Solutions",
       partner:null,
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -211,7 +211,7 @@ export class ProyectosService {
       integrantes:"vacio",
       partner:null,
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -230,7 +230,7 @@ export class ProyectosService {
       integrantes:"vacio",
       partner:null,
       link: "http://www.thumbie.org/",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -248,7 +248,7 @@ export class ProyectosService {
       integrantes:"vacio",
       partner:null,
       link: "https://www.facebook.com/mouti",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -265,7 +265,7 @@ export class ProyectosService {
       integrantes:"vacio",
       partner:null,
       link: "https://www.kiron.cl",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -284,7 +284,7 @@ export class ProyectosService {
       integrantes:"vacio",
       partner:"Ramiro Torres Alvarado",
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -300,7 +300,7 @@ export class ProyectosService {
       integrantes:"vacio",
       partner:"CHILETEC",
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -317,7 +317,7 @@ export class ProyectosService {
       integrantes:"vacio",
       partner:null,
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -338,7 +338,7 @@ export class ProyectosService {
       integrantes:"vacio",
       partner:"Elisa Halvorsen",
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     },
     {
@@ -355,7 +355,7 @@ export class ProyectosService {
       integrantes:"Diego Vilches",
       partner:"Diego Vilches",
       link: "vacio",
-      partnerIMG:null,
+      partnerIMG:"http://via.placeholder.com/450x450",
       partnerMSJ:null
     }
 
