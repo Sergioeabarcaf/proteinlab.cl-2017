@@ -1,24 +1,30 @@
 <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-secondary">
   <a class="navbar-brand" href="/home">
-    <img src="/" alt="Proteinlab" height="100%" class="d-inline-block align-top">
+    <img src="assets/img/logoProteinlab.jpg" alt="Proteinlab" height="50px" class="d-inline-block align-top">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item dropdown" [routerLinkActive]="active">
-        <a class="nav-link dropdown-toggle" [routerLink]="['/about']" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <!-- <li class="nav-item dropdown" [routerLinkActive]="active">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Quienes Somos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/about#about">Que hacemos</a>
-          <a class="dropdown-item" href="/about#team">Nuestro Equipo</a>
-          <a class="dropdown-item" href="/about#partners">Nuestros clientes</a>
+          <a class="dropdown-item" [routerLink]="['/about']">Que hacemos</a>
+          <a class="dropdown-item" [routerLink]="['/about']">Nuestro Equipo</a>
+          <a class="dropdown-item" [routerLink]="['/about']">Nuestros clientes</a>
         </div>
+      </li> -->
+      <li class="nav-item" [routerLinkActive]="active">
+        <a class="nav-link" [routerLink]="['/home']">Inicio</a>
       </li>
       <li class="nav-item" [routerLinkActive]="active">
-        <a class="nav-link" [routerLink]="['proyectos']">Proyectos</a>
+        <a class="nav-link" [routerLink]="['/about']">Nosotros</a>
+      </li>
+      <li class="nav-item" [routerLinkActive]="active">
+        <a class="nav-link" [routerLink]="['/proyectos']">Proyectos</a>
       </li>
       <li class="nav-item" [routerLinkActive]="active">
         <a class="nav-link" href="/home#contact">Contactanos</a>
