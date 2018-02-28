@@ -5,8 +5,8 @@
           <hr>
           <nav aria-label="breadcrumb" role="navigation">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="home">Home</a></li>
-              <li class="breadcrumb-item"><a href="proyectos">Proyectos</a></li>
+              <li class="breadcrumb-item"><a [routerLink]="['/home']">Home</a></li>
+              <li class="breadcrumb-item"><a [routerLink]="['/proyectos']">Proyectos</a></li>
               <li class="breadcrumb-item active" aria-current="proyecto"> {{ proyecto.nombre }}</li>
             </ol>
           </nav>
@@ -19,13 +19,14 @@
               <img class="img-fluid" [src]="proyecto.imagenGrupal" [alt]="proyecto.nombre">
           </div>
           <div class="col-md-6">
-              <p class="text-justify"> {{ proyecto.descripcion }}</p>
+              <br><p class="text-justify" *ngFor="let parrafo of proyecto.descripcion; let i = index"> {{ proyecto.descripcion[i] }} <br></p>
           </div>
       </div>
+      <br>
+      <hr>
   </section>
-  <br>
-  <hr>
-  <section id="team">
+
+  <section id="team" *ngIf="proyecto.integrantes != 'vacio'">
     <div class="row">
         <div class="col-lg-12">
             <h2 class="page-header text-center">Equipo realizador</h2>
@@ -40,9 +41,10 @@
         </figure>
         </div>
     </div>
+    <br>
+    <hr>
   </section>
-  <br>
-  <hr>
+
   <section id="gallery">
       <div class="row">
           <div class="col-lg-12">
@@ -63,7 +65,7 @@
   </section>
   <br>
   <hr>
-  <section id="partners">
+  <section id="partners" *ngIf="proyecto.partnerMSJ">
       <div class="row">
           <div class="col-lg-5 mx-auto">
               <div class="text-center">
@@ -71,7 +73,7 @@
               </div>
           </div>
           <div class="col-lg-7 text-center mx-auto">
-            <h2 class="page-header">Partners</h2>
+            <h2 class="page-header">{{ proyecto.partner }}</h2>
             <p class="text-justify font-italic">{{ proyecto.partnerMSJ }}</p>
           </div>
       </div>
