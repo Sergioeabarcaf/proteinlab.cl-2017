@@ -2,7 +2,7 @@
     <h1>Proyectos</h1>
   </div>
 
-<div class="container">
+<div class="container d-none d-md-block">
   <nav aria-label="breadcrumb" role="navigation">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="home">Home</a></li>
@@ -13,14 +13,37 @@
     <div class="card" *ngFor="let proyecto of proyectos; let i = index">
       <img class="card-img-top rounded" [src]=proyecto.imagenGrupal [alt]="proyecto.nombre">
       <div class="card-body">
-        <h4 class="card-title">{{ proyecto.nombre }}</h4>
-        <p class="card-text text-justify">{{ proyecto.descripcion | p200 }}</p>
+        <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ (proyecto.nombre | lowercase ) | p30 }}</strong></h4>
+        <p class="card-text text-justify" style="font-size:12px;">{{ proyecto.descripcion | p200 }}</p>
         <button (click)="verProyecto(i)"
           type="button" class="btn btn-dark btn-block">Ver más ...
         </button>
       </div>
       <div class="card-footer">
-        <small class="text-muted">Categoria: {{ proyecto.categoria }}</small>
+        <small class="text-muted" style="font-size:10px;"><strong>Categoria:</strong> {{ proyecto.categoria }}</small>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="d-md-none d-block">
+  <nav aria-label="breadcrumb" role="navigation">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="home">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="proyectos">Proyectos</li>
+    </ol>
+  </nav>
+  <div class="card-columns">
+    <div class="card" *ngFor="let proyecto of proyectos; let i = index">
+      <img class="card-img-top rounded" [src]=proyecto.imagenGrupal [alt]="proyecto.nombre">
+      <div class="card-body">
+        <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ (proyecto.nombre | lowercase ) | p30 }}</strong></h4>
+        <p class="card-text text-justify" style="font-size:12px;">{{ proyecto.descripcion | p200 }}</p>
+        <button (click)="verProyecto(i)"
+          type="button" class="btn btn-dark btn-block">Ver más ...
+        </button>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted" style="font-size:10px;"><strong>Categoria:</strong> {{ proyecto.categoria }}</small>
       </div>
     </div>
   </div>
