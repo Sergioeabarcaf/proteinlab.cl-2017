@@ -1,7 +1,7 @@
 <div class="container bg-light">
   <div class="row">
       <div class="col-lg-12">
-          <h1 class="page-header">ProteinLab - {{ proyecto.nombre }}</h1>
+          <h1 class="page-header" style="padding-top:15px;">ProteinLab - {{ proyecto.nombre }}</h1>
           <hr>
           <nav aria-label="breadcrumb" role="navigation">
             <ol class="breadcrumb">
@@ -19,7 +19,7 @@
               <img class="img-fluid" [src]="proyecto.imagenGrupal" [alt]="proyecto.nombre">
           </div>
           <div class="col-md-6">
-              <br><p class="text-justify" *ngFor="let parrafo of proyecto.descripcion; let i = index"> {{ proyecto.descripcion[i] }} <br></p>
+              <br><p class="text-justify" style="font-size:12px;" *ngFor="let parrafo of proyecto.descripcion; let i = index"> {{ proyecto.descripcion[i] }} <br></p>
           </div>
       </div>
       <br>
