@@ -14,12 +14,12 @@ import { ProyectosService, Proyecto } from '../../service/proyectos.service';
 })
 export class HomeComponent implements OnInit {
 
-  proyectos:Proyecto[] = [];
+  proyectosAll:Proyecto[] = [];
 
   constructor( private _proyectosService:ProyectosService ) { }
 
   ngOnInit() {
-    this.proyectos = this._proyectosService.getProyectoLimit(3);
+    this.proyectosAll = this._proyectosService.getProyectoLimit(3);
   }
 
 }
