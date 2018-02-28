@@ -60,7 +60,7 @@
           </div>
           </div>
           <br>
-          <a class="btn btn-dark btn-block" href="about" role="button">Saber más</a>
+          <a class="btn btn-dark btn-block" [routerLink]="['/about']" role="button">Saber más</a>
         </div>
       </div>
   </div>
@@ -81,7 +81,7 @@
         <img class="h-100 w-100" [src]=proyecto.imagenGrupal [alt]="proyecto.nombre">
         <div class="carousel-caption d-none d-md-block">
           <h3>{{ proyecto.nombre }}</h3>
-          <a class="btn btn-dark" href="proyectos" role="button">Conoce todos los proyectos</a>
+          <a class="btn btn-dark" [routerLink]="['/proyectos']" role="button">Conoce todos los proyectos</a>
         </div>
       </div>
     </div>
