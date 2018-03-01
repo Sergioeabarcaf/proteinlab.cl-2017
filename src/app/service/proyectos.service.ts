@@ -3,6 +3,11 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class ProyectosService {
 
+  private proyectosAleatorios:Proyecto[] = [];
+  private respaldoX:number[] = [];
+  private x:number = 0;
+  private esta:boolean = false;
+
   private proyectos:Proyecto[] = [
     {
       nombre:"Posicionamiento Outdoor/Indoor",
@@ -364,7 +369,27 @@ export class ProyectosService {
   constructor() { }
 
    getProyectos():Proyecto[]{
-     return this.proyectos;
+     while(this.proyectosAleatorios.length < this.proyectos.length){
+       this.x = Math.floor(Math.random() * this.proyectos.length);
+       console.log("numero aleatorio: " + this.x);
+       if(this.proyectosAleatorios.length == 0){
+         this.proyectosAleatorios.push(this.proyectos[this.x]);
+         this.respaldoX.push(this.x);
+       }
+       else{
+         this.esta = false;
+         for(let i=0; i < this.proyectosAleatorios.length; i++){
+           if(this.respaldoX[i] == this.x){
+             this.esta = true;
+           }
+         }
+         if(!this.esta){
+           this.proyectosAleatorios.push(this.proyectos[this.x]);
+           this.respaldoX.push(this.x);
+         }
+       }
+     }
+     return this.proyectosAleatorios;
    }
 
    getProyecto( idx:string ){
