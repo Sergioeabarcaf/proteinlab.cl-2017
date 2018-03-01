@@ -16,7 +16,7 @@ export class ProyectoComponent {
   constructor(private activatedRoute:ActivatedRoute, private _proyectoService: ProyectosService, private _equipoService: EquipoService, private route:Router) {
     this.activatedRoute.params.subscribe( params => {
       this.proyecto = this._proyectoService.getProyecto( params['id']);
-      this.equipo = this._equipoService.getIntegrante(this.proyecto.integrantes);
+      this.equipo = this._equipoService.getIntegrante(this._proyectoService.getEquipo( params['id']));
     })
    }
 
