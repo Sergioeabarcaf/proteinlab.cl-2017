@@ -8,26 +8,26 @@ export class ProyectosService {
   private auxProyecto:Proyecto = null;
 
   private proyectos:Proyecto[] = [
-    {
-      nombreSmall: "vacio",
-      nombreCompleto: "vacio",
-      periodo: "vacio",
-      tematicas: "vacio",
-      descripcion: [
-        "string",
-        "string"
-      ],
-      categoria: "Transferencia y Vinculación con la Industria",
-      imagen1: "http://via.placeholder.com/700x450",
-      imagen2: "http://via.placeholder.com/700x450",
-      imagen3: "http://via.placeholder.com/700x450",
-      imagenGrupal: "http://via.placeholder.com/700x450",
-      integrantes: "vacio",
-      partner: "vacio",
-      link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
-    },
+    // {
+    //   nombreSmall: "vacio",
+    //   nombreCompleto: "vacio",
+    //   periodo: "vacio",
+    //   tematicas: "vacio",
+    //   descripcion: [
+    //     "string",
+    //     "string"
+    //   ],
+    //   categoria: "Transferencia y Vinculación con la Industria",
+    //   imagen1: "http://via.placeholder.com/700x450",
+    //   imagen2: "http://via.placeholder.com/700x450",
+    //   imagen3: "http://via.placeholder.com/700x450",
+    //   imagenGrupal: "http://via.placeholder.com/700x450",
+    //   integrantes: "vacio",
+    //   partner: "vacio",
+    //   link: "vacio",
+    //   partnerIMG: "vacio",
+    //   partnerMSJ: "vacio"
+    // },
     {
       nombreSmall: "SMART_NSEN",
       nombreCompleto: "SENSOR AMBIENTAL, SMART_NSEN",
@@ -100,7 +100,7 @@ export class ProyectosService {
       partnerMSJ: "vacio"
     },
     {
-      nombreSmall: "TRABAJO COLABORATIVO MATÍAS HERNÁN - PROTEINLAB",
+      nombreSmall: "Vestido impreso 3D para Viña 2018",
       nombreCompleto: "TRABAJO COLABORATIVO CON EL DISEÑADOR DE VESTUARIO MATÍAS HERNÁN PARA FESTIVAL DE VIÑA 2018",
       periodo: "2017-2018",
       tematicas: "vacio",
@@ -447,7 +447,7 @@ export class ProyectosService {
       link: "https://www.toyzu.cl",
       partnerIMG: "vacio",
       partnerMSJ: "vacio"
-    },
+    }
   ];
 
   constructor() { }
