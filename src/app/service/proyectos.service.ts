@@ -23,10 +23,10 @@ export class ProyectosService {
     //   imagen3: "http://via.placeholder.com/700x450",
     //   imagenGrupal: "http://via.placeholder.com/700x450",
     //   integrantes: "vacio",
-    //   partner: "vacio",
+    //   partner: null,
     //   link: "vacio",
-    //   partnerIMG: "vacio",
-    //   partnerMSJ: "vacio"
+    //   partnerIMG: null,
+    //   partnerMSJ: null
     // },
     {
       nombreSmall: "SMART_NSEN",
@@ -52,10 +52,10 @@ export class ProyectosService {
       imagen3: "http://via.placeholder.com/700x450",
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
-      partner: "vacio",
+      partner: null,
       link: "https://twitter.com/smart_nsen",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "PIZARRA MÁGICA",
@@ -73,10 +73,10 @@ export class ProyectosService {
       imagen3: "http://via.placeholder.com/700x450",
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
-      partner: "vacio",
+      partner: null,
       link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "CUBOS INTERACTIVOS",
@@ -94,10 +94,10 @@ export class ProyectosService {
       imagen3: "http://via.placeholder.com/700x450",
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
-      partner: "vacio",
+      partner: null,
       link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "Vestido impreso 3D para Viña 2018",
@@ -120,8 +120,8 @@ export class ProyectosService {
       integrantes: "Diego Vilches",
       partner: "Matías Hernán",
       link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "M2M OR IMITATION OF NATURE CAPSULE COLLECTION",
@@ -141,8 +141,8 @@ export class ProyectosService {
       integrantes: "Diego Vilches",
       partner: "Claudio Paredes",
       link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "DUO ENERGY",
@@ -162,8 +162,8 @@ export class ProyectosService {
       integrantes: "Helene Schmelzer, Carla Perez, Diego Vilches, Francisco Sanchez",
       partner: "Sady Garzón",
       link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "AGROSUPER",
@@ -182,8 +182,8 @@ export class ProyectosService {
       integrantes: "vacio",
       partner: "Agrosuper",
       link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "ALLEGRA",
@@ -203,8 +203,8 @@ export class ProyectosService {
       integrantes: "Francis Soto, Josue Alarcon, Victor Meza, Sergio Abarca",
       partner: "Lucio Alvarez",
       link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "DISPOSITIVO IOT – UTN TUCUMÁN",
@@ -226,8 +226,8 @@ export class ProyectosService {
       integrantes: "Josue Alarcon, Francis Soto, Sergio Abarca",
       partner: "Universidad Tecnológica Nacional de Tucumán",
       link: "https://www.youtube.com/watch?v=EDawbhuHI4I",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "MIO EXO",
@@ -247,8 +247,8 @@ export class ProyectosService {
       integrantes: "Victor Meza, Paz Ayala, Francis Soto, Carla Perez",
       partner: "Carla Pérez y Mauricio Olivares",
       link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "PROYECTO TOTEM TURISMO",
@@ -266,10 +266,10 @@ export class ProyectosService {
       imagen3: "http://via.placeholder.com/700x450",
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "Sergio Abarca, Francis Soto, Josue Alarcon",
-      partner: "vacio",
+      partner: null,
       link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "PLATAFORMA TECNOLÓGICA EN SMART CITY PARA LA REGIÓN METROPOLITANA",
@@ -289,10 +289,10 @@ export class ProyectosService {
       imagen3: "http://via.placeholder.com/700x450",
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
-      partner: "vacio",
+      partner: null,
       link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "PROYECTO ESTÓMAGO IN VITRO",
@@ -312,10 +312,10 @@ export class ProyectosService {
       imagen3: "http://via.placeholder.com/700x450",
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
-      partner: "vacio",
+      partner: null,
       link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "FRESHWATER",
@@ -334,10 +334,10 @@ export class ProyectosService {
       imagen3: "http://via.placeholder.com/700x450",
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
-      partner: "vacio",
+      partner: null,
       link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "PROYECTO SABER HACER",
@@ -357,10 +357,10 @@ export class ProyectosService {
       imagen3: "http://via.placeholder.com/700x450",
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
-      partner: "vacio",
+      partner: null,
       link: "vacio",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "THUMBIE",
@@ -380,10 +380,10 @@ export class ProyectosService {
       imagen3: "http://via.placeholder.com/700x450",
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "Paz Ayala",
-      partner: "vacio",
+      partner: null,
       link: "http://www.thumbie.org/",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "MOUTI",
@@ -402,10 +402,10 @@ export class ProyectosService {
       imagen3: "http://via.placeholder.com/700x450",
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "Helene Schmelzer",
-      partner: "vacio",
+      partner: null,
       link: "https://www.facebook.com/mouti",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "GET UP",
@@ -424,8 +424,8 @@ export class ProyectosService {
       integrantes: "Victor Meza",
       partner: "Kiron",
       link: "https://www.kiron.cl",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     },
     {
       nombreSmall: "ROTONWALL",
@@ -445,8 +445,8 @@ export class ProyectosService {
       integrantes: "Paz Ayala, Victor Meza",
       partner: "Ramiro Torres Alvarado",
       link: "https://www.toyzu.cl",
-      partnerIMG: "vacio",
-      partnerMSJ: "vacio"
+      partnerIMG: null,
+      partnerMSJ: null
     }
   ];
 
