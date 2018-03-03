@@ -398,6 +398,8 @@ export class ProyectosService {
 
 export interface Proyecto{
   nombre: string;
+  periodo: string;
+  tematicas: string;
   descripcion: string[];
   categoria: string;
   imagen1: string;
