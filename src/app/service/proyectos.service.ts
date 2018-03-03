@@ -24,7 +24,7 @@ export class ProyectosService {
     //   imagenGrupal: "http://via.placeholder.com/700x450",
     //   integrantes: "vacio",
     //   partner: null,
-    //   link: "vacio",
+    //   link: null,
     //   partnerIMG: null,
     //   partnerMSJ: null
     // },
@@ -74,7 +74,7 @@ export class ProyectosService {
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
       partner: null,
-      link: "vacio",
+      link: null,
       partnerIMG: null,
       partnerMSJ: null
     },
@@ -95,7 +95,7 @@ export class ProyectosService {
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
       partner: null,
-      link: "vacio",
+      link: null,
       partnerIMG: null,
       partnerMSJ: null
     },
@@ -113,13 +113,13 @@ export class ProyectosService {
         "El diseño final posee una silueta con corte sirena y la paleta de color es monocromática en negro con distintos matices, tanto opacos como brillantes, donde el fin es estilizar y dar énfasis en la elegancia."
       ],
       categoria: "Transferencia y Vinculación con la Industria",
-      imagen1: "http://via.placeholder.com/700x450",
-      imagen2: "http://via.placeholder.com/700x450",
-      imagen3: "http://via.placeholder.com/700x450",
-      imagenGrupal: "http://via.placeholder.com/700x450",
+      imagen1: "assets/img/carola1.png",
+      imagen2: "assets/img/carola2.png",
+      imagen3: "assets/img/carola1.png",
+      imagenGrupal: "assets/img/carola2.png",
       integrantes: "Diego Vilches",
       partner: "Matías Hernán",
-      link: "vacio",
+      link: null,
       partnerIMG: null,
       partnerMSJ: null
     },
@@ -140,9 +140,9 @@ export class ProyectosService {
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "Diego Vilches",
       partner: "Claudio Paredes",
-      link: "vacio",
-      partnerIMG: null,
-      partnerMSJ: null
+      link: null,
+      partnerIMG: "assets/img/partners/claudioParedes.jpeg",
+      partnerMSJ: "vacio"
     },
     {
       nombreSmall: "DUO ENERGY",
@@ -161,7 +161,7 @@ export class ProyectosService {
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "Helene Schmelzer, Carla Perez, Diego Vilches, Francisco Sanchez",
       partner: "Sady Garzón",
-      link: "vacio",
+      link: null,
       partnerIMG: null,
       partnerMSJ: null
     },
@@ -181,7 +181,7 @@ export class ProyectosService {
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
       partner: "Agrosuper",
-      link: "vacio",
+      link: null,
       partnerIMG: null,
       partnerMSJ: null
     },
@@ -202,7 +202,7 @@ export class ProyectosService {
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "Francis Soto, Josue Alarcon, Victor Meza, Sergio Abarca",
       partner: "Lucio Alvarez",
-      link: "vacio",
+      link: null,
       partnerIMG: null,
       partnerMSJ: null
     },
@@ -246,7 +246,7 @@ export class ProyectosService {
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "Victor Meza, Paz Ayala, Francis Soto, Carla Perez",
       partner: "Carla Pérez y Mauricio Olivares",
-      link: "vacio",
+      link: null,
       partnerIMG: null,
       partnerMSJ: null
     },
@@ -267,7 +267,7 @@ export class ProyectosService {
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "Sergio Abarca, Francis Soto, Josue Alarcon",
       partner: null,
-      link: "vacio",
+      link: null,
       partnerIMG: null,
       partnerMSJ: null
     },
@@ -290,7 +290,7 @@ export class ProyectosService {
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
       partner: null,
-      link: "vacio",
+      link: null,
       partnerIMG: null,
       partnerMSJ: null
     },
@@ -313,7 +313,7 @@ export class ProyectosService {
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
       partner: null,
-      link: "vacio",
+      link: null,
       partnerIMG: null,
       partnerMSJ: null
     },
@@ -335,7 +335,7 @@ export class ProyectosService {
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
       partner: null,
-      link: "vacio",
+      link: null,
       partnerIMG: null,
       partnerMSJ: null
     },
@@ -358,7 +358,7 @@ export class ProyectosService {
       imagenGrupal: "http://via.placeholder.com/700x450",
       integrantes: "vacio",
       partner: null,
-      link: "vacio",
+      link: null,
       partnerIMG: null,
       partnerMSJ: null
     },
