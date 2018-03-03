@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
 export class EquipoService {
 
   private equipoProyecto:Equipo[] = [];
+  private equipoActual:Equipo[] = [];
 
   private equipo:Equipo[] = [
     {
@@ -116,7 +117,12 @@ export class EquipoService {
   }
 
   getEquipo():Equipo[]{
-    return this.equipo;
+    for(let i = 0; i < this.equipo.length; i++){
+      if(this.equipo[i].estado){
+        this.equipoActual.push(this.equipo[i]);
+      }
+    }
+    return this.equipoActual;
   }
 
   getIntegrante( nombre:string ):Equipo[]{
