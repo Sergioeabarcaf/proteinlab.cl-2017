@@ -11,9 +11,9 @@
   </nav>
   <div class="card-columns">
     <div class="card" *ngFor="let proyecto of proyectos; let i = index">
-      <img class="card-img-top rounded" [src]=proyecto.imagenGrupal [alt]="proyecto.nombre">
+      <img class="card-img-top rounded" [src]=proyecto.imagenGrupal [alt]="proyecto.nombreSmall">
       <div class="card-body">
-        <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ (proyecto.nombre | lowercase ) | p30 }}</strong></h4>
+        <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ (proyecto.nombreSmall | lowercase ) | p30 }}</strong></h4>
         <p class="card-text text-justify" style="font-size:12px;">{{ proyecto.descripcion | p200 }}</p>
         <button (click)="verProyecto(i)"
           type="button" class="btn btn-dark btn-block">Ver más ...
@@ -34,9 +34,9 @@
   </nav>
   <div class="card-columns">
     <div class="card" *ngFor="let proyecto of proyectos; let i = index">
-      <img class="card-img-top rounded" [src]=proyecto.imagenGrupal [alt]="proyecto.nombre">
+      <img class="card-img-top rounded" [src]=proyecto.imagenGrupal [alt]="proyecto.nombreSmall">
       <div class="card-body">
-        <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ (proyecto.nombre | lowercase ) | p30 }}</strong></h4>
+        <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ (proyecto.nombreSmall | lowercase ) | p30 }}</strong></h4>
         <p class="card-text text-justify" style="font-size:12px;">{{ proyecto.descripcion | p200 }}</p>
         <button (click)="verProyecto(i)"
           type="button" class="btn btn-dark btn-block">Ver más ...
