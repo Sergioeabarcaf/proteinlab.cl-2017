@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class P200Pipe implements PipeTransform {
 
-  transform( value: string[] ): any {
+  transform( value: string[] ): string {
     if(value[0].length > 200){
       let par = value[0].substr(0,197);
       par += "...";
