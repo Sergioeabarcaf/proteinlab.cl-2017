@@ -11,7 +11,7 @@ export class EquipoService {
       nombre: "Paz Ayala",
       area: "Diseño",
       descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
-      imagen: "http://via.placeholder.com/700x450",
+      imagen: "assets/img/equipo/pazAyala70.jpg",
       linkedin: "http://www.linkedin.com/paz",
       estado: false
     },
@@ -19,7 +19,7 @@ export class EquipoService {
       nombre: "Diego Vilches",
       area: "Diseño",
       descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
-      imagen: "http://via.placeholder.com/700x450",
+      imagen: "assets/img/equipo/diegoVilchez70.jpg",
       linkedin: "http://www.linkedin.com/diego",
       estado: true
     },
@@ -27,7 +27,7 @@ export class EquipoService {
       nombre: "Josue Alarcon",
       area: "Diseño",
       descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
-      imagen: "http://via.placeholder.com/700x450",
+      imagen: "assets/img/equipo/josueAlarcon70.jpg",
       linkedin: "http://www.linkedin.com/josue",
       estado: true
     },
@@ -35,7 +35,7 @@ export class EquipoService {
       nombre: "Helene Schmelzer",
       area: "Electronica",
       descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
-      imagen: "http://via.placeholder.com/700x450",
+      imagen: "assets/img/equipo/heleneSchelmelzer70.jpg",
       linkedin: "http://www.linkedin.com/helene",
       estado: false
     },
@@ -43,7 +43,7 @@ export class EquipoService {
       nombre: "Carla Perez",
       area: "Electronica",
       descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
-      imagen: "http://via.placeholder.com/700x450",
+      imagen: "assets/img/equipo/carlaPerez70.jpg",
       linkedin: "http://www.linkedin.com/carla",
       estado: false
     },
@@ -51,7 +51,7 @@ export class EquipoService {
       nombre: "Francis Soto",
       area: "Electronica",
       descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
-      imagen: "http://via.placeholder.com/700x450",
+      imagen: "assets/img/equipo/francisSoto70.jpg",
       linkedin: "http://www.linkedin.com/francis",
       estado: true
     },
@@ -59,7 +59,7 @@ export class EquipoService {
       nombre: "Victor Meza",
       area: "Electronica",
       descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
-      imagen: "http://via.placeholder.com/700x450",
+      imagen: "assets/img/equipo/victorMeza70.jpg",
       linkedin: "http://www.linkedin.com/victor",
       estado: true
     },
@@ -67,7 +67,7 @@ export class EquipoService {
       nombre: "Francisco Sanchez",
       area: "Informatica",
       descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
-      imagen: "http://via.placeholder.com/700x450",
+      imagen: "assets/img/equipo/franciscoSanchez70.jpg",
       linkedin: "http://www.linkedin.com/francisco",
       estado: false
     },
@@ -75,7 +75,7 @@ export class EquipoService {
       nombre: "Sergio Abarca",
       area: "Informatica",
       descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
-      imagen: "http://via.placeholder.com/700x450",
+      imagen: "assets/img/equipo/sergioAbarca70.jpg",
       linkedin: "http://www.linkedin.com/sergio",
       estado: true
     },
@@ -83,7 +83,7 @@ export class EquipoService {
       nombre: "Macarena Valenzuela",
       area: "Dirección",
       descripcion: "Diseñadora Industrial de la Universidad Tecnológica Metropolitana de Chile. El 2011 se especializa en Gestión Estratégica en Diseño y proyectos en la Universidad de Buenos Aires. Sus intereses se enfocan en el mundo del emprendimiento, trabajo colaborativo, proyectos con impacto y el uso de tecnologías como medio para la obtención de resultados.",
-      imagen: "http://via.placeholder.com/700x450",
+      imagen: "assets/img/equipo/macarenaValenzuela70.jpg",
       linkedin: "http://www.linkedin.com/macarena",
       estado: true
     },
