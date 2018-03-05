@@ -10,6 +10,10 @@ import { ProyectosService, Proyecto } from '../../service/proyectos.service';
 						#queHacemos{
 							padding-top: 1em;
 						}
+            #contact a{
+              color: grey;
+              text-decoration: none;
+            }
 `]
 })
 export class HomeComponent implements OnInit {
