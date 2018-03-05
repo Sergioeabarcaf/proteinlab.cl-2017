@@ -54,10 +54,13 @@
 
   <section id="proyectoFooter">
     <div class="row">
+      <div class="col-12 text-center">
+        <h4>Partner - Colaboradores</h4>
+      </div>
       <div class="col-md-4 mx-auto" *ngIf="proyecto.partnerIMG">
         <div class="col-md-2 mx-auto">
             <div class="text-center">
-                <img width="180" height="180" [src]="proyecto.partnerIMG" [alt]="proyecto.partnerIMG" class="rounded-circle">
+                <img width="180" height="180" [src]="proyecto.partnerIMG" [alt]="proyecto.partnerIMG" class="rounded">
             </div>
         </div>
         <div class="col-md-2 text-center mx-auto" *ngIf="proyecto.partnerMSJ">
