@@ -1,28 +1,18 @@
-# WebProteinlab
+# Pagina Web proteinlab.cl 2018
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+Aplicacion web desarrollada en Angular, que busca mostrar los distintos proyectos desarrollados en proteinlab y el equipo de trabajo. El diseño estuvo a cargo del equipo interno de proteinlab. Las mejoras se pueden ver en http://146.83.190.220 antes de pasar a produccion que sera la version 2.0. 
 
-## Development server
+## V1.6
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+version 1.6 contiene las siguientes caracteristcas:
 
-## Code scaffolding
+* Carga de imagenes del equipo a nivel grupal y personal (aun quedan pendientes direccion)
+* Reparacion de error que mostraba a un solo integrante del proyecto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## V1.5
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Version 1.5 contiene las siguientes caracteristicas:
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Funcion del servicio que desordena el orden de los proyectos
+* Optimizacion en funciones al cargar datos del servicio
