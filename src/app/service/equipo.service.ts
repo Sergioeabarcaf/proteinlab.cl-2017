@@ -117,6 +117,7 @@ export class EquipoService {
   }
 
   getEquipo():Equipo[]{
+    this.equipoActual.splice(0,this.equipoActual.length);
     for(let i = 0; i < this.equipo.length; i++){
       if(this.equipo[i].estado){
         this.equipoActual.push(this.equipo[i]);
@@ -126,7 +127,7 @@ export class EquipoService {
   }
 
   getIntegrante( nombre:string ):Equipo[]{
-    this.equipoProyecto.splice(0,this.equipoProyecto.length)
+    this.equipoProyecto.splice(0,this.equipoProyecto.length);
     let integrantes:any = nombre.split(",");
     for(let aux=0;aux<integrantes.length;aux++){
       for(let i=0;i<this.equipo.length;i++){
