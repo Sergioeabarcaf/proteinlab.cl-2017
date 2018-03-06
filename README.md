@@ -23,5 +23,6 @@ version 1.6 contiene las siguientes caracteristcas:
 
 ### V1.6.2
 
-* Carga de imagenes contenidas en brochure Proteinlab 2017-2018 (faltan aun)
+* Carga de imagenes contenidas en brochure Proteinlab 2017-2018 (aun hay proyectos pendientes)
 * Reparacion de error que aumentaba la cantidad de integrantes en componente nosotros
+* Utilizacion de logos proteinlab en Navbar y Footer
