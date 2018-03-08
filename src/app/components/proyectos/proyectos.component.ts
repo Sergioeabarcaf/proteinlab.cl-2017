@@ -1,20 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ProyectosService, Proyecto } from '../../service/proyectos.service';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-proyectos',
   templateUrl: './proyectos.component.html',
   styles: []
 })
-export class ProyectosComponent implements OnInit {
+export class ProyectosComponent{
 
   proyectos:Proyecto[] = [];
 
-  constructor( private _proyectosService:ProyectosService, private router:Router ) { }
+  constructor( private _proyectosService:ProyectosService, private activatedRoute:ActivatedRoute, private router:Router ) {
+    this.activatedRoute.params.subscribe( params => {
+      this.proyectos = this._proyectosService.getProyectos( params['categoria']);
+    })
 
-  ngOnInit() {
-    this.proyectos = this._proyectosService.getProyectos();
   }
 
   verProyecto( idx:number ){
