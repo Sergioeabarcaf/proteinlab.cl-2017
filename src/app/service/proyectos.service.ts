@@ -452,14 +452,23 @@ export class ProyectosService {
 
   constructor() { }
 
-   getProyectos():Proyecto[]{
-     this.proyectosAleatorios = this.proyectos;
+   getProyectos( cat:string ):Proyecto[]{
+     // limpiar arreglo
+     this.proyectosAleatorios.splice(0, this.proyectos.length);
+     // Obtener proyecto de la catregoria
+     for(let a = 0; a < this.proyectos.length; a++){
+       if(this.proyectos[a].categoria == cat){
+         this.proyectosAleatorios.push(this.proyectos[a]);
+       }
+     }
+     //Desordenar el arreglo
      for(let i=0; i < this.proyectosAleatorios.length; i++){
        this.x = Math.floor(Math.random() * this.proyectos.length);
        this.auxProyecto = this.proyectosAleatorios[i];
        this.proyectosAleatorios[i] = this.proyectosAleatorios[this.x];
        this.proyectosAleatorios[this.x] = this.auxProyecto;
      }
+     //retornar arreglo desordenado
      return this.proyectosAleatorios;
    }
 
