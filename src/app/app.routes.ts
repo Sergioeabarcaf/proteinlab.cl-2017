@@ -3,12 +3,15 @@ import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { CategoriaComponent } from './components/categoria/categoria.component';
+
 
 const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'proyecto/:id', component: ProyectoComponent },
-  { path: 'proyectos', component: ProyectosComponent },
+  { path: 'proyectos/:categoria', component: ProyectosComponent },
+  { path: 'categoria', component: CategoriaComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
