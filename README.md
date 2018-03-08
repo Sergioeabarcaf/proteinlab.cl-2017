@@ -26,3 +26,12 @@ version 1.6 contiene las siguientes caracteristcas:
 * Carga de imagenes contenidas en brochure Proteinlab 2017-2018 (aun hay proyectos pendientes)
 * Reparacion de error que aumentaba la cantidad de integrantes en componente nosotros
 * Utilizacion de logos proteinlab en Navbar y Footer
+
+### V1.6.3
+
+* Reparacion de error que no cargaba los componentes en el top de la Pagina
+* Cambios en navbar (logo mas grande, separacion de link)
+* Cambios en Home (se aumenta el interlineado, se cambia de color el boton 'saber mas')
+* Cambios en footer (se elimina la zona de contacto en home y se agregan elementos al footer, ahora esta separado en 3 'link pagina','logo y contacto', redes sociales)
+* Cambios en proyectos (se elimina el equipo realizador)
+* el tamaño de las imagenes deben tener una relacion ancho/alto = 2.5
