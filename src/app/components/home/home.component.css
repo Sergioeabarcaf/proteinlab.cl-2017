@@ -1,0 +1,22 @@
+#queHacemos h2{
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+#queHacemos p{
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.btn-proteinlab{
+  color: gray;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: orange;
+}
+
+
+#contact a{
+  color: grey;
+  text-decoration: none;
+}
