@@ -1,0 +1,31 @@
+#navegacion li{
+  list-style-type: none;
+}
+
+#navegacion a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+}
+
+#logo{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#logo a{
+  color: white;
+  font-weight: lighter;
+  text-decoration:none;
+}
+
+#rrss{
+  text-align: center;
+
+}
+
+#rrss a{
+  color: white;
+}

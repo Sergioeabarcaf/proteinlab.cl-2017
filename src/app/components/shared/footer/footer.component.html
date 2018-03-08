@@ -1,19 +1,38 @@
 <footer class="footer bg-secondary">
   <div class="container">
-    <div class="row">
-      <div class="col-6">
-        <img class="img-fluid w-100 d-none d-md-block" src="assets/img/LOGO_PROTEINLAB.svg" alt="logoProteinlab">
-        <img class="img-fluid w-100 d-block d-md-none" style="padding-top:20px;padding-bottom:20px;background-color:white;" src="assets/img/LOGO_PROTEINLAB.svg" alt="logoProteinlab">
+    <div class="row d-flex justify-content-center">
+      <!-- Navegacion -->
+      <div class="col-6 col-sm-6 col-md-4 d-none d-md-block align-self-center" id="navegacion">
+        <ul>
+          <li><a [routerLink]="['/home']">Inicio</a></li>
+          <li><a [routerLink]="['/about']">Nosotros</a></li>
+          <li><a [routerLink]="['/proyectos']">Proyectos</a></li>
+        </ul>
       </div>
-      <div class="col-6">
-        <h4 class="text-center"style="padding-top:10px;">Proteinlab</h4>
+      <!-- logo -->
+      <div class="col-6 col-sm-6 col-md-4" id="logo">
+        <img class="img-fluid w-75 d-none d-md-block mx-auto" src="assets/img/LOGO_PROTEINLAB.svg" alt="logoProteinlab">
+        <img class="img-fluid w-75 d-block d-md-none mx-auto" style="padding-top:20px;padding-bottom:20px;background-color:white;" src="assets/img/LOGO_PROTEINLAB.svg" alt="logoProteinlab">
         <hr>
-        <br>
-        <div class="text-center">
-          <a href="https://www.facebook.com/proteinlab" target="_blank"><i class="fa fa-2x fa-facebook-official" style="color:white;"></i></a>
-          <a href="https://www.instagram.com/proteinlabchile/" target="_blank"><i class="fa fa-2x fa-instagram" style="color:white;"></i></a>
-          <a href="https://www.youtube.com/channel/UCzail_XmzV92jTMOkAA2zcw" target="_blank"><i class="fa fa-2x fa-youtube" style="color:white;"></i></a>
-        </div>
+        <address>
+          Dieciocho 414, Santiago.
+          <br>
+          Region Metropolitana.
+          <br>
+        </address>
+        <address>
+          <a href="mailto:htorres@proteinlab.cl"><i class="fa fa-envelope" aria-hidden="true"></i> Contacto por Correo</a>
+          <br>
+          <a href="tel:+56227877381"><i class="fa fa-phone" aria-hidden="true"></i> Contacto por Telefono</a>
+          <br>
+          <a href="https://goo.gl/maps/fwvXELgxbxp" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Contacto personal</a>
+        </address>
+      </div>
+      <!-- Redes Sociales -->
+      <div class="col-6 col-sm-6 col-md-4 align-self-center" id="rrss">
+        <a href="https://www.facebook.com/proteinlab" target="_blank"><i class="fa fa-2x fa-facebook-official"></i></a> Facebook<br>
+        <a href="https://www.instagram.com/proteinlabchile/" target="_blank"><i class="fa fa-2x fa-instagram"></i></a> Instagram<br>
+        <a href="https://www.youtube.com/channel/UCzail_XmzV92jTMOkAA2zcw" target="_blank"><i class="fa fa-2x fa-youtube"></i></a> Youtube<br>
       </div>
     </div>
   </div>
