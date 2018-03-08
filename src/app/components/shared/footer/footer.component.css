@@ -23,7 +23,8 @@
 
 #rrss{
   text-align: center;
-
+  color: white;
+  font-weight: lighter;
 }
 
 #rrss a{
