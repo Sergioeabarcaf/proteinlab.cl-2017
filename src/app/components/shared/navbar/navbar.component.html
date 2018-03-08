@@ -1,6 +1,9 @@
 <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-secondary">
-  <a class="navbar-brand logo" [routerLink]="['/home']">
+  <a class="navbar-brand logo d-none d-sm-block" [routerLink]="['/home']">
     <img src="assets/img/LOGO_PROTEINLAB.svg" alt="Proteinlab" height="50px" class="d-inline-block align-top">
+  </a>
+  <a class="navbar-brand logo d-block d-sm-none" [routerLink]="['/home']">
+    <img src="assets/img/LOGO_PROTEINLAB.svg" alt="Proteinlab" height="30px" class="d-inline-block align-top">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
