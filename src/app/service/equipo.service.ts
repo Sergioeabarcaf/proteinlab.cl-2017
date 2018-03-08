@@ -125,20 +125,6 @@ export class EquipoService {
     }
     return this.equipoActual;
   }
-
-  getIntegrante( nombre:string ):Equipo[]{
-    this.equipoProyecto.splice(0,this.equipoProyecto.length);
-    let integrantes:any = nombre.split(",");
-    for(let aux=0;aux<integrantes.length;aux++){
-      for(let i=0;i<this.equipo.length;i++){
-        if(integrantes[aux]==this.equipo[i].nombre){
-          this.equipoProyecto[aux] = this.equipo[i];
-        }
-      }
-    }
-    return this.equipoProyecto;
-  }
-
 }
 
 export interface Equipo{

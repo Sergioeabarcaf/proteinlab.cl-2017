@@ -467,10 +467,6 @@ export class ProyectosService {
      return this.proyectos[idx];
    }
 
-   getEquipo( idx: string ){
-     return this.proyectos[idx].integrantes;
-   }
-
    getProyectoLimit( x:number ){
      let limit:Proyecto[] = [];
      for(let i=0;i<x;i++){
