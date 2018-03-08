@@ -19,6 +19,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { P200Pipe } from './pipes/p200.pipe';
 import { P30Pipe } from './pipes/p30.pipe';
+import { CategoriaComponent } from './components/categoria/categoria.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { P30Pipe } from './pipes/p30.pipe';
     NavbarComponent,
     FooterComponent,
     P200Pipe,
-    P30Pipe
+    P30Pipe,
+    CategoriaComponent
   ],
   imports: [
     BrowserModule,
