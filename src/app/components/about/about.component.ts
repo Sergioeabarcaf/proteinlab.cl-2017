@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { EquipoService, Equipo } from '../../service/equipo.service';
-import { ProyectosService, Proyecto } from '../../service/proyectos.service';
 
 @Component({
   selector: 'app-about',
@@ -10,12 +9,10 @@ import { ProyectosService, Proyecto } from '../../service/proyectos.service';
 export class AboutComponent implements OnInit {
 
   equipo:Equipo[] = [];
-  proyectos:Proyecto[] = [];
 
-  constructor(private _proyectosService:ProyectosService, private _equipoService:EquipoService ) { }
+  constructor(private _equipoService:EquipoService ) { }
 
   ngOnInit() {
-    this.proyectos = this._proyectosService.getProyectos();
     this.equipo = this._equipoService.getEquipo();
   }
 
