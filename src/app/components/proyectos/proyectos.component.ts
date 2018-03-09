@@ -14,14 +14,13 @@ export class ProyectosComponent{
   proyectosApoyo:Proyecto[] = [];
 
   constructor( private _proyectosService:ProyectosService, private router:Router ) {
-    this.proyectosVinculacion = this._proyectosService.getProyectos( "vinculacion" );
-    this.proyectosPropios = this._proyectosService.getProyectos( "propios" );
-    this.proyectosApoyo = this._proyectosService.getProyectos( "apoyo" );
-
+    this.proyectosApoyo = this._proyectosService.getProyectosApoyo();
+    this.proyectosVinculacion = this._proyectosService.getProyectosVinculacion();
+    this.proyectosPropios = this._proyectosService.getProyectosPropios();
   }
 
-  verProyecto( idx:number ){
-    this.router.navigate( ['/proyecto',idx] )
+  verProyecto( nombreSmall:string ){
+    this.router.navigate( ['/proyecto',nombreSmall] )
   }
 
 }

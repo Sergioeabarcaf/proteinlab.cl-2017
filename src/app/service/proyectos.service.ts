@@ -3,9 +3,17 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class ProyectosService {
 
-  private proyectosAleatorios:Proyecto[] = [];
-  private x:number = 0;
-  private auxProyecto:Proyecto = null;
+  private proyectosPropios:Proyecto[] = [];
+  private auxPropio:Proyecto = null;
+  private randPropio:number = 0;
+
+  private proyectosVinculacion:Proyecto[] = [];
+  private auxVinculacion:Proyecto = null;
+  private randVinculacion:number = 0;
+
+  private proyectosApoyo:Proyecto[] = [];
+  private auxApoyo:Proyecto = null;
+  private randApoyo:number = 0;
 
   private proyectos:Proyecto[] = [
     // {
@@ -452,28 +460,84 @@ export class ProyectosService {
 
   constructor() { }
 
-   getProyectos( cat:string ):Proyecto[]{
+   getProyectosPropios():Proyecto[]{
      // limpiar arreglo
-     this.proyectosAleatorios.splice(0, this.proyectos.length);
+     this.proyectosPropios.splice(0, this.proyectosPropios.length);
+     console.log("Propio: despues de limpiar ",this.proyectosPropios)
      // Obtener proyecto de la catregoria
      for(let a = 0; a < this.proyectos.length; a++){
-       if(this.proyectos[a].categoria == cat){
-         this.proyectosAleatorios.push(this.proyectos[a]);
+       if(this.proyectos[a].categoria == "propio"){
+         this.proyectosPropios.push(this.proyectos[a]);
        }
      }
-     //Desordenar el arreglo
-     for(let i=0; i < this.proyectosAleatorios.length; i++){
-       this.x = Math.floor(Math.random() * this.proyectos.length);
-       this.auxProyecto = this.proyectosAleatorios[i];
-       this.proyectosAleatorios[i] = this.proyectosAleatorios[this.x];
-       this.proyectosAleatorios[this.x] = this.auxProyecto;
+     console.log("Propio: despues de extraer ",this.proyectosPropios)
+     for(let i = 0; i < this.proyectosPropios.length; i++){
+       this.randPropio = Math.floor(Math.random() * this.proyectosPropios.length);
+       console.log(this.randPropio);
+       this.auxPropio = this.proyectosPropios[i];
+       this.proyectosPropios[i] = this.proyectosPropios[this.randPropio];
+       this.proyectosPropios[this.randPropio] = this.auxPropio;
      }
+     console.log("Propio: despues de desordenar ",this.proyectosPropios)
      //retornar arreglo desordenado
-     return this.proyectosAleatorios;
+     return this.proyectosPropios;
+   }
+
+   getProyectosVinculacion():Proyecto[]{
+     // limpiar arreglo
+     this.proyectosVinculacion.splice(0, this.proyectosVinculacion.length);
+     console.log("Vinculacion: despues de limpiar ",this.proyectosVinculacion)
+     // Obtener proyecto de la catregoria
+     for(let a = 0; a < this.proyectos.length; a++){
+       if(this.proyectos[a].categoria == "vinculacion"){
+         this.proyectosVinculacion.push(this.proyectos[a]);
+       }
+     }
+     console.log("Vinculacion: despues de extraer ",this.proyectosVinculacion)
+     for(let i = 0; i < this.proyectosVinculacion.length; i++){
+       this.randPropio = Math.floor(Math.random() * this.proyectosVinculacion.length);
+       console.log(this.randPropio);
+       this.auxPropio = this.proyectosVinculacion[i];
+       console.log(i, " - ", this.auxPropio);
+       this.proyectosVinculacion[i] = this.proyectosVinculacion[this.randPropio];
+       console.log(i, " - ", this.proyectosVinculacion[i]);
+       this.proyectosVinculacion[this.randPropio] = this.auxPropio;
+       console.log(i, " - ", this.proyectosVinculacion[this.randPropio]);
+     }
+     console.log("Vinculacion: despues de desordenar ",this.proyectosVinculacion)
+     //retornar arreglo desordenado
+     return this.proyectosVinculacion;
+   }
+
+   getProyectosApoyo():Proyecto[]{
+     // limpiar arreglo
+     this.proyectosApoyo.splice(0, this.proyectosApoyo.length);
+     console.log(" Apoyo: despues de limpiar ",this.proyectosApoyo)
+     // Obtener proyecto de la catregoria
+     for(let a = 0; a < this.proyectos.length; a++){
+       if(this.proyectos[a].categoria == "apoyo"){
+         this.proyectosApoyo.push(this.proyectos[a]);
+       }
+     }
+     console.log(" Apoyo: despues de extraer ",this.proyectosApoyo)
+     for(let i = 0; i < this.proyectosApoyo.length; i++){
+       this.randPropio = Math.floor(Math.random() * this.proyectosApoyo.length);
+       console.log(this.randPropio);
+       this.auxPropio = this.proyectosApoyo[i];
+       this.proyectosApoyo[i] = this.proyectosApoyo[this.randPropio];
+       this.proyectosApoyo[this.randPropio] = this.auxPropio;
+     }
+     console.log(" Apoyo: despues de desordenar ",this.proyectosApoyo)
+     //retornar arreglo desordenado
+     return this.proyectosApoyo;
    }
 
    getProyecto( idx:string ){
-     return this.proyectos[idx];
+     for(let i=0; i < this.proyectos.length; i++){
+       if(this.proyectos[i].nombreSmall == idx){
+         return this.proyectos[i];
+       }
+     }
    }
 
    getProyectoLimit( x:number ){
