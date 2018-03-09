@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ProyectosService, Proyecto } from '../../service/proyectos.service';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-proyectos',
@@ -9,12 +9,14 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class ProyectosComponent{
 
-  proyectos:Proyecto[] = [];
+  proyectosVinculacion:Proyecto[] = [];
+  proyectosPropios:Proyecto[] = [];
+  proyectosApoyo:Proyecto[] = [];
 
-  constructor( private _proyectosService:ProyectosService, private activatedRoute:ActivatedRoute, private router:Router ) {
-    this.activatedRoute.params.subscribe( params => {
-      this.proyectos = this._proyectosService.getProyectos( params['categoria']);
-    })
+  constructor( private _proyectosService:ProyectosService, private router:Router ) {
+    this.proyectosVinculacion = this._proyectosService.getProyectos( "vinculacion" );
+    this.proyectosPropios = this._proyectosService.getProyectos( "propios" );
+    this.proyectosApoyo = this._proyectosService.getProyectos( "apoyo" );
 
   }
 
