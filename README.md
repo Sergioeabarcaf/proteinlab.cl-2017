@@ -35,3 +35,9 @@ version 1.6 contiene las siguientes caracteristcas:
 * Cambios en footer (se elimina la zona de contacto en home y se agregan elementos al footer, ahora esta separado en 3 'link pagina','logo y contacto', redes sociales)
 * Cambios en proyectos (se elimina el equipo realizador)
 * el tamaño de las imagenes deben tener una relacion ancho/alto = 2.5
+
+### V1.6.4
+
+* Separacion de proyectos por categorias
+* Obtener proyecto en base al nombreSmall
+* Agregar el periodo de trabajo al titulo del proyecto en pagina proyectos
