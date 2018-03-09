@@ -74,7 +74,7 @@ export class EquipoService {
     {
       nombre: "Sergio Abarca",
       area: "Informatica",
-      descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
+      descripcion: "Ingeniero Civil en Computacion de la Universidad Tecnologica Metropolitana. En 2016 ingresa a Proteinlab a realizar practica laboral y actualmente se desempeña como recogedor de basura, Sus intereses se enfocan al trabajo interdiciplinario y sacar la vuelta de manera elegante",
       imagen: "assets/img/equipo/sergioAbarca70.jpg",
       linkedin: "http://www.linkedin.com/sergio",
       estado: true
