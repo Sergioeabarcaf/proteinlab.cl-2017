@@ -16,31 +16,12 @@ export class ProyectosService {
   private randApoyo:number = 0;
 
   private proyectos:Proyecto[] = [
-    // {
-    //   nombreSmall: "vacio",
-    //   nombreCompleto: "vacio",
-    //   periodo: "vacio",
-    //   categoria: "vacio",
-    //   descripcion: [
-    //     "string",
-    //     "string"
-    //   ],
-    //   segmento: "Transferencia y Vinculación con la Industria",
-    //   imagen1: "http://via.placeholder.com/700x450",
-    //   imagen2: "http://via.placeholder.com/700x450",
-    //   imagen3: "http://via.placeholder.com/700x450",
-    //   imagenGrupal: "http://via.placeholder.com/700x450",
-    //   integrantes: "vacio",
-    //   partner: null,
-    //   link: null,
-    //   partnerIMG: null,
-    //   partnerMSJ: null
-    // },
     {
       nombreSmall: "SMART_NSEN",
       nombreCompleto: "SENSOR AMBIENTAL, SMART_NSEN",
       periodo: "2015 - 2016 - 2017",
       categoria: "propio",
+      desPortada: "SmartNSen es un sensor ambiental en etapa experimental que está orientado a un monitoreo remoto a través de Twitter.",
       descripcion: [
         "SmartNSen es un sensor ambiental en etapa experimental que está orientado a un monitoreo remoto a través de Twitter. El sistema permite la medición en tiempo real de las condiciones ambientales en las que se encuentran un entorno.",
         "Smart_Nsen permite recibir o enviar la información recopilada por los sensores de las variables ambientales, o simplemente responder un tweet cuando la saludan.",
@@ -70,16 +51,17 @@ export class ProyectosService {
       nombreCompleto: "PIZARRA MÁGICA",
       periodo: "2015",
       categoria: "propio",
+      desPortada: "Dispositivo interactivo que permite accionar otros dispositivos mediantes fichas RFID.",
       descripcion: [
         "Pizarra Mágica permite explorar las relaciones entre usuarios y objetos en entornos conectados a Internet, en los cuales la experiencia de uso y el uso de interfaces visuales y tangibles determinan nuevas dinámicas de relación entre las personas y sus espacios cotidianos.",
         "Esta exploración está basada en la convergencia de cuatro factores clave en el diseño y desarrollo de productos con tecnología digital incrustada en su arquitectura: Hardware, Software, Interfaces y Experiencia de Usuario.",
         "Estos cuatro factores permiten que los objetos análogos adquieran una identidad digital en Internet lo cual transforma radicalmente la relación de las personas con los objetos."
       ],
       segmento: "Intenet de las cosas",
-      imagen1: null,
+      imagen1: "assets/img/PIZARRA-MAGICA/1.jpg",
       imagen2: null,
       imagen3: null,
-      imagenGrupal: "assets/img/PIZARRA-MAGICA/grupal.JPG",
+      imagenGrupal: "assets/img/PIZARRA-MAGICA/grupal.png",
       integrantes: "vacio",
       partner: null,
       link: null,
@@ -91,6 +73,7 @@ export class ProyectosService {
       nombreCompleto: "CUBOS INTERACTIVOS",
       periodo: "2015",
       categoria: "propio",
+      desPortada: "Las superficies de los cubos se reconocen mediante tags de RFID y sincronizan su movimiento e iluminación. Al momento de separarse los cubos vuelven a tener movimiento e iluminación independiente.",
       descripcion: [
         "Esta actividad experimental explora en el desarrollo técnico de comunicación máquina – máquina M2M. Consiste en cubos con una cara móvil que es accionada por un servomotor. La cara interactiva tiene movimiento e iluminación aleatorias.",
         "Cuando dos cubos se encuentran, se reconocen mediante tags de RFID y sincronizan su movimiento e iluminación. Al momento de separarse los cubos vuelven a tener movimiento e iluminación independiente.",
@@ -112,6 +95,7 @@ export class ProyectosService {
       nombreCompleto: "TRABAJO COLABORATIVO CON EL DISEÑADOR DE VESTUARIO MATÍAS HERNÁN PARA FESTIVAL DE VIÑA 2018",
       periodo: "2017-2018",
       categoria: "vinculacion",
+      desPortada: "Vestido diseñador en conjunto con el diseñador Matías Hernán y fabricado mediante tecnología de impresión 3D , el cual fue utilizado por Carolina de Moras en el Festival de la Canción de Viña del Mar 2018.",
       descripcion: [
         "Durante la tercera noche del Festival de Viña del Mar 2018,  Carolina de Moras, animadora del Festival, lució un vestido que fue el resultado del trabajo colaborativo en el uso de nuevas tecnologías de producción digital entre el diseñador de vestuario Matías Hernán y ProteinLab UTEM.",
         "El vestido fue el resultado de este trabajo colaborativo donde participaron activamente Carolina de Moras y su equipo asesor como parte de los esfuerzos de UTEM por fortalecer la Vinculación con el Medio mediante la Innovación Tecnológica.",
@@ -129,13 +113,14 @@ export class ProyectosService {
       partner: "Matías Hernán",
       link: null,
       partnerIMG: "assets/img/partners/matiasHernan.jpg",
-      partnerMSJ: null
+      partnerMSJ: "Diseñador de vestuario chileno. Su trabajo se destaca por diseños geométricos, en especial en tonalidades blanco y negro. Su inspiración la toma de Dior, Galliano, Lanvin y McQueen, en donde sus diseños son vanguardistas. Ha desarrollado diversas colecciones, en donde la experimentación de materiales ha sido clave. Ganador de Proyect Runway Latinoamérica 2015."
     },
     {
       nombreSmall: "M2M OR IMITATION OF NATURE CAPSULE COLLECTION",
       nombreCompleto: "M2M OR IMITATION OF NATURE CAPSULE COLLECTION, TRABAJO COLABORATIVO CON EL DISEÑADOR DE VESTUARIO CLAUDIO PAREDES",
       periodo: "2016-2017",
       categoria: "vinculacion",
+      desPortada: "“M2M or Imitation of Nature - Capsule collection” es un proyecto colaborativo en Diseño, Moda y Tecnología desarrollado entre ProteinLab UTEM y el diseñador de vestuario Claudio Paredes. M2M integra herramientas de fabricación digital (impresión 3D corte láser y electrónica embebida), con técnicas tradicionales de confección.",
       descripcion: [
         "“M2M or Imitation of Nature - Capsule collection” es un proyecto colaborativo en Diseño, Moda y Tecnología desarrollado entre ProteinLab UTEM y el diseñador de vestuario Claudio Paredes.",
         "M2M integra herramientas de fabricación digital (impresión 3D corte láser y electrónica embebida), con técnicas tradicionales de confección.",
@@ -150,75 +135,79 @@ export class ProyectosService {
       partner: "Claudio Paredes",
       link: null,
       partnerIMG: "assets/img/partners/claudioParedes.jpeg",
-      partnerMSJ: null
+      partnerMSJ: " Comenzó sus estudios en el Instituto Crearte en Santiago de Chile, dejando su carrera inconclusa para emigrar a Sao Paulo en Brasil, ciudad que potenció su amor por la moda. Comienza su trabajo en solitario lanzando 4 colecciones más hasta la fecha. El trabajo de Paredes destaca por las líneas minimalistas con toques de un oscuro romanticismo, La geometría mezclada con elementos orgánicos en perfecta sintonía son su sello."
     },
     {
       nombreSmall: "DUO ENERGY",
       nombreCompleto: "DUO ENERGY",
       periodo: "2016-2017",
       categoria: "apoyo",
+      desPortada: "Duo Energy es el creador de Warme, prenda textil que genera calor, permitiendo la transmisión de calor a la persona.",
       descripcion: [
         "Duo Energy, pertenece a la emprendedora Panameña Sady Garzón, que por medio del programa  Startup Chile de CORFO realiza una alianza con ProteinLab UTEM para el desarrollo de Duo Energy, que corresponde a una prenda textil que genera calor, permitiendo la transmisión de calor a la persona.",
         "El objetivo fue lograr 21 grados Celsius de temperatura, utilizando tecnologías existentes y a bajo costo . Durante 3 meses se desarrolló un trabajo colaborativo entre emprendedora y el equipo de Diseño y Ingeniería Electrónica, en donde se obtuvo el primer MVP que fue presentado a CORFO con muy buenos resultados.",
         "Durante el 2017 se continuó el trabajo con otro fondo STARTUP CHILE, en donde el  objetivo fue el mejoramiento del MVP, logrando un prototipo totalmente funcional,  con nuevas prestaciones y una App."
       ],
       segmento: "Transferencia y Vinculación con la Industria",
-      imagen1: null,
-      imagen2: null,
+      imagen1: "assets/img/DUO-ENERGY/1.jpg",
+      imagen2: "assets/img/DUO-ENERGY/2.jpg",
       imagen3: null,
-      imagenGrupal: "assets/img/LOGO_PROTEINLAB.svg",
+      imagenGrupal: "assets/img/DUO-ENERGY/grupal.jpg",
       integrantes: "Helene Schmelzer,Carla Perez,Diego Vilches,Francisco Sanchez",
       partner: "Sady Garzón",
       link: null,
-      partnerIMG: null,
-      partnerMSJ: null
+      partnerIMG: "assets/img/partners/duoEnergy.jpg",
+      partnerMSJ: "Sady Garzón es la emprendedora detrás de Duo Energy. Ella nació en Panamá y llegó a Chile gracias a la adjudicación de un fondo Startup Chile. Con dos años en nuestro país, desarrolló el proyecto Warme, que pronto se empezará a comercializar en Chile."
     },
     {
       nombreSmall: "AGROSUPER",
       nombreCompleto: "AGROSUPER",
       periodo: "2016-2017",
       categoria: "vinculacion",
+      desPortada: "Desarrollo colaborativo con el área de Innovación de Agrosuper, en el cual se desarrolló una prueba de concepto de una impresora 3D de proteína cárnica.",
       descripcion: [
         "El área de Innovación de Agrosuper, empresa líder en la industria de alimentos, generó una alianza con ProteinLab UTEM en donde se desarrolló un dispositivo con el objetivo de  impresión de pasta de carne (similar a la de hamburguesas).",
         "Se creó un Plan de trabajo colaborativo y proyectado en el tiempo, en donde se experimentó con diversos sistemas de impresión, muy poco explorados en el mundo."
       ],
       segmento: "Transferencia y Vinculación con la Industria",
-      imagen1: null,
-      imagen2: null,
-      imagen3: null,
-      imagenGrupal: "assets/img/LOGO_PROTEINLAB.svg",
+      imagen1: "assets/img/AGROSUPER/1.JPG",
+      imagen2: "assets/img/AGROSUPER/2.JPG",
+      imagen3: "assets/img/AGROSUPER/3.JPG",
+      imagenGrupal: "assets/img/AGROSUPER/grupal.JPG",
       integrantes: "vacio",
       partner: "Agrosuper",
       link: null,
-      partnerIMG: null,
-      partnerMSJ: null
+      partnerIMG: "assets/img/partners/agrosuper.png",
+      partnerMSJ: "El área de innovación de Agrosuper desarrolla proyectos en donde se potencia los espacios de creatividad en la organización para obtener resultados originales y de valor. Se enfoca principalmente en 4 pilares: consumidores, procesos, personas y comunidades, en donde se fortalece los productos y servicios que ofrece esta gran empresa alimenticia."
     },
     {
       nombreSmall: "ALLEGRA",
       nombreCompleto: "ALLEGRA",
       periodo: "2017",
       categoria: "apoyo",
+      desPortada: "Módulo portátil de trazabilidad de carga de forma online. Desarrollo realizado por encargo de la empresa Allegra mediante Voucher de Innovación CORFO.",
       descripcion: [
         "El objetivo de este proyecto fue desarrollar un módulo electrónico portátil con conexión a internet, liviano y de bajo costo, creado para ofrecer trazabilidad de la carga online durante el transporte de alimentos y de encomiendas, que además de la ubicación permita conocer la temperatura, humedad, ayudando a las empresas del rubro a generar indicadores y disminuir pérdidas provocadas principalmente durante sus cadenas de suministro.",
         "Este proyecto busca avanzar en la oferta digital asociada a vehículos comerciales e industriales, posicionando a nuestra empresa (hoy dedicada al desarrollo y fabricación de vehículos livianos cero emisiones) como pionera en ofrecer vehículos eléctricos y sistemas digitales desarrollados especialmente para optimizar la gestión del transporte de carga.",
         "Este proyecto se postuló en conjunto a un Voucher de Innovación CORFO, con la empresa Lucio Alvarez."
       ],
       segmento: "Transferencia y Vinculación con la Industria",
-      imagen1: null,
-      imagen2: null,
-      imagen3: null,
-      imagenGrupal: "assets/img/LOGO_PROTEINLAB.svg",
+      imagen1: "assets/img/ALLEGRA/1.jpg",
+      imagen2: "assets/img/ALLEGRA/2.jpg",
+      imagen3: "assets/img/ALLEGRA/3.jpg",
+      imagenGrupal: "assets/img/ALLEGRA/grupal.jpg",
       integrantes: "Francis Soto,Josue Alarcon,Victor Meza,Sergio Abarca",
       partner: "Lucio Alvarez",
       link: null,
-      partnerIMG: null,
-      partnerMSJ: null
+      partnerIMG: "assets/img/partners/allegra.svg",
+      partnerMSJ: "Allegra es una empresa dedicada a la generación de vehículos de carga, donde su foco está en el diseño y fabricación de bicicletas y medios de transporte similares. Actualmente está desarrollando vehículos eléctricos para cargas, pensando en la movilidad dentro de la ciudad."
     },
     {
       nombreSmall: "DISPOSITIVO IOT – UTN TUCUMÁN",
       nombreCompleto: "DISPOSITIVO IOT – UTN TUCUMÁN",
       periodo: "2017",
       categoria: "vinculacion",
+      desPortada: "Trabajo colaborativo con el Departamento de Proyectos Informáticos DPI, de la Universidad Tecnológica Metropolitana Nacional de Argentina, sede Tucumán.",
       descripcion: [
         "El proyecto consistió en un sistema basado en IoT que permita al usuario poder encender y apagar un dispositivo de forma remota a través de internet.",
         "Este desarrollo se enmarca dentro de la alianza colaborativa de trabajo entre ProteinLab y la Dirección de Proyectos Informáticos de la Universidad Tecnológica Nacional de Tucumán, Argentina. (UTN FRT)",
@@ -229,50 +218,52 @@ export class ProyectosService {
       segmento: "Transferencia y Vinculación con la Industria",
       imagen1: "assets/img/IOT-TUCUMAN/1.jpg",
       imagen2: "assets/img/IOT-TUCUMAN/2.jpg",
-      imagen3: "assets/img/IOT-TUCUMAN/3.png",
+      imagen3: null,
       imagenGrupal: "assets/img/IOT-TUCUMAN/grupal.jpg",
       integrantes: "Josue Alarcon,Francis Soto,Sergio Abarca",
       partner: "Universidad Tecnológica Nacional de Tucumán",
       link: "https://www.youtube.com/watch?v=EDawbhuHI4I",
-      partnerIMG: null,
-      partnerMSJ: null
+      partnerIMG: "assets/img/partners/UTN.png",
+      partnerMSJ: "El Departamento de Proyectos Informáticos de la Universidad Tecnológica Nacional de Argentina, sede Tucumán  (UTN FRT) es una entidad universitaria destinada al desarrollo de proyectos informáticos con externos, principalmente empresas argentinas vinculadas a la tecnología."
     },
-    {
-      nombreSmall: "MIO EXO",
-      nombreCompleto: "MIO EXO",
-      periodo: "2017",
-      categoria: "apoyo",
-      descripcion: [
-        "Este proyecto corresponde al trabajo final para la obtención del Título Profesional en Ingeniería Electrónica de los alumnos Carla Pérez y Mauricio Olivares.",
-        "Este proyecto considera el diseño y construcción de un dispositivo electro-mecánico accionando mediante señales mioeléctricas con un formato de exoesqueleto e implementado en pacientes con falta de movilidad, producto de algún daño neuromuscular, traumatismo craneal o lesiones de médula espinal que le hayan provocado al afectado una pérdida muscular en extremidades superiores.",
-        "El trabajo se inició a fines del año 2016, con el desarrollo del proyecto y posteriormente se apoyó para la postulación a financiamiento externo. En Mayo del 2017 se adjudicó financiamiento CORFO, mediante el programa de apoyo al emprendimiento STARTUP CHILE"
-      ],
-      segmento: "Transferencia y Vinculación con la Industria",
-      imagen1: null,
-      imagen2: null,
-      imagen3: null,
-      imagenGrupal: "assets/img/LOGO_PROTEINLAB.svg",
-      integrantes: "Victor Meza,Paz Ayala,Francis Soto,Carla Perez",
-      partner: "Carla Pérez y Mauricio Olivares",
-      link: null,
-      partnerIMG: null,
-      partnerMSJ: null
-    },
+    // {
+    //   nombreSmall: "MIO EXO",
+    //   nombreCompleto: "MIO EXO",
+    //   periodo: "2017",
+    //   categoria: "apoyo",
+    //   desPortada: "string",
+    //   descripcion: [
+    //     "Este proyecto corresponde al trabajo final para la obtención del Título Profesional en Ingeniería Electrónica de los alumnos Carla Pérez y Mauricio Olivares.",
+    //     "Este proyecto considera el diseño y construcción de un dispositivo electro-mecánico accionando mediante señales mioeléctricas con un formato de exoesqueleto e implementado en pacientes con falta de movilidad, producto de algún daño neuromuscular, traumatismo craneal o lesiones de médula espinal que le hayan provocado al afectado una pérdida muscular en extremidades superiores.",
+    //     "El trabajo se inició a fines del año 2016, con el desarrollo del proyecto y posteriormente se apoyó para la postulación a financiamiento externo. En Mayo del 2017 se adjudicó financiamiento CORFO, mediante el programa de apoyo al emprendimiento STARTUP CHILE"
+    //   ],
+    //   segmento: "Transferencia y Vinculación con la Industria",
+    //   imagen1: null,
+    //   imagen2: null,
+    //   imagen3: null,
+    //   imagenGrupal: "assets/img/LOGO_PROTEINLAB.svg",
+    //   integrantes: "Victor Meza,Paz Ayala,Francis Soto,Carla Perez",
+    //   partner: "Carla Pérez y Mauricio Olivares",
+    //   link: null,
+    //   partnerIMG: null,
+    //   partnerMSJ: null
+    // },
     {
       nombreSmall: "PROYECTO TOTEM TURISMO",
       nombreCompleto: "PROYECTO TOTEM TURISMO",
       periodo: "2017",
       categoria: "vinculacion",
+      desPortada: "Trabajo colaborativo desarrollado con el Departamento de Competitividad Turística de UTEM, consiste en un Totem de comunicación para parques nacionales.",
       descripcion: [
         "El proyecto consiste en un Totem de comunicación para parques nacionales., entregando información necesaria para su visita.",
         "Estos datos hacen referencia a condiciones climáticas, comunicación con guardaparque e información del parque.",
         "Este proyecto responde a la necesidad del equipo de Competitividad Turística UTEM para diseñar y desarrollar un sistema de información interactiva orientado a visitantes de parques nacionales o áreas de interés turístico."
       ],
       segmento: "Transferencia y Vinculación con la Industria",
-      imagen1: null,
-      imagen2: null,
-      imagen3: null,
-      imagenGrupal: "assets/img/LOGO_PROTEINLAB.svg",
+      imagen1: "assets/img/TURISMO/1.jpg",
+      imagen2: "assets/img/TURISMO/2.jpg",
+      imagen3: "assets/img/TURISMO/3.jpg",
+      imagenGrupal: "assets/img/TURISMO/grupal.jpg",
       integrantes: "Sergio Abarca,Francis Soto,Josue Alarcon",
       partner: null,
       link: null,
@@ -284,6 +275,7 @@ export class ProyectosService {
       nombreCompleto: "PROYECTO CIENCIA – EMPRESA: PLATAFORMA TECNOLÓGICA EN SMART CITY PARA LA REGIÓN METROPOLITANA",
       periodo: "2015",
       categoria: "vinculacion",
+      desPortada: "Proyecto CONICYT Ciencia Empresa  desarrollado durante el año 2015 en conjunto con Fraunhofer Chile.",
       descripcion: [
         "El objetivo general de este proyecto fue fortalecer los vínculos entre las instituciones que realizan actividades de I+D+i sobre Smart Cities y la Industria tecnológica en la Región Metropolitana de modo de preparar el entorno técnico y económico necesario para el desarrollo de una Smart City en Santiago que contribuya a mejorar la calidad de vida de sus habitantes. Se abordaron los siguientes tópicos: Smart Cities, Smart Building, Machine to Machine, Internet of Things, Tecnologías Interactivas y diseño de experiencias de usuarios.",
         "Las entidades participantes de este proyecto son:",
@@ -297,16 +289,17 @@ export class ProyectosService {
       imagen3: "assets/img/SMART-CITY_RM/3.jpg",
       imagenGrupal: "assets/img/SMART-CITY_RM/grupal.JPG",
       integrantes: "vacio",
-      partner: null,
+      partner: "Fraunhofer Chile Research Foundation (FCR)",
       link: null,
-      partnerIMG: null,
-      partnerMSJ: null
+      partnerIMG: "assets/img/partners/fraunhofer.gif",
+      partnerMSJ: "Fraunhofer es una fundación alemana que cuenta con una red de centros de investigación alrededor del mundo. Su enfoque es a la investigación de energías limpias, biosustentabilidad, agroalimentos, entre otros temas."
     },
     {
       nombreSmall: "PROYECTO ESTÓMAGO IN VITRO",
       nombreCompleto: "PROYECTO ESTÓMAGO IN VITRO",
       periodo: "2015",
       categoria: "vinculacion",
+      desPortada: "Proyecto colaborativo entre LabBio y ProteinLab UTEM para el Diseño y desarrollo de un sistema de digestión in vitro que simula el estómago humano",
       descripcion: [
         "Proyecto colaborativo entre LabBio y ProteinLab UTEM para el Diseño y desarrollo de un sistema de digestión in vitro que simula el estómago humano para el estudio de la biodisponibilidad de nutrientes. El sistema busca recrear técnica y visualmente el sistema digestivo.",
         "El proyecto se desarrolló en el marco de la ejecución de un proyecto Fondecyt de la Académica del Departamento de Ingeniería Química Dra. Elizabeth Troncoso.",
@@ -320,16 +313,17 @@ export class ProyectosService {
       imagen3: null,
       imagenGrupal: "assets/img/ESTOMAGO/grupal.jpg",
       integrantes: "vacio",
-      partner: null,
+      partner: "LAB BIO UTEM",
       link: null,
-      partnerIMG: null,
-      partnerMSJ: null
+      partnerIMG: "assets/img/partners/utem.png",
+      partnerMSJ: "Laboratorio perteneciente a Depto. de Ingeniería en Química de la Universidad Tecnológica Metropolitana. Entidad enfocada en el desarrollo de proyectos de investigación."
     },
     {
       nombreSmall: "FRESHWATER",
       nombreCompleto: "FRESHWATER",
       periodo: "2015",
       categoria: "apoyo",
+      desPortada: "Proyecto colaborativo con la empresa Freshwater, en donde nos transformamos en su partner tecnológico durante el 2015.",
       descripcion: [
         "Durante el segundo semestre del 2015, el Programa de Prospectiva e Innovación Tecnológica, ProteinLab Utem, generó una alianza colaborativa con Freshwater Solutions, creadores del Proyecto Freshwater.",
         "Freshwater, ganador del Premio de Innovación Avonni 2015, produce agua de la humedad del aire mediante una máquina de uso doméstico que imita el ciclo del agua: condensa las partículas de H2O en el aire y las condensa hasta transformarlas en gotas de agua, las que luego son enfriadas y esterilizadas. El sistema, que se abastece de energía eléctrica o solar, puede generar entre 9 a 30 litros diarios de agua potable.",
@@ -337,14 +331,14 @@ export class ProyectosService {
         "Esta iniciativa contó con el respaldo de Start-Up Chile, Fundación Chile, Corfo, ProteinLab Utem, Socialab y Docs4change."
       ],
       segmento: "Transferencia y Vinculación con la Industria",
-      imagen1: "assets/img/FRESHWATER/1.JPG",
+      imagen1: "assets/img/FRESHWATER/1.jpg",
       imagen2: "assets/img/FRESHWATER/2.jpg",
-      imagen3: null,
+      imagen3: "assets/img/FRESHWATER/3.jpg",
       imagenGrupal: "assets/img/FRESHWATER/grupal.jpg",
       integrantes: "vacio",
       partner: "Freswater",
       link: "http://www.freshwatersolutions.org/",
-      partnerIMG: "assets/img/partners/freshwater.JPG",
+      partnerIMG: "assets/img/partners/freshwater.svg",
       partnerMSJ: null
     },
     {
@@ -352,6 +346,7 @@ export class ProyectosService {
       nombreCompleto: "PROYECTO SABER HACER - COSTURERAS PEÑALOLÉN",
       periodo: "2015",
       categoria: "vinculacion",
+      desPortada: "Taller de co-creación entre los alumnos de Diseño Industrial IV UTEM y costureras de la Municipalidad de Peñalolén. Taller a cargo de SABER HACER y ProteinLab UTEM",
       descripcion: [
         "Durante el segundo semestre del 2015, junto al Taller de Diseño Industrial IV UTEM a cargo de los profesores Héctor Torres y Macarena Valenzuela, se desarrolló un Taller de co-creación entre los alumnos y costureras de la Municipalidad de Peñalolén.",
         "Este Taller estuvo a cargo del grupo Saber Hacer, liderado por Rodrigo Gajardo en el cual desarrollan dinámicas para promover el conocimiento y la producción local. Fueron 3 instancias en que 15 alumnos y 15 costureras se formaron en grupos multidisciplinarios para desarrollar diversos encargos que fueron solicitados por empresas o entidades. La colaboración, co-creación y la creatividad  fueron esenciales para desarrollar los productos, que crearon, diseñaron y fabricaron en estos Talleres.",
@@ -375,6 +370,7 @@ export class ProyectosService {
       nombreCompleto: "THUMBIE",
       periodo: "2017",
       categoria: "apoyo",
+      desPortada: "Thumbie es un emprendimiento que consiste en una ortoprótesis de dedo pulgar. Realizó el encargo a ProteinLab de optimizar su diseño y fabricación mediante un Voucher de Innovación CORFO.",
       descripcion: [
         "Thumbie es una ortoprótesis de bajo costo para personas con amputación de pulgar u otro tipo de discapacidad de mano relacionada con la incapacidad para realizar la pinza.",
         "Devuelve aproximadamente un 70% de las capacidades perdidas a 1/5 del precio de su competencia.",
@@ -390,7 +386,7 @@ export class ProyectosService {
       integrantes: "Paz Ayala",
       partner: "Thumbie",
       link: "http://www.thumbie.org/",
-      partnerIMG: "assets/img/partners/thumbie.png",
+      partnerIMG: "assets/img/partners/thumbie.svg",
       partnerMSJ: null
     },
     {
@@ -398,6 +394,7 @@ export class ProyectosService {
       nombreCompleto: "MOUTI",
       periodo: "2016",
       categoria: "apoyo",
+      desPortada: "Mouti es un dispositivo educativo de higiene bucal para niños con necesidades especiales. El encargo realizado a ProteinLab fue el de obtener un prototipo conceptual de funcionamiento. ",
       descripcion: [
         "Mouti es un dispositivo educativo de higiene bucal para niños con necesidades especiales. Es ergonómico y permite educar a través de la creación de hábitos didácticos, creando una actividad divertida basada en la experiencia y en el uso de elementos sensoriales que estimulan al niño, mediante la asociación de un color con un área de la boca.",
         "Puede ser utilizado por cualquier niño en etapa de aprendizaje.",
@@ -406,7 +403,7 @@ export class ProyectosService {
       ],
       segmento: "Transferencia y Vinculación con la Industria",
       imagen1: "assets/img/MOUTI/1.jpg",
-      imagen2: null,
+      imagen2: "assets/img/MOUTI/2.jpg",
       imagen3: null,
       imagenGrupal: "assets/img/MOUTI/grupal.jpg",
       integrantes: "Helene Schmelzer",
@@ -420,6 +417,7 @@ export class ProyectosService {
       nombreCompleto: "GET UP",
       periodo: "2016",
       categoria: "vinculacion",
+      desPortada: "Get Up, silla bipedestadora perteneciente a la empresa Kirón, que mediante un Voucher de Innovación de CORFO solicitó los servicios de ProteinLab para el desarrollo de un sistema de desplazamiento motorizado, eléctrico y desmontable para la silla de ruedas.",
       descripcion: [
         "Proyecto de vinculación mediante la asignación de instrumento Voucher de Innovación de Corfo. Get Up es una silla Bipedestadora que permite el posicionamiento vertical de la persona. Este producto perteneciente a la empresa Kirón y es comercializado actualmente.",
         "Obtuvieron el Premio Nacional de Innovación Avonni 2016, en la categoría Salud. Además de distintos fondos de financiamiento. En cuanto al encargo que se realizó a ProteinLab UTEM, fue el desarrollar un sistema de desplazamiento motorizado, eléctrico y desmontable para la silla de ruedas, generando un sistema integrado, que permita poner de pie a los pacientes y los desplazarlos al mismo tiempo. "
@@ -432,7 +430,7 @@ export class ProyectosService {
       integrantes: "Victor Meza",
       partner: "Kiron",
       link: "https://www.kiron.cl",
-      partnerIMG: null,
+      partnerIMG: "assets/img/partners/mouti.jpg",
       partnerMSJ: null
     },
     {
@@ -440,6 +438,7 @@ export class ProyectosService {
       nombreCompleto: "ROTONWALL",
       periodo: "2016",
       categoria: "apoyo",
+      desPortada: "Rotonwall es un proyecto perteneciente a la empresa Toyzu, el cual solicitó a ProteinLab el desarrollo de un sistema de automatización de giro. Esto mediante la adjudicación de un Voucher Innovación CORFO.",
       descripcion: [
         "ROTONWALL, mobiliario para espacios reducidos que  permite el movimiento en su eje del muro que contiene distintos dispositivos, como TV y equipo de sonido. Así el aprovechamiento y optimización del espacio es mayor.",
         "Actualmente este producto se encuentra en diversos departamentos, solicitados por inmobiliarias de la Región Metropolitana, ya que contribuye a un aumento en las ventas de departamentos, por su funcionalidad, optimización de espacio e innovación.",
@@ -453,7 +452,7 @@ export class ProyectosService {
       integrantes: "Paz Ayala,Victor Meza",
       partner: "Ramiro Torres Alvarado",
       link: "https://www.toyzu.cl",
-      partnerIMG: "assets/img/partners/toyzu.png",
+      partnerIMG: "assets/img/partners/toyzu.svg",
       partnerMSJ: null
     }
   ];
@@ -555,6 +554,7 @@ export interface Proyecto{
   nombreCompleto: string;
   periodo: string;
   categoria: string;
+  desPortada: string;
   descripcion: string[];
   segmento: string;
   imagen1: string;

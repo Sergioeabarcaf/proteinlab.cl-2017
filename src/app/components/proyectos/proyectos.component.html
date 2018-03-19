@@ -17,7 +17,7 @@
       <img class="card-img-top rounded" [src]=proyecto.imagenGrupal [alt]="proyecto.nombreSmall">
       <div class="card-body">
         <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ (proyecto.nombreSmall | lowercase ) | p30 }}</strong></h4>
-        <p class="card-text text-justify" style="font-size:12px;">{{ proyecto.descripcion | p200 }}</p>
+        <p class="card-text text-justify" style="font-size:12px;">{{ proyecto.desPortada }}</p>
         <button (click)="verProyecto(proyecto.nombreSmall)"
           type="button" class="btn btn-dark btn-block">Ver más ...
         </button>
@@ -36,7 +36,7 @@
       <img class="card-img-top rounded" [src]=proyecto.imagenGrupal [alt]="proyecto.nombreSmall">
       <div class="card-body">
         <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ (proyecto.nombreSmall | lowercase ) | p30 }}</strong></h4>
-        <p class="card-text text-justify" style="font-size:12px;">{{ proyecto.descripcion | p200 }}</p>
+        <p class="card-text text-justify" style="font-size:12px;">{{ proyecto.desPortada }}</p>
         <button (click)="verProyecto(proyecto.nombreSmall)"
           type="button" class="btn btn-dark btn-block">Ver más ...
         </button>
@@ -55,7 +55,7 @@
       <img class="card-img-top rounded" [src]=proyecto.imagenGrupal [alt]="proyecto.nombreSmall">
       <div class="card-body">
         <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ (proyecto.nombreSmall | lowercase ) | p30 }}</strong></h4>
-        <p class="card-text text-justify" style="font-size:12px;">{{ proyecto.descripcion | p200 }}</p>
+        <p class="card-text text-justify" style="font-size:12px;">{{ proyecto.desPortada }}</p>
         <button (click)="verProyecto(proyecto.nombreSmall)"
           type="button" class="btn btn-dark btn-block">Ver más ...
         </button>
