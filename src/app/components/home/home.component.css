@@ -14,3 +14,7 @@
   font-size: 14px;
   background-color: orange;
 }
+
+.borde{
+  border: 0.1em solid gray;
+}
