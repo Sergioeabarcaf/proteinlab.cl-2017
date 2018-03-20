@@ -4,7 +4,10 @@ import { EquipoService, Equipo } from '../../service/equipo.service';
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
-  styles: []
+  styles: [`.borde{
+    border: 0.1em solid gray;
+  }
+`]
 })
 export class AboutComponent implements OnInit {
 
