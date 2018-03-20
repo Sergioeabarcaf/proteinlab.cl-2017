@@ -116,7 +116,7 @@ export class EquipoService {
       nombre: "Pamela Armstrong",
       area: "Dirección",
       descripcion: "Diseñadora y Consultora de experiencia de usuario UX en interfaces digitales, especializada en Test de Usuario. Consultora UX en 2Brains, Docente escuela de diseño  UTEM, Asesora externa en Proteinlab, Diseñadora Industrial UTEM, diplomada en Creatividad e Innovación PUC.",
-      imagen: "http://via.placeholder.com/700x450",
+      imagen: "assets/img/equipo/Pamela_Armstrong.jpg",
       linkedin: null,
       estado: true
     }
