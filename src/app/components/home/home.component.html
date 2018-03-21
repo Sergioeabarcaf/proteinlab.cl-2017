@@ -40,135 +40,109 @@
 </header>
 
 <section id="descripcion">
-  <div class="container-fluid secBlanco">
+  <div class="container secBlanco">
     <div class="row separaSection">
       <div class="col-12">
-        <h2 class="text-center"> PROTEINLAB </h2>
-        <p class="text-center">ProteinLab UTEM, es un Centro de Innovación y Transferencia Tecnológica de la Universidad Tecnológica Metropolitana es dependiente de la Dirección de Investigación y Desarrollo Académico. La función principal de ProteinLab UTEM es la investigación interdisciplinaria en tecnologías digitales para la innovación de productos, servicios y aplicaciones, por lo que su carácter interdisciplinario lo hace desarrollar una vinculación interfacultad.</p>
-        <p class="text-center">Nuestro enfoque es el trabajo interdisciplinario y colaborativo entre investigadores, industria, estado, y sociedad civil para mejorar la calidad de vida de las personas y aportar en el desarrollo de mayor competitividad en la industria.</p>
-        <br><br>
+        <h2> PROTEINLAB </h2>
+        <p>ProteinLab UTEM, es un Centro de Innovación y Transferencia Tecnológica de la Universidad Tecnológica Metropolitana es dependiente de la Dirección de Investigación y Desarrollo Académico. La función principal de ProteinLab UTEM es la investigación interdisciplinaria en tecnologías digitales para la innovación de productos, servicios y aplicaciones, por lo que su carácter interdisciplinario lo hace desarrollar una vinculación interfacultad.</p>
+        <p>Nuestro enfoque es el trabajo interdisciplinario y colaborativo entre investigadores, industria, estado, y sociedad civil para mejorar la calidad de vida de las personas y aportar en el desarrollo de mayor competitividad en la industria.</p>
       </div>
-
-
     </div>
-
   </div>
 </section>
 
-<section id="queHacemos" class="services-section">
-  <div class="container">
-      <div class="row justify-content-around">
-        <div class="col-12" style="background-color: rgb(224,103,75); padding: 30px;" >
-          <h2 class="text-center" style="color:white;">NUESTRO ENFOQUE</h2>
-          <p class="text-center font-weight-light" style="color:white;">Nuestro enfoque es el trabajo interdisciplinario y colaborativo entre investigadores, industria, estado y sociedad civil para mejorar la calidad de vida de las personas y aportar al desarrollo de mayor competitividad en la industria.</p>
-          <br>
+<section id="enfoque">
+  <div class="secNaranjo">
+    <div class="container">
+      <div class="row separaSection">
+        <div class="col-12">
+          <h2>NUESTRO ENFOQUE</h2>
+          <p>Nuestro enfoque es el trabajo interdisciplinario y colaborativo entre investigadores, industria, estado y sociedad civil para mejorar la calidad de vida de las personas y aportar al desarrollo de mayor competitividad en la industria.</p>
         </div>
-
-        <div class="col-md-3 borde" style="padding-top:20px;">
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4">
           <h3>PROYECTOS DE INVESTIGACIÓN APLICADA</h3>
-           <p>Son los que se realizan por una demanda interna con el objetivo de validar nuevas tecnologías para luego implementarlas en otros proyectos.</p>
-           <br>
+          <p>Son los que se realizan por una demanda interna con el objetivo de validar nuevas tecnologías para luego implementarlas en otros proyectos.</p>
         </div>
-        <div class="col-md-3 borde">
+        <div class="col-12 col-md-4">
           <h3>PROYECTOS DE TRANSFERENCIA Y VINCULACIÓN CON EL MEDIO</h3>
           <p>Son los que se realizan por un encargo o demanda externa. En base adjudicación de financiamientos, contratación de servicios o por medio de alianzas.</p>
-          <br>
         </div>
-        <div class="col-md-3 borde">
+        <div class="col-12 col-md-4">
           <h3>PROYECTOS INCUBADOS</h3>
           <p>Son los que se realizan mediante proyectos de Títulos de alumnos. Son proyectos que ingresan a ProteinLab con el objetivo de ser apoyados, desde los conocimientos interdisciplinarios, infraestructura y equipamiento, para luego ser potenciados mediante la postulación a instrumentos de financiamiento.</p>
-          <br>
-        </div>
-        <!-- <div class="col-12">
-          <br>
-          <a class="btn btn-secondary btn-block" [routerLink]="['/proyectos']" role="button">Conoce nuestros proyectos</a>
-          <br>
-        </div> -->
-        <div class="col-12">
-          <h2 class="text-center">ÁREAS DE ACCIÓN</h2>
-          <img src="assets/img/accionProteinlab.png" width="100%" alt="">
-        </div>
-        <div class="col-12">
-          <h2 class="text-center">ÁMBITOS DE DESARROLLO</h2>
-          <img src="assets/img/Esquema_lineasaccion.svg" style="max-height:700px;" alt="">
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <br>
-            <h3> INFRASTRUCTURA </h3>
-            <p class="text-center">ProteinLab cuenta con 2 laboratorios para el desarrollo de experimentación  (Diseño, Ingeniería Electrónica e Informática) y un Centro de Fabricación Digital con cuatro impresoras 3D, CNC láser, CNC router, plotter de corte, etc.</p>
-            <br>
-          </div>
-          <div class="col-md-4">
-            <img src="assets/img/Recurso1.svg" width="100%" alt="">
-          </div>
-          <div class="col-md-4">
-            <img src="assets/img/Recurso1.svg" width="100%" alt="">
-          </div>
-          <div class="col-md-4">
-            <img src="assets/img/Recurso1.svg" width="100%" alt="">
-          </div>
-        </div>
-        <section id="team">
-          <div class="row">
-            <div class="col-lg-12">
-                <h2 class="text-center"> EQUIPO</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3" *ngFor="let persona of equipo">
-              <div class="card border-secondary mb-3">
-                <img class="card-img-top rounded" [src]="persona.imagen" [alt]="persona.imagen">
-                <div class="card-body">
-                  <h5 class="card-title text-center">{{ persona.nombre }}</h5>
-                  <p class="card-text text-center" style="font-size: 12px;">{{ persona.descripcion }}</p>
-                </div>
-                <div class="text-center" *ngIf="persona.linkedin != null">
-                  <a [href]="persona.linkedin" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">{{ persona.area }}</small>
-                </div>
-              </div>
-              <br>
-            </div>
-          </div>
-        </section>
-        <!-- <div class="col-12">
-          <br>
-          <a class="btn btn-secondary btn-block" [routerLink]="['/about']" role="button">Saber más</a>
-          <br>
-        </div> -->
-      </div>
-  </div>
-  <br>
-</section>
-
-<!-- <section id="portafolio" class="bg-secondary carousel slide">
-  <div id="carouselProyectos" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block h-100" src="http://placehold.it/1900x1080&text=Desliza_Para_Conocer" alt="Proyecto1">
-        <div class="carousel-caption">
-          <h3 class="d-none d-md-block">Slide 1</h3>
-          <a class="btn btn-dark" [routerLink]="['/proyectos']" role="button">Conoce todos los proyectos</a>
-        </div>
-      </div>
-      <div class="carousel-item" *ngFor="let proyecto of proyectosAll; let i = index">
-        <img class="h-100" [src]=proyecto.imagenGrupal [alt]="proyecto.nombre">
-        <div class="carousel-caption">
-          <h3 class="d-none d-md-block">{{ proyecto.nombre }}</h3>
-          <a class="btn btn-dark" [routerLink]="['/proyectos']" role="button">Conoce todos los proyectos</a>
         </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselProyectos" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselProyectos" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-</section> -->
+</section>
+
+<section id="areas">
+  <div class="container secBlanco">
+    <div class="row separaSection">
+      <div class="col-12">
+        <h2>ÁREAS DE ACCIÓN</h2>
+        <img src="assets/img/accionProteinlab.png" width="100%" alt="areasAccionProteinlab">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="enfoque">
+  <div class="secNaranjo">
+    <div class="row separaSection">
+      <div class="col-12">
+        <h2>ÁMBITOS DE DESARROLLO</h2>
+        <img src="assets/img/Esquema_lineasaccion.svg" style="max-height:700px;" alt="ambitoAccionProteinlab">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="equipo">
+  <div class="container secBlanco">
+    <div class="row separaSection">
+      <div class="col-12">
+        <h2>EQUIPO</h2>
+        <p>una bajada para que no se vea tan seco</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-md-3" *ngFor="let persona of equipo">
+        <img [src]="persona.imagen" [alt]="persona.nombre">
+        <h3>{{ persona.nombre }}</h3>
+        <div class="text-center" *ngIf="persona.linkedin == null">
+          <a [href]="persona.linkedin" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="infraestructura">
+  <div class="secNaranjo">
+    <div class="container separaSection">
+      <div class="row">
+        <div class="col-12">
+          <h3> INFRASTRUCTURA </h3>
+          <p>ProteinLab cuenta con 2 laboratorios para el desarrollo de experimentación  (Diseño, Ingeniería Electrónica e Informática) y un Centro de Fabricación Digital con cuatro impresoras 3D, CNC láser, CNC router, plotter de corte, etc.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-3">
+          <img src="assets/img/Recurso1.svg" width="100%" alt="">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="assets/img/Recurso1.svg" width="100%" alt="">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="assets/img/Recurso1.svg" width="100%" alt="">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="assets/img/Recurso1.svg" width="100%" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
