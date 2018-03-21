@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md sticky-top navbar-dark bg-secondary">
+<nav class="navbar navbar-expand-md fixed-top navbar-secondary" style="background-color:rgba(250,250,250,0.8);">
   <a class="navbar-brand logo d-none d-sm-block" [routerLink]="['/home']">
     <img src="assets/img/LOGO_PROTEINLAB.svg" alt="Proteinlab" height="50px" class="d-inline-block align-top">
   </a>
@@ -9,7 +9,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="nav nav-pills">
       <!-- <li class="nav-item dropdown" [routerLinkActive]="active">
         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Quienes Somos
@@ -21,13 +21,13 @@
         </div>
       </li> -->
       <li class="nav-item alto" routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['/home']">Inicio</a>
+        <a class="nav-link" [routerLink]="['/home']">INICIO</a>
       </li>
       <li class="nav-item alto" routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['/about']">Nosotros</a>
+        <a class="nav-link" [routerLink]="['/about']">NOSOTROS</a>
       </li>
       <li class="nav-item alto" routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['/proyectos']">Proyectos</a>
+        <a class="nav-link" [routerLink]="['/proyectos']">PROYECTOS</a>
       </li>
       <!-- <li class="nav-item" routerLinkActive="active">
         <a class="nav-link" [routerLink]="['/home','contact']">Contactanos</a>
