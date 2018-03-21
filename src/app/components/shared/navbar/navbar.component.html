@@ -1,34 +1,23 @@
-<nav class="navbar navbar-expand-md fixed-top navbar-secondary" style="background-color:rgba(250,250,250,0.8);">
-  <a class="navbar-brand logo d-none d-sm-block" [routerLink]="['/home']">
-    <img src="assets/img/LOGO_PROTEINLAB.svg" alt="Proteinlab" height="50px" class="d-inline-block align-top">
+<nav class="navbar navbar-expand-md fixed-top navbarProteinlab">
+  <a class="navbar-brand d-none d-sm-block" [routerLink]="['/home']">
+    <img src="assets/img/LOGO_PROTEINLAB.svg" alt="Proteinlab" height="50px" class="d-inline-block align-center">
   </a>
-  <a class="navbar-brand logo d-block d-sm-none" [routerLink]="['/home']">
-    <img src="assets/img/LOGO_PROTEINLAB.svg" alt="Proteinlab" height="30px" class="d-inline-block align-top">
+  <a class="navbar-brand d-block d-sm-none" [routerLink]="['/home']">
+    <img src="assets/img/LOGO_PROTEINLAB.svg" alt="Proteinlab" height="30px" class="d-inline-block align-center">
   </a>
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
     <ul class="nav nav-pills">
-      <!-- <li class="nav-item dropdown" [routerLinkActive]="active">
-        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Quienes Somos
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" [routerLink]="['/about']">Que hacemos</a>
-          <a class="dropdown-item" [routerLink]="['/about']">Nuestro Equipo</a>
-          <a class="dropdown-item" [routerLink]="['/about']">Nuestros clientes</a>
-        </div>
-      </li> -->
-      <li class="nav-item alto" routerLinkActive="active">
+      <li class="nav-item" routerLinkActive="active">
         <a class="nav-link" [routerLink]="['/home']">INICIO</a>
       </li>
-      <li class="nav-item alto" routerLinkActive="active">
+      <li class="nav-item" routerLinkActive="active">
         <a class="nav-link" [routerLink]="['/proyectos']">PROYECTOS</a>
       </li>
-      <!-- <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['/home','contact']">Contactanos</a>
-      </li> -->
     </ul>
   </div>
 </nav>
