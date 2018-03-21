@@ -1,32 +1,15 @@
-#navegacion li{
-  list-style-type: none;
-}
-
-#navegacion a{
-  font-size: 18px;
-  text-decoration: none;
+.footer{
+  background-color: rgb(245,245,245);
+  font-family: 'Roboto', sans-serif !important;
+  text-align: center;
   color: grey;
   font-weight: lighter;
-}
-
-#logo{
-  margin-top: 15px;
-  margin-bottom: 10px;
-  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 #logo a{
   color: grey;
   font-weight: lighter;
   text-decoration:none;
-}
-
-#rrss{
-  text-align: center;
-  color: grey;
-  font-weight: lighter;
-}
-
-#rrss a{
-  color: grey;
 }
