@@ -111,10 +111,9 @@
     <div class="row">
       <div class="col-6 col-md-3" *ngFor="let persona of equipo">
         <img [src]="persona.imagen" [alt]="persona.nombre">
+        <a [href]="persona.linkedin" target="_blank" *ngIf="persona.linkedin == null" ><i class="fa fa-2x fa-linkedin-square"></i></a>
         <h3>{{ persona.nombre }}</h3>
-        <div class="text-center" *ngIf="persona.linkedin == null">
-          <a [href]="persona.linkedin" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a>
-        </div>
+        <p>{{ persona.cargo }}</p>
       </div>
     </div>
   </div>
