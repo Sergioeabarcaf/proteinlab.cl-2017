@@ -18,3 +18,13 @@
 .borde{
   border: 0.1em solid gray;
 }
+
+.secBlanco{
+  background-color: white;
+  color: rgb(119, 119, 119);
+}
+
+.separaSection{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
