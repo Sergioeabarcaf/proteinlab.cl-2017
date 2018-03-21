@@ -13,3 +13,14 @@
   font-weight: lighter;
   text-decoration:none;
 }
+
+#rrss a{
+  color: grey;
+  font-weight: lighter;
+  text-decoration:none;
+}
+
+#rrss i:hover{
+  background-color: rgb(224, 103, 75);
+  color: white;
+}
