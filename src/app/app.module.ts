@@ -12,7 +12,6 @@ import { EquipoService } from './service/equipo.service';
 //componentes
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { AboutComponent } from './components/about/about.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
@@ -24,7 +23,6 @@ import { P30Pipe } from './pipes/p30.pipe';
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent,
     ProyectoComponent,
     ProyectosComponent,
     NavbarComponent,
