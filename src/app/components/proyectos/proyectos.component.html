@@ -10,26 +10,7 @@
   </nav>
 </div>
 <div class="container">
-  <h2>Proyectos de Investigación Propios</h2>
-  <hr>
-  <div class="card-columns">
-    <div class="card" *ngFor="let proyecto of proyectosPropios; let i = index">
-      <img class="card-img-top rounded" [src]=proyecto.imagenGrupal [alt]="proyecto.nombreSmall">
-      <div class="card-body">
-        <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ (proyecto.nombreSmall | lowercase ) | p30 }}</strong></h4>
-        <p class="card-text text-justify" style="font-size:12px;">{{ proyecto.desPortada }}</p>
-        <button (click)="verProyecto(proyecto.nombreSmall)"
-          type="button" class="btn btn-dark btn-block">Ver más ...
-        </button>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted" style="font-size:10px;"><strong>Categoria:</strong> {{ proyecto.segmento }}</small>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container">
-  <h2>Proyectos de Vinculacion</h2>
+  <h2 style="background-color: rgb(224,103,75); padding:20px; color: white;">Proyectos de Vinculacion</h2>
   <hr>
   <div class="card-columns">
     <div class="card" *ngFor="let proyecto of proyectosVinculacion; let i = index">
@@ -48,7 +29,7 @@
   </div>
 </div>
 <div class="container">
-  <h2>Proyectos de Apoyo</h2>
+  <h2 style="background-color: rgb(224,103,75); padding:20px; color: white;">Proyectos de Apoyo</h2>
   <hr>
   <div class="card-columns">
     <div class="card" *ngFor="let proyecto of proyectosApoyo; let i = index">
@@ -66,6 +47,27 @@
     </div>
   </div>
 </div>
+<div class="container">
+  <h2 style="background-color: rgb(224,103,75); padding:20px; color: white;">Proyectos de Investigación Propios</h2>
+  <hr>
+  <div class="card-columns">
+    <div class="card" *ngFor="let proyecto of proyectosPropios; let i = index">
+      <img class="card-img-top rounded" [src]=proyecto.imagenGrupal [alt]="proyecto.nombreSmall">
+      <div class="card-body">
+        <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ (proyecto.nombreSmall | lowercase ) | p30 }}</strong></h4>
+        <p class="card-text text-justify" style="font-size:12px;">{{ proyecto.desPortada }}</p>
+        <button (click)="verProyecto(proyecto.nombreSmall)"
+          type="button" class="btn btn-dark btn-block">Ver más ...
+        </button>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted" style="font-size:10px;"><strong>Categoria:</strong> {{ proyecto.segmento }}</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <!-- <div class="d-md-none d-block">
   <nav aria-label="breadcrumb" role="navigation">
