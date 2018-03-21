@@ -3,122 +3,66 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class EquipoService {
 
-  private equipoProyecto:Equipo[] = [];
-  private equipoActual:Equipo[] = [];
-
   private equipo:Equipo[] = [
     {
-      nombre: "Paz Ayala",
-      area: "Diseño",
-      descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
-      imagen: "assets/img/equipo/pazAyala70.jpg",
-      linkedin: null,
-      estado: false
-    },
-    {
       nombre: "Diego Vilches",
-      area: "Diseño",
-      descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
+      cargo: "Diseño",
       imagen: "assets/img/equipo/diegoVilchez70.jpg",
       linkedin: null,
-      estado: true
     },
     {
       nombre: "Josue Alarcon",
-      area: "Diseño",
-      descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
+      cargo: "Diseño",
       imagen: "assets/img/equipo/josueAlarcon70.jpg",
       linkedin: null,
-      estado: true
-    },
-    {
-      nombre: "Helene Schmelzer",
-      area: "Electronica",
-      descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
-      imagen: "assets/img/equipo/heleneSchelmelzer70.jpg",
-      linkedin: null,
-      estado: false
-    },
-    {
-      nombre: "Carla Perez",
-      area: "Electronica",
-      descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
-      imagen: "assets/img/equipo/carlaPerez70.jpg",
-      linkedin: null,
-      estado: false
     },
     {
       nombre: "Francis Soto",
-      area: "Electronica",
-      descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
+      cargo: "Electronica",
       imagen: "assets/img/equipo/francisSoto70.jpg",
       linkedin: null,
-      estado: true
     },
     {
       nombre: "Victor Meza",
-      area: "Electronica",
-      descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
+      cargo: "Electronica",
       imagen: "assets/img/equipo/victorMeza70.jpg",
       linkedin: null,
-      estado: true
-    },
-    {
-      nombre: "Francisco Sanchez",
-      area: "Informatica",
-      descripcion: "lorenakjahjahkjahahakjhajkahjkahkjahakjhajkah",
-      imagen: "assets/img/equipo/franciscoSanchez70.jpg",
-      linkedin: null,
-      estado: false
     },
     {
       nombre: "Sergio Abarca",
-      area: "Informatica",
-      descripcion: "Ingeniero Civil en Computacion de la Universidad Tecnologica Metropolitana. En 2016 ingresa a Proteinlab a realizar practica laboral y actualmente se desempeña como recogedor de basura, Sus intereses se enfocan al trabajo interdiciplinario y sacar la vuelta de manera elegante",
+      cargo: "Informatica",
       imagen: "assets/img/equipo/sergioAbarca70.jpg",
       linkedin: null,
-      estado: true
     },
     {
       nombre: "Macarena Valenzuela",
-      area: "Dirección",
-      descripcion: "Diseñadora Industrial de la Universidad Tecnológica Metropolitana de Chile. El 2011 se especializa en Gestión Estratégica en Diseño y proyectos en la Universidad de Buenos Aires. Sus intereses se enfocan en el mundo del emprendimiento, trabajo colaborativo, proyectos con impacto y el uso de tecnologías como medio para la obtención de resultados.",
+      cargo: "Dirección",
       imagen: "assets/img/equipo/macarenaValenzuela70.jpg",
       linkedin: null,
-      estado: true
     },
     {
       nombre: "Hector Torres",
-      area: "Dirección",
-      descripcion: "Doctor en Gestión del Diseño y TICs por la Universidad Politécnica de Valencia, España y Magister en Diseño Industrial por la Universidad Jaume I, Castellón, España. Ha orientado su actividad de I+D+i en el área de innovación y tecnologías digitales; entornos inteligentes y Smart Cities; y estudio de comunicación entre usuarios y entornos interactivos.",
+      cargo: "Dirección",
       imagen: "assets/img/Recurso2.svg",
       linkedin: null,
-      estado: true
     },
     {
       nombre: "Hugo Durney",
-      area: "Dirección",
-      descripcion: "Académico universitario, docente e investigador en las áreas de Ingeniería Electrónica, Telecomunicaciones y Procesamiento Digital de Señales, con más de 15 años de experiencia vinculado al ámbito de educación superior incluyendo docencia, I+D+i y gestión directiva central universitaria.",
+      cargo: "Dirección",
       imagen: "assets/img/Recurso2.svg",
       linkedin: null,
-      estado: true
     },
     {
       nombre: "Victor Escobar",
-      area: "Dirección",
-      descripcion: "Académico e investigador en Ingeniería Informática. Doctor en Informática por la Universidad de Granada, dentro del programa “ Diseño, Análisis y Aplicaciones en Sistemas Inteligentes”, España.",
+      cargo: "Dirección",
       imagen: "assets/img/Recurso2.svg",
       linkedin: null,
-      estado: true
-    }
-    ,
+    },
     {
       nombre: "Pamela Armstrong",
-      area: "Dirección",
-      descripcion: "Diseñadora y Consultora de experiencia de usuario UX en interfaces digitales, especializada en Test de Usuario. Consultora UX en 2Brains, Docente escuela de diseño  UTEM, Asesora externa en Proteinlab, Diseñadora Industrial UTEM, diplomada en Creatividad e Innovación PUC.",
+      cargo: "Dirección",
       imagen: "assets/img/equipo/Pamela_Armstrong.jpg",
       linkedin: null,
-      estado: true
     }
   ];
 
@@ -126,21 +70,13 @@ export class EquipoService {
   }
 
   getEquipo():Equipo[]{
-    this.equipoActual.splice(0,this.equipoActual.length);
-    for(let i = 0; i < this.equipo.length; i++){
-      if(this.equipo[i].estado){
-        this.equipoActual.push(this.equipo[i]);
-      }
-    }
-    return this.equipoActual;
+    return this.equipo;
   }
 }
 
 export interface Equipo{
   nombre: string;
-  area: string;
-  descripcion: string;
+  cargo: string;
   imagen: string;
   linkedin: string;
-  estado: boolean;
 }
