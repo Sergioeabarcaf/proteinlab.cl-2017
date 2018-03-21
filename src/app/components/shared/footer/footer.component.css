@@ -5,7 +5,7 @@
 #navegacion a{
   font-size: 18px;
   text-decoration: none;
-  color: white;
+  color: grey;
   font-weight: lighter;
 }
 
@@ -16,17 +16,17 @@
 }
 
 #logo a{
-  color: white;
+  color: grey;
   font-weight: lighter;
   text-decoration:none;
 }
 
 #rrss{
   text-align: center;
-  color: white;
+  color: grey;
   font-weight: lighter;
 }
 
 #rrss a{
-  color: white;
+  color: grey;
 }
