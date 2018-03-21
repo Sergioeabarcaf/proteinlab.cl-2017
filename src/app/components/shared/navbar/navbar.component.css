@@ -8,9 +8,10 @@
 }
 
 .navbarProteinlab a{
-  color: grey;
+  color: rgb(224, 103, 75);
 }
 
 .navbarProteinlab a:hover{
-  color: rgb(224, 103, 75);
+  color: white;
+  background-color: rgb(224, 103, 75);
 }
