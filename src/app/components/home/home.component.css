@@ -15,6 +15,17 @@
   padding-bottom: 40px;
 }
 
+.team h3{
+  padding-bottom: 5px;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+.team p{
+  padding-top: none;
+  padding-bottom: 10px;
+}
+
 .separaSection{
   padding-top: 60px;
   padding-bottom: 60px;
@@ -22,7 +33,7 @@
 
 .destacar{
   padding-top: 20px;
-  background-color: white;
+  background-color: rgba(250,250,250,0.8);
   color: rgb(224, 103, 75);
 }
 
