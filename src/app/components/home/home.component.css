@@ -1,5 +1,18 @@
 #equipo img{
   width: 100%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#equipo a{
+  color: grey;
+}
+
+#equipo a:hover{
+  color: rgb(224, 103, 75);
+}
+
+.proteinCard{
+  margin-bottom: 20px;
 }
 
 .secBlanco{
@@ -22,8 +35,8 @@
 }
 
 .team p{
-  padding-top: none;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  margin-bottom: 0px;
 }
 
 .separaSection{

@@ -115,11 +115,11 @@
       </div>
     </div>
     <div class="row team">
-      <div class="col-6 col-md-3" *ngFor="let persona of equipo">
+      <div class="col-6 col-md-3 proteinCard" *ngFor="let persona of equipo">
         <img [src]="persona.imagen" [alt]="persona.nombre">
-        <a [href]="persona.linkedin" target="_blank" *ngIf="persona.linkedin" ><i class="fa fa-linkedin-square"></i></a>
         <h3>{{ persona.nombre }}</h3>
         <p>{{ persona.cargo }}</p>
+        <a [href]="persona.linkedin" target="_blank" *ngIf="persona.linkedin" ><i class="fa fa-2x fa-linkedin-square"></i></a>
       </div>
     </div>
   </div>

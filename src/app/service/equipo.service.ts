@@ -8,7 +8,7 @@ export class EquipoService {
       nombre: "Diego Vilches",
       cargo: "Diseño",
       imagen: "assets/img/equipo/diegoVilchez70.jpg",
-      linkedin: null,
+      linkedin: "https://cl.linkedin.com/in/diego-vilches-183290a8",
     },
     {
       nombre: "Josue Alarcon",
@@ -38,7 +38,7 @@ export class EquipoService {
       nombre: "Macarena Valenzuela",
       cargo: "Dirección",
       imagen: "assets/img/equipo/macarenaValenzuela70.jpg",
-      linkedin: null,
+      linkedin: "https://cl.linkedin.com/in/macarena-valenzuela-zubiaur-223b772b",
     },
     {
       nombre: "Hector Torres",
@@ -56,7 +56,7 @@ export class EquipoService {
       nombre: "Victor Escobar",
       cargo: "Dirección",
       imagen: "assets/img/Recurso2.svg",
-      linkedin: null,
+      linkedin: "https://cl.linkedin.com/in/victor-escobar-jeria-91549925",
     },
     {
       nombre: "Pamela Armstrong",
