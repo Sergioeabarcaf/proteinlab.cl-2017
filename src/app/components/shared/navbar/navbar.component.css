@@ -7,11 +7,17 @@
   padding-bottom: 20px;
 }
 
-.navbarProteinlab a{
+.navbar-nav a{
   color: rgb(224, 103, 75);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.navbarProteinlab a:hover{
+.navbar-nav a:hover{
   color: white;
   background-color: rgb(224, 103, 75);
+}
+
+.active{
+  /* background-color: black; */
 }
