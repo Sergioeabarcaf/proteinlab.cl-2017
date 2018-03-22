@@ -9,13 +9,11 @@ import { EquipoService, Equipo } from '../../service/equipo.service';
 })
 export class HomeComponent implements OnInit {
 
-  proyectosAll:Proyecto[] = [];
   equipo:Equipo[] = [];
 
   constructor( private _proyectosService:ProyectosService, private _equipoService:EquipoService ) { }
 
   ngOnInit() {
-    this.proyectosAll = this._proyectosService.getProyectoLimit(3);
     this.equipo = this._equipoService.getEquipo();
   }
 
