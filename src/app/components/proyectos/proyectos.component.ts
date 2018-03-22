@@ -19,8 +19,8 @@ export class ProyectosComponent{
     this.proyectosPropios = this._proyectosService.getProyectosPropios();
   }
 
-  verProyecto( nombreSmall:string ){
-    this.router.navigate( ['/proyecto',nombreSmall] )
+  verProyecto( nombrePortada:string ){
+    this.router.navigate( ['/proyecto',nombrePortada] )
   }
 
 }
