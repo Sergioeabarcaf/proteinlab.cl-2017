@@ -16,8 +16,6 @@ import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
-import { P200Pipe } from './pipes/p200.pipe';
-import { P30Pipe } from './pipes/p30.pipe';
 
 @NgModule({
   declarations: [
@@ -26,9 +24,7 @@ import { P30Pipe } from './pipes/p30.pipe';
     ProyectoComponent,
     ProyectosComponent,
     NavbarComponent,
-    FooterComponent,
-    P200Pipe,
-    P30Pipe,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
