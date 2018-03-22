@@ -5,7 +5,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-proyecto',
   templateUrl: './proyecto.component.html',
-  styles: []
+  styleUrls: ['./proyecto.component.css']
 })
 export class ProyectoComponent {
 

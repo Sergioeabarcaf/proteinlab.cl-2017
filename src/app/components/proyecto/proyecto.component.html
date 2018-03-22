@@ -1,12 +1,12 @@
-<div class="container bg-light">
+<div class="container bg-light" id="titulo">
   <div class="row">
       <div class="col-lg-12">
-          <h1 class="page-header text-capitalize d-none d-md-block" style="padding-top:15px;">ProteinLab - {{ proyecto.contenido.nombre | lowercase }} <small>( {{ proyecto.contenido.periodo}} )</small></h1>
+          <h1 class="page-header text-capitalize d-none d-md-block">ProteinLab - {{ proyecto.contenido.nombre | lowercase }} <small>( {{ proyecto.contenido.periodo}} )</small></h1>
           <hr>
           <nav aria-label="breadcrumb" role="navigation">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a [routerLink]="['/home']">Home</a></li>
-              <li class="breadcrumb-item"><a [routerLink]="['/proyectos']">Proyectos</a></li>
+              <li class="breadcrumb-item"><a class="proteinlab" [routerLink]="['/home']">Home</a></li>
+              <li class="breadcrumb-item"><a class="proteinlab" [routerLink]="['/proyectos']">Proyectos</a></li>
               <li class="breadcrumb-item active" aria-current="proyecto"> {{ proyecto.portada.nombre }}</li>
             </ol>
           </nav>
@@ -20,7 +20,7 @@
           </div>
           <div class="col-md-6">
               <br>
-              <p class="text-justify" style="font-size:14px;" *ngFor="let parrafo of proyecto.contenido.descripcion; let i = index">
+              <p class="text-justify" *ngFor="let parrafo of proyecto.contenido.descripcion; let i = index">
                 {{ parrafo }}
                 <br>
               </p>
