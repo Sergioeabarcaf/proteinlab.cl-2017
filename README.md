@@ -30,7 +30,7 @@ version 1.6 contiene las siguientes caracteristcas:
 ### V1.6.3
 
 * Reparacion de error que no cargaba los componentes en el top de la Pagina
-* Cambios en navbar (logo mas grande, separacion de link)
+* Cambios en navbar (logo más grande, separacion de link)
 * Cambios en Home (se aumenta el interlineado, se cambia de color el boton 'saber mas')
 * Cambios en footer (se elimina la zona de contacto en home y se agregan elementos al footer, ahora esta separado en 3 'link pagina','logo y contacto', redes sociales)
 * Cambios en proyectos (se elimina el equipo realizador)
@@ -41,3 +41,19 @@ version 1.6 contiene las siguientes caracteristcas:
 * Separacion de proyectos por categorias
 * Obtener proyecto en base al nombreSmall
 * Agregar el periodo de trabajo al titulo del proyecto en pagina proyectos
+
+## V1.7
+
+version 1.7 contiene las siguientes caracteristicas:
+
+* Eliminación de componente nosotros.
+* Se filtran los contenidos del componente nosotros y se agregan al home.
+* Se reordena el servicio proyecto, agrupando las propiedades en nuevas interfaces.
+* Se reordena el servicio equipo, eliminando los integrantes que no estan activos como tambien las propiedades de estos dejando: Nombre, Cargo, Imagen y Linkedin.
+* Se agregan cambios de propiedades hover para los link de navbar, RRSS y proyectos.
+* Navbar pasa de static a sticky, ordenar los link a la derecha.
+* Se eliminan ambos pipes.
+* Se utilizan estilos propios de cada componente y el general.
+* Se usa la fuente Raleway para titulos y Roboto para parrafos.
+* Eliminación de link en footer.
+* Cambios de colores en footer y alineamiento centrado. 
