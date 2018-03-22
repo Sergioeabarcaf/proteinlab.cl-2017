@@ -15,7 +15,7 @@ export class ProyectosService {
   private auxApoyo:Proyecto = null;
   private randApoyo:number = 0;
 
-  private proyectos : Proyecto[] = [
+  private proyectos:Proyecto[] = [
     {
       portada: {
         nombre: "SMART_NSEN",
@@ -514,10 +514,10 @@ export class ProyectosService {
         link: "https://www.kiron.cl"
       },
       imagenes:{
-        grupal: "",
+        grupal: "assets/img/GET-UP/grupal.png",
         img1: "assets/img/GET-UP/1.jpg",
         img2: "assets/img/GET-UP/2.jpg",
-        img3: "assets/img/GET-UP/grupal.png"
+        img3: null
       },
       partner:{
         nombre: "Kiron",
@@ -625,7 +625,6 @@ export class ProyectosService {
        this.proyectosPropios[i] = this.proyectosPropios[this.randPropio];
        this.proyectosPropios[this.randPropio] = this.auxPropio;
      }
-     console.log("Propio: despues de desordenar ",this.proyectosPropios)
      //retornar arreglo desordenado
      return this.proyectosPropios;
    }
@@ -646,7 +645,6 @@ export class ProyectosService {
        this.proyectosVinculacion[i] = this.proyectosVinculacion[this.randPropio];
        this.proyectosVinculacion[this.randPropio] = this.auxPropio;
      }
-     console.log("Vinculacion: despues de desordenar ",this.proyectosVinculacion)
      //retornar arreglo desordenado
      return this.proyectosVinculacion;
    }
@@ -667,7 +665,6 @@ export class ProyectosService {
        this.proyectosApoyo[i] = this.proyectosApoyo[this.randPropio];
        this.proyectosApoyo[this.randPropio] = this.auxPropio;
      }
-     console.log(" Apoyo: despues de desordenar ",this.proyectosApoyo)
      //retornar arreglo desordenado
      return this.proyectosApoyo;
    }
@@ -675,8 +672,6 @@ export class ProyectosService {
    getProyecto( idx:string ){
      for(let i=0; i < this.proyectos.length; i++){
        if(this.proyectos[i].id == idx){
-         console.log("proyecto encontrado");
-         console.log(this.proyectos[i]);
          return this.proyectos[i];
        }
      }

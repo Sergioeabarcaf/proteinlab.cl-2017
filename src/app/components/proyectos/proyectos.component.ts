@@ -19,7 +19,7 @@ export class ProyectosComponent{
     this.proyectosPropios = this._proyectosService.getProyectosPropios();
   }
 
-  verProyecto( id:number ){
+  verProyecto( id:string ){
     this.router.navigate( ['/proyecto',id] )
   }
 
