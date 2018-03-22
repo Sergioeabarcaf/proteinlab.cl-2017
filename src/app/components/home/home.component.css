@@ -12,9 +12,23 @@
   background-color: rgb(224, 103, 75);
   color: white;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .separaSection{
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.destacar{
+  padding-top: 20px;
+  background-color: white;
+  color: rgb(224, 103, 75);
+  /* border-left: solid black 1px;
+  border-right: solid black 1px; */
+}
+
+.destacar:hover{
+  background-color: rgb(224, 103, 75);
+  color: white
 }
