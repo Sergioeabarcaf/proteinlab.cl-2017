@@ -1,7 +1,7 @@
 <div class="container bg-light">
   <div class="row">
       <div class="col-lg-12">
-          <h1 class="page-header text-capitalize" style="padding-top:15px;">ProteinLab - {{ proyecto.contenido.nombre | lowercase }} <small>( {{ proyecto.contenido.periodo}} )</small></h1>
+          <h1 class="page-header text-capitalize d-none d-md-block" style="padding-top:15px;">ProteinLab - {{ proyecto.contenido.nombre | lowercase }} <small>( {{ proyecto.contenido.periodo}} )</small></h1>
           <hr>
           <nav aria-label="breadcrumb" role="navigation">
             <ol class="breadcrumb">
@@ -54,7 +54,7 @@
 
   <section id="partners" *ngIf="proyecto.partner">
       <div class="row">
-          <div class="col-lg-5 mx-auto">
+          <div class="col-lg-5 mx-auto align-self-center">
               <div class="text-center">
                   <img width="180" [src]="proyecto.partner.img" [alt]="proyecto.partner.nombre">
               </div>
