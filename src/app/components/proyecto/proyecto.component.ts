@@ -13,6 +13,7 @@ export class ProyectoComponent {
 
   constructor(private activatedRoute:ActivatedRoute, private _proyectoService: ProyectosService, private route:Router) {
     this.activatedRoute.params.subscribe( params => {
+      console.log("param:" , params)
       this.proyecto = this._proyectoService.getProyecto( params['id']);
     })
    }
