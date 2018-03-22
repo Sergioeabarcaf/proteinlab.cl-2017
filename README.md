@@ -56,4 +56,9 @@ version 1.7 contiene las siguientes caracteristicas:
 * Se utilizan estilos propios de cada componente y el general.
 * Se usa la fuente Raleway para titulos y Roboto para parrafos.
 * Eliminación de link en footer.
-* Cambios de colores en footer y alineamiento centrado. 
+* Cambios de colores en footer y alineamiento centrado.
+
+### V1.7.1
+
+* Se agregan Slides al carousel.
+* Cambios de estilos en linkedin.
