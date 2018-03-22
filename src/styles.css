@@ -3,15 +3,20 @@
 h1{
   font-family: 'Raleway', sans-serif !important;
   font-weight: bold;
+
 }
 
 h2{
   font-family: 'Raleway', sans-serif !important;
   font-weight: bold;
+  font-size: 1.5em !important;
+  
 }
 
 h3{
   font-family: 'Raleway', sans-serif !important;
+  font-size: 1.2em !important;
+  padding-bottom: 50px !important;
 }
 
 p{
