@@ -47,7 +47,8 @@ export class ProyectosService {
         img3: "assets/img/SMARTNSEN/3.jpg"
       },
       partner: null,
-      tipo: "propio"
+      tipo: "propio",
+      id: "1"
     },
     {
       portada: {
@@ -72,7 +73,8 @@ export class ProyectosService {
         img3: null
       },
       partner:null,
-      tipo: "propio"
+      tipo: "propio",
+      id: "2"
     },
     {
       portada: {
@@ -97,7 +99,8 @@ export class ProyectosService {
         img3: null
       },
       partner: null,
-      tipo: "propio"
+      tipo: "propio",
+      id: "3"
     },
     {
       portada: {
@@ -129,7 +132,8 @@ export class ProyectosService {
         descripcion: "Diseñador de vestuario chileno. Su trabajo se destaca por diseños geométricos, en especial en tonalidades blanco y negro. Su inspiración la toma de Dior, Galliano, Lanvin y McQueen, en donde sus diseños son vanguardistas. Ha desarrollado diversas colecciones, en donde la experimentación de materiales ha sido clave. Ganador de Proyect Runway Latinoamérica 2015.",
         img: "assets/img/partners/matiasHernan.jpg"
       },
-      tipo: "vinculacion"
+      tipo: "vinculacion",
+      id: "4"
     },
     {
       portada: {
@@ -158,7 +162,8 @@ export class ProyectosService {
         descripcion: "Comenzó sus estudios en el Instituto Crearte en Santiago de Chile, dejando su carrera inconclusa para emigrar a Sao Paulo en Brasil, ciudad que potenció su amor por la moda. Comienza su trabajo en solitario lanzando 4 colecciones más hasta la fecha. El trabajo de Paredes destaca por las líneas minimalistas con toques de un oscuro romanticismo, La geometría mezclada con elementos orgánicos en perfecta sintonía son su sello.",
         img: "assets/img/partners/claudioParedes.jpeg"
       },
-      tipo: "vinculacion"
+      tipo: "vinculacion",
+      id: "5"
     },
     {
       portada: {
@@ -187,7 +192,8 @@ export class ProyectosService {
         descripcion: "Sady Garzón es la emprendedora detrás de Duo Energy. Ella nació en Panamá y llegó a Chile gracias a la adjudicación de un fondo Startup Chile. Con dos años en nuestro país, desarrolló el proyecto Warme, que pronto se empezará a comercializar en Chile.",
         img: "assets/img/partners/duoEnergy.jpg"
       },
-      tipo: "apoyo"
+      tipo: "apoyo",
+      id: "6"
     },
     {
       portada: {
@@ -215,7 +221,8 @@ export class ProyectosService {
         descripcion: "El área de innovación de Agrosuper desarrolla proyectos en donde se potencia los espacios de creatividad en la organización para obtener resultados originales y de valor. Se enfoca principalmente en 4 pilares: consumidores, procesos, personas y comunidades, en donde se fortalece los productos y servicios que ofrece esta gran empresa alimenticia.",
         img: "assets/img/partners/agrosuper.png"
       },
-      tipo: "vinculacion"
+      tipo: "vinculacion",
+      id: "7"
     },
     {
       portada: {
@@ -244,7 +251,8 @@ export class ProyectosService {
         descripcion: "Allegra es una empresa dedicada a la generación de vehículos de carga, donde su foco está en el diseño y fabricación de bicicletas y medios de transporte similares. Actualmente está desarrollando vehículos eléctricos para cargas, pensando en la movilidad dentro de la ciudad.",
         img: "assets/img/partners/allegra.svg"
       },
-      tipo: "apoyo"
+      tipo: "apoyo",
+      id: "8"
     },
     {
       portada: {
@@ -275,7 +283,8 @@ export class ProyectosService {
         descripcion: "El Departamento de Proyectos Informáticos de la Universidad Tecnológica Nacional de Argentina, sede Tucumán  (UTN FRT) es una entidad universitaria destinada al desarrollo de proyectos informáticos con externos, principalmente empresas argentinas vinculadas a la tecnología.",
         img: "assets/img/partners/UTN.png"
       },
-      tipo: "vinculacion"
+      tipo: "vinculacion",
+      id: "9"
     },
     {
       portada: {
@@ -300,7 +309,8 @@ export class ProyectosService {
         img3: "assets/img/TURISMO/3.jpg"
       },
       partner:null,
-      tipo: "vinculacion"
+      tipo: "vinculacion",
+      id: "10"
     },
     {
       portada: {
@@ -331,7 +341,8 @@ export class ProyectosService {
         descripcion: "Fraunhofer es una fundación alemana que cuenta con una red de centros de investigación alrededor del mundo. Su enfoque es a la investigación de energías limpias, biosustentabilidad, agroalimentos, entre otros temas.",
         img: "assets/img/partners/fraunhofer.gif"
       },
-      tipo: "vinculacion"
+      tipo: "vinculacion",
+      id: "11"
     },
     {
       portada: {
@@ -362,7 +373,8 @@ export class ProyectosService {
         descripcion: "Laboratorio perteneciente a Depto. de Ingeniería en Química de la Universidad Tecnológica Metropolitana. Entidad enfocada en el desarrollo de proyectos de investigación.",
         img: "assets/img/partners/utem.png"
       },
-      tipo: "vinculacion"
+      tipo: "vinculacion",
+      id: "12"
     },
     {
       portada: {
@@ -392,7 +404,8 @@ export class ProyectosService {
         descripcion: null,
         img: "assets/img/partners/freshwater.svg"
       },
-      tipo: "apoyo"
+      tipo: "apoyo",
+      id: "13"
     },
     {
       portada: {
@@ -419,7 +432,8 @@ export class ProyectosService {
         img3: "assets/img/COSTURERAS-PENALOLEN/3.jpg"
       },
       partner: null,
-      tipo: "vinculacion"
+      tipo: "vinculacion",
+      id: "14"
     },
     {
       portada: {
@@ -450,7 +464,8 @@ export class ProyectosService {
         descripcion: null,
         img: "assets/img/partners/thumbie.svg"
       },
-      tipo: "apoyo"
+      tipo: "apoyo",
+      id: "15"
     },
     {
       portada: {
@@ -480,7 +495,8 @@ export class ProyectosService {
         descripcion: null,
         img: "assets/img/partners/mouti.jpg"
       },
-      tipo: "apoyo"
+      tipo: "apoyo",
+      id: "16"
     },
     {
       portada: {
@@ -508,7 +524,8 @@ export class ProyectosService {
         descripcion: null,
         img: "assets/img/partners/mouti.jpg"
       },
-      tipo: "vinculacion"
+      tipo: "vinculacion",
+      id: "17"
     },
     {
       portada: {
@@ -537,7 +554,8 @@ export class ProyectosService {
         descripcion: null,
         img: "assets/img/partners/toyzu.svg"
       },
-      tipo: "apoyo"
+      tipo: "apoyo",
+      id: "18"
     },
     // {
     //   portada: {
@@ -584,7 +602,8 @@ export class ProyectosService {
     //     descripcion: "",
     //     img: ""
     //   },
-    //   tipo: ""
+    //   tipo: "",
+    //   id: 81817
     // },
   ]
 
@@ -644,7 +663,6 @@ export class ProyectosService {
      // Desordenar arreglo
      for(let i = 0; i < this.proyectosApoyo.length; i++){
        this.randPropio = Math.floor(Math.random() * this.proyectosApoyo.length);
-       console.log(this.randPropio);
        this.auxPropio = this.proyectosApoyo[i];
        this.proyectosApoyo[i] = this.proyectosApoyo[this.randPropio];
        this.proyectosApoyo[this.randPropio] = this.auxPropio;
@@ -656,7 +674,9 @@ export class ProyectosService {
 
    getProyecto( idx:string ){
      for(let i=0; i < this.proyectos.length; i++){
-       if(this.proyectos[i].portada.nombre == idx){
+       if(this.proyectos[i].id == idx){
+         console.log("proyecto encontrado");
+         console.log(this.proyectos[i]);
          return this.proyectos[i];
        }
      }
@@ -696,4 +716,5 @@ export interface Proyecto{
   imagenes: Imagenes;
   partner: Partner;
   tipo: string;
+  id: string;
 }
