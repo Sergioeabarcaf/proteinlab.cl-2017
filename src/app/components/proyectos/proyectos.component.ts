@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-proyectos',
   templateUrl: './proyectos.component.html',
-  styles: []
+  styleUrls: ['./proyectos.component.css']
 })
 export class ProyectosComponent{
 
@@ -19,8 +19,8 @@ export class ProyectosComponent{
     this.proyectosPropios = this._proyectosService.getProyectosPropios();
   }
 
-  verProyecto( nombrePortada:string ){
-    this.router.navigate( ['/proyecto',nombrePortada] )
+  verProyecto( id:number ){
+    this.router.navigate( ['/proyecto',id] )
   }
 
 }
