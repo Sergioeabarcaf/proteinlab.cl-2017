@@ -62,3 +62,8 @@ version 1.7 contiene las siguientes caracteristicas:
 
 * Se agregan Slides al carousel.
 * Cambios de estilos en linkedin.
+
+### V1.7.1
+
+* Eliminacion de fotografias no utilizadas
+* Actualizacion de linkedin
