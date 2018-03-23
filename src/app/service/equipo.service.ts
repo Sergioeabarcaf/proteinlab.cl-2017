@@ -20,19 +20,19 @@ export class EquipoService {
       nombre: "Francis Soto",
       cargo: "Electronica",
       imagen: "assets/img/equipo/francisSoto70.jpg",
-      linkedin: null,
+      linkedin: "https://www.linkedin.com/in/francis-soto-pacheco-43b40556/",
     },
     {
       nombre: "Victor Meza",
       cargo: "Electronica",
       imagen: "assets/img/equipo/victorMeza70.jpg",
-      linkedin: null,
+      linkedin: "https://www.linkedin.com/in/victormezaherrera/",
     },
     {
       nombre: "Sergio Abarca",
       cargo: "Informatica",
       imagen: "assets/img/equipo/sergioAbarca70.jpg",
-      linkedin: null,
+      linkedin: "https://www.linkedin.com/in/sergioeabarcaf",
     },
     {
       nombre: "Macarena Valenzuela",
@@ -44,13 +44,13 @@ export class EquipoService {
       nombre: "Hector Torres",
       cargo: "Dirección",
       imagen: "assets/img/Recurso2.svg",
-      linkedin: null,
+      linkedin: "https://www.linkedin.com/in/proteinlab/",
     },
     {
       nombre: "Hugo Durney",
       cargo: "Dirección",
       imagen: "assets/img/Recurso2.svg",
-      linkedin: null,
+      linkedin: "https://www.linkedin.com/in/hugo-durney-wasaff-9141368/",
     },
     {
       nombre: "Victor Escobar",
@@ -62,7 +62,7 @@ export class EquipoService {
       nombre: "Pamela Armstrong",
       cargo: "Dirección",
       imagen: "assets/img/equipo/Pamela_Armstrong.jpg",
-      linkedin: null,
+      linkedin: "https://www.linkedin.com/in/pamela-armstrong-543a0a31/",
     }
   ];
 
