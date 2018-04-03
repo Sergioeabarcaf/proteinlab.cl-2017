@@ -14,10 +14,10 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="nav navbar-nav">
           <li class="nav-item" routerLinkActive="active">
-            <a class="nav-link" [routerLink]="['/home']">INICIO</a>
+            <a class="nav-link" [routerLink]="['/home']" (click)="ocultarNav()">INICIO</a>
           </li>
           <li class="nav-item" routerLinkActive="active">
-            <a class="nav-link" [routerLink]="['/proyectos']">PROYECTOS</a>
+            <a class="nav-link" [routerLink]="['/proyectos']" (click)="ocultarNav()">PROYECTOS</a>
           </li>
         </ul>
       </div>

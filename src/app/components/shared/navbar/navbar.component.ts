@@ -9,4 +9,9 @@ import { Router } from '@angular/router';
 export class NavbarComponent {
 
   constructor() { }
+
+  ocultarNav(){
+    var navbar = document.getElementById("navbarNav");
+    navbar.classList.toggle("show");
+  }
 }
