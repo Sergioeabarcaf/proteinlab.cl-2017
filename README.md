@@ -76,3 +76,7 @@ version 1.7 contiene las siguientes caracteristicas:
 * Mejora en barra navbar que se oculta cuando esta en dispositivos moviles.
 * Eliminación de carpeta assets/css y assets/js
 * Ocultar favicon.ico hasta que se se haga el favicon de proteinlab.
+
+### V1.7.3
+
+* Actualización de extensión de imagenes.
