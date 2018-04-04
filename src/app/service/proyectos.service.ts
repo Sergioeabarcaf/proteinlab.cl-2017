@@ -67,7 +67,7 @@ export class ProyectosService {
         link: null
       },
       imagenes:{
-        grupal: "assets/img/PIZARRA-MAGICA/grupal.png",
+        grupal: "assets/img/PIZARRA-MAGICA/grupal.jpg",
         img1: "assets/img/PIZARRA-MAGICA/1.jpg",
         img2: null,
         img3: null
@@ -122,10 +122,10 @@ export class ProyectosService {
         link: null
       },
       imagenes:{
-        grupal: "assets/img/VINA2018/grupal.png",
-        img1: "assets/img/VINA2018/1.PNG",
-        img2: "assets/img/VINA2018/2.PNG",
-        img3: "assets/img/VINA2018/3.PNG"
+        grupal: "assets/img/VINA2018/grupal.jpg",
+        img1: "assets/img/VINA2018/1.jpg",
+        img2: "assets/img/VINA2018/2.jpg",
+        img3: "assets/img/VINA2018/3.jpg"
       },
       partner:{
         nombre: "Matías Hernán",
@@ -152,15 +152,15 @@ export class ProyectosService {
         link: null
       },
       imagenes:{
-        grupal: "assets/img/M2M/grupal.png",
+        grupal: "assets/img/M2M/grupal.jpg",
         img1: "assets/img/M2M/1.jpg",
-        img2: "assets/img/M2M/2.png",
-        img3: "assets/img/M2M/3.png"
+        img2: "assets/img/M2M/2.jpg",
+        img3: "assets/img/M2M/3.jpg"
       },
       partner:{
         nombre: "Claudio Paredes",
         descripcion: "Comenzó sus estudios en el Instituto Crearte en Santiago de Chile, dejando su carrera inconclusa para emigrar a Sao Paulo en Brasil, ciudad que potenció su amor por la moda. Comienza su trabajo en solitario lanzando 4 colecciones más hasta la fecha. El trabajo de Paredes destaca por las líneas minimalistas con toques de un oscuro romanticismo, La geometría mezclada con elementos orgánicos en perfecta sintonía son su sello.",
-        img: "assets/img/partners/claudioParedes.jpeg"
+        img: "assets/img/partners/claudioParedes.jpg"
       },
       tipo: "vinculacion",
       id: "5"
@@ -211,15 +211,15 @@ export class ProyectosService {
         link: null
       },
       imagenes:{
-        grupal: "assets/img/AGROSUPER/grupal.JPG",
-        img1: "assets/img/AGROSUPER/1.JPG",
-        img2: "assets/img/AGROSUPER/2.JPG",
-        img3: "assets/img/AGROSUPER/3.JPG"
+        grupal: "assets/img/AGROSUPER/grupal.jpg",
+        img1: "assets/img/AGROSUPER/1.jpg",
+        img2: "assets/img/AGROSUPER/2.jpg",
+        img3: "assets/img/AGROSUPER/3.jpg"
       },
       partner:{
         nombre: "Agrosuper",
         descripcion: "El área de innovación de Agrosuper desarrolla proyectos en donde se potencia los espacios de creatividad en la organización para obtener resultados originales y de valor. Se enfoca principalmente en 4 pilares: consumidores, procesos, personas y comunidades, en donde se fortalece los productos y servicios que ofrece esta gran empresa alimenticia.",
-        img: "assets/img/partners/agrosuper.png"
+        img: "assets/img/partners/agrosuper.jpg"
       },
       tipo: "vinculacion",
       id: "7"
@@ -249,7 +249,7 @@ export class ProyectosService {
       partner:{
         nombre: "Lucio Alvarez",
         descripcion: "Allegra es una empresa dedicada a la generación de vehículos de carga, donde su foco está en el diseño y fabricación de bicicletas y medios de transporte similares. Actualmente está desarrollando vehículos eléctricos para cargas, pensando en la movilidad dentro de la ciudad.",
-        img: "assets/img/partners/allegra.svg"
+        img: "assets/img/partners/allegra.jpg"
       },
       tipo: "apoyo",
       id: "8"
@@ -281,7 +281,7 @@ export class ProyectosService {
       partner:{
         nombre: "Universidad Tecnológica Nacional de Tucumán",
         descripcion: "El Departamento de Proyectos Informáticos de la Universidad Tecnológica Nacional de Argentina, sede Tucumán  (UTN FRT) es una entidad universitaria destinada al desarrollo de proyectos informáticos con externos, principalmente empresas argentinas vinculadas a la tecnología.",
-        img: "assets/img/partners/UTN.png"
+        img: "assets/img/partners/UTN.jpg"
       },
       tipo: "vinculacion",
       id: "9"
@@ -331,7 +331,7 @@ export class ProyectosService {
         link: null
       },
       imagenes:{
-        grupal: "assets/img/SMART-CITY_RM/grupal.JPG",
+        grupal: "assets/img/SMART-CITY_RM/grupal.jpg",
         img1: "assets/img/SMART-CITY_RM/1.jpg",
         img2: "assets/img/SMART-CITY_RM/2.jpg",
         img3: "assets/img/SMART-CITY_RM/3.jpg"
@@ -339,7 +339,7 @@ export class ProyectosService {
       partner:{
         nombre: "Fraunhofer Chile Research Foundation (FCR)",
         descripcion: "Fraunhofer es una fundación alemana que cuenta con una red de centros de investigación alrededor del mundo. Su enfoque es a la investigación de energías limpias, biosustentabilidad, agroalimentos, entre otros temas.",
-        img: "assets/img/partners/fraunhofer.gif"
+        img: "assets/img/partners/fraunhofer.jpg"
       },
       tipo: "vinculacion",
       id: "11"
@@ -371,7 +371,7 @@ export class ProyectosService {
       partner:{
         nombre: "LAB BIO UTEM",
         descripcion: "Laboratorio perteneciente a Depto. de Ingeniería en Química de la Universidad Tecnológica Metropolitana. Entidad enfocada en el desarrollo de proyectos de investigación.",
-        img: "assets/img/partners/utem.png"
+        img: "assets/img/partners/utem.jpg"
       },
       tipo: "vinculacion",
       id: "12"
@@ -402,7 +402,7 @@ export class ProyectosService {
       partner:{
         nombre: "Freswater",
         descripcion: null,
-        img: "assets/img/partners/freshwater.svg"
+        img: "assets/img/partners/freshwater.jpg"
       },
       tipo: "apoyo",
       id: "13"
@@ -427,7 +427,7 @@ export class ProyectosService {
       },
       imagenes:{
         grupal: "assets/img/COSTURERAS-PENALOLEN/grupal.jpg",
-        img1: "assets/img/COSTURERAS-PENALOLEN/1.png",
+        img1: "assets/img/COSTURERAS-PENALOLEN/1.jpg",
         img2: "assets/img/COSTURERAS-PENALOLEN/2.jpg",
         img3: "assets/img/COSTURERAS-PENALOLEN/3.jpg"
       },
@@ -454,15 +454,15 @@ export class ProyectosService {
         link: "http://www.thumbie.org/"
       },
       imagenes:{
-        grupal: "assets/img/THUMBIE/grupal.png",
-        img1: "assets/img/THUMBIE/1.png",
-        img2: "assets/img/THUMBIE/2.png",
-        img3: "assets/img/THUMBIE/3.png"
+        grupal: "assets/img/THUMBIE/grupal.jpg",
+        img1: "assets/img/THUMBIE/1.jpg",
+        img2: "assets/img/THUMBIE/2.jpg",
+        img3: "assets/img/THUMBIE/3.jpg"
       },
       partner:{
         nombre: "Thumbie",
         descripcion: null,
-        img: "assets/img/partners/thumbie.svg"
+        img: "assets/img/partners/thumbie.jpg"
       },
       tipo: "apoyo",
       id: "15"
@@ -514,7 +514,7 @@ export class ProyectosService {
         link: "https://www.kiron.cl"
       },
       imagenes:{
-        grupal: "assets/img/GET-UP/grupal.png",
+        grupal: "assets/img/GET-UP/grupal.jpg",
         img1: "assets/img/GET-UP/1.jpg",
         img2: "assets/img/GET-UP/2.jpg",
         img3: null
@@ -544,15 +544,15 @@ export class ProyectosService {
         link: "https://www.toyzu.cl"
       },
       imagenes:{
-        grupal: "assets/img/ROTONWALL/grupal.png",
-        img1: "assets/img/ROTONWALL/1.png",
-        img2: "assets/img/ROTONWALL/2.png",
+        grupal: "assets/img/ROTONWALL/grupal.jpg",
+        img1: "assets/img/ROTONWALL/1.jpg",
+        img2: "assets/img/ROTONWALL/2.jpg",
         img3: null
       },
       partner:{
         nombre: "Ramiro Torres Alvarado",
         descripcion: null,
-        img: "assets/img/partners/toyzu.svg"
+        img: "assets/img/partners/toyzu.jpg"
       },
       tipo: "apoyo",
       id: "18"
