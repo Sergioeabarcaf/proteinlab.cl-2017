@@ -522,7 +522,7 @@ export class ProyectosService {
       partner:{
         nombre: "Kiron",
         descripcion: null,
-        img: "assets/img/partners/mouti.jpg"
+        img: "assets/img/partners/getup.jpg"
       },
       tipo: "vinculacion",
       id: "17"
