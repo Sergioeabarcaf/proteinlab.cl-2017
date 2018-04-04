@@ -42,7 +42,7 @@
 <div class="container">
   <h2 class="tipo">Proyectos de Investigación</h2>
   <hr>
-  <div class="card-columns">
+  <div class="card-deck">
     <div class="card" *ngFor="let proyectoPropio of proyectosPropios; let i = index">
       <img class="card-img-top rounded" [src]=proyectoPropio.imagenes.grupal [alt]="proyectoPropio.portada.nombre">
       <div class="card-body">
