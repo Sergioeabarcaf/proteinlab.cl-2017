@@ -80,3 +80,4 @@ version 1.7 contiene las siguientes caracteristicas:
 ### V1.7.3
 
 * Actualización de extensión de imagenes.
+* Uso de card-deck en proyectos propios
