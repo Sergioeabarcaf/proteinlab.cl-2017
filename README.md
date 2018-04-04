@@ -65,5 +65,14 @@ version 1.7 contiene las siguientes caracteristicas:
 
 ### V1.7.1
 
-* Eliminacion de fotografias no utilizadas
-* Actualizacion de linkedin
+* Eliminacion de fotografias no utilizadas.
+* Actualizacion de linkedin.
+
+### V1.7.2
+
+* Actualización de imagenes a menor peso.
+* Se agrega a Carlos Caceres.
+* Actualizacion de cargos en equipo.
+* Mejora en barra navbar que se oculta cuando esta en dispositivos moviles.
+* Eliminación de carpeta assets/css y assets/js
+* Ocultar favicon.ico hasta que se se haga el favicon de proteinlab.
