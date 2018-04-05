@@ -80,6 +80,7 @@ export class EquipoService {
   }
 
   getEquipo():Equipo[]{
+    this.desord.splice(0,this.desord.length);
     for(let i=0; i < this.equipo.length; i++){
       this.desord.push(this.equipo[i]);
     }
