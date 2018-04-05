@@ -2,6 +2,10 @@
   color: rgb(224,103,75) !important;
 }
 
+.ajust{
+  padding-bottom: 10px;
+}
+
 #about p{
   font-size: 14px;
 }
