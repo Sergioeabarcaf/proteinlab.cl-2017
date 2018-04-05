@@ -22,19 +22,19 @@ export class EquipoService {
     },
     {
       nombre: "Francis Soto",
-      cargo: "Electronica",
+      cargo: "Electrónica",
       imagen: "assets/img/equipo/francisSoto.jpg",
       linkedin: "https://www.linkedin.com/in/francis-soto-pacheco-43b40556/",
     },
     {
       nombre: "Victor Meza",
-      cargo: "Electronica",
+      cargo: "Electrónica",
       imagen: "assets/img/equipo/victorMeza.jpg",
       linkedin: "https://www.linkedin.com/in/victormezaherrera/",
     },
     {
       nombre: "Sergio Abarca",
-      cargo: "Informatica",
+      cargo: "Informática",
       imagen: "assets/img/equipo/sergioAbarca.jpg",
       linkedin: "https://www.linkedin.com/in/sergioeabarcaf",
     },
@@ -64,13 +64,13 @@ export class EquipoService {
     },
     {
       nombre: "Pamela Armstrong",
-      cargo: "Asesorias",
+      cargo: "Asesor externo",
       imagen: "assets/img/equipo/pamelaAmstrong.jpg",
       linkedin: "https://www.linkedin.com/in/pamela-armstrong-543a0a31/",
     },
     {
       nombre: "Carlos Caceres",
-      cargo: "Asesorias",
+      cargo: "Asesor externo",
       imagen: "assets/img/equipo/carlosCaceres.jpg",
       linkedin: "https://www.linkedin.com/in/carlos-c%C3%A1ceres-inostroza-7b269420/",
     }
