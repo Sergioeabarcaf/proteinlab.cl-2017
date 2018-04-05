@@ -3,6 +3,10 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class EquipoService {
 
+  public rand:number = 0;
+  public aux:Equipo = null;
+  public desord:Equipo[] = [];
+
   private equipo:Equipo[] = [
     {
       nombre: "Diego Vilches",
@@ -14,7 +18,7 @@ export class EquipoService {
       nombre: "Josue Alarcon",
       cargo: "Diseño",
       imagen: "assets/img/equipo/josueAlarcon.jpg",
-      linkedin: null,
+      linkedin: "https://www.linkedin.com/in/josu%C3%A9-alarcon-837712142/",
     },
     {
       nombre: "Francis Soto",
@@ -76,7 +80,18 @@ export class EquipoService {
   }
 
   getEquipo():Equipo[]{
-    return this.equipo;
+    for(let i=0; i < this.equipo.length; i++){
+      this.desord.push(this.equipo[i]);
+    }
+    console.log(this.desord);
+    for(let a=0; a < this.desord.length; a++){
+      this.rand = Math.floor(Math.random() * this.desord.length);
+      this.aux = this.desord[a];
+      this.desord[a] = this.desord[this.rand];
+      this.desord[this.rand] = this.aux;
+    }
+    console.log(this.desord);
+    return this.desord
   }
 }
 
