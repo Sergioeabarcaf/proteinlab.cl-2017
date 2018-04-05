@@ -85,3 +85,4 @@ version 1.7 contiene las siguientes caracteristicas:
 * Solución del error 404 al recargar la pagina web o ingresar de manera directa a un directorio.
 * Mostrar de manera desordenada a los integrantes.
 * Actualizar tamaños de imagenes de infraestructura en home.
+* Correciones Ortograficas.
