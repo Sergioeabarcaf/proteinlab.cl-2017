@@ -6,3 +6,5 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule . /index.html [L]
 </IfModule>
+
+# Una vez hecho esto, se debe ejecutar en la console "a2enmod rewrite" Y REINICIAR EL SERVIDOR APACHE
