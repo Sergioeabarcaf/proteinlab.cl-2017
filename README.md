@@ -80,4 +80,7 @@ version 1.7 contiene las siguientes caracteristicas:
 ### V1.7.3
 
 * Actualización de extensión de imagenes.
-* Uso de card-deck en proyectos propios
+* Uso de card-deck en proyectos propios.
+* Actualizacion de imagenes.
+* Solución del error 404 al recargar la pagina web o ingresar de manera directa a un directorio.
+* Mostrar de manera desordenada a los integrantes.
