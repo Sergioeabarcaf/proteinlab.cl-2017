@@ -81,8 +81,8 @@ version 1.7 contiene las siguientes caracteristicas:
 
 * Actualización de extensión de imagenes.
 * Uso de card-deck en proyectos propios.
-* Actualizacion de imagenes.
-* Solución del error 404 al recargar la pagina web o ingresar de manera directa a un directorio.
-* Mostrar de manera desordenada a los integrantes.
+* Actualización de imagenes.
+* Solución del error 404 al recargar la pagina web o ingresar de manera directa a un directorio en servidores apache.
+* Mostrar de manera desordenada a los integrantes del equipo.
 * Actualizar tamaños de imagenes de infraestructura en home.
 * Correciones Ortograficas.
