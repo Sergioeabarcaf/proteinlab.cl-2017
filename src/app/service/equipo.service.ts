@@ -83,14 +83,12 @@ export class EquipoService {
     for(let i=0; i < this.equipo.length; i++){
       this.desord.push(this.equipo[i]);
     }
-    console.log(this.desord);
     for(let a=0; a < this.desord.length; a++){
       this.rand = Math.floor(Math.random() * this.desord.length);
       this.aux = this.desord[a];
       this.desord[a] = this.desord[this.rand];
       this.desord[this.rand] = this.aux;
     }
-    console.log(this.desord);
     return this.desord
   }
 }
