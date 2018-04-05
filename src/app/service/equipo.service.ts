@@ -15,7 +15,7 @@ export class EquipoService {
       linkedin: "https://cl.linkedin.com/in/diego-vilches-183290a8",
     },
     {
-      nombre: "Josue Alarcon",
+      nombre: "Josué Alarcón",
       cargo: "Diseño",
       imagen: "assets/img/equipo/josueAlarcon.jpg",
       linkedin: "https://www.linkedin.com/in/josu%C3%A9-alarcon-837712142/",
@@ -27,7 +27,7 @@ export class EquipoService {
       linkedin: "https://www.linkedin.com/in/francis-soto-pacheco-43b40556/",
     },
     {
-      nombre: "Victor Meza",
+      nombre: "Víctor Meza",
       cargo: "Electrónica",
       imagen: "assets/img/equipo/victorMeza.jpg",
       linkedin: "https://www.linkedin.com/in/victormezaherrera/",
@@ -45,7 +45,7 @@ export class EquipoService {
       linkedin: "https://cl.linkedin.com/in/macarena-valenzuela-zubiaur-223b772b",
     },
     {
-      nombre: "Hector Torres",
+      nombre: "Héctor Torres",
       cargo: "Dirección",
       imagen: "assets/img/equipo/hectorTorres.jpg",
       linkedin: "https://www.linkedin.com/in/proteinlab/",
@@ -57,7 +57,7 @@ export class EquipoService {
       linkedin: "https://www.linkedin.com/in/hugo-durney-wasaff-9141368/",
     },
     {
-      nombre: "Victor Escobar",
+      nombre: "Víctor Escobar",
       cargo: "Investigación",
       imagen: "assets/img/equipo/victorEscobar.jpg",
       linkedin: "https://cl.linkedin.com/in/victor-escobar-jeria-91549925",
@@ -69,7 +69,7 @@ export class EquipoService {
       linkedin: "https://www.linkedin.com/in/pamela-armstrong-543a0a31/",
     },
     {
-      nombre: "Carlos Caceres",
+      nombre: "Carlos Cáceres",
       cargo: "Asesor externo",
       imagen: "assets/img/equipo/carlosCaceres.jpg",
       linkedin: "https://www.linkedin.com/in/carlos-c%C3%A1ceres-inostroza-7b269420/",
