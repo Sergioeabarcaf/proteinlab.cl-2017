@@ -11,6 +11,10 @@
   color: rgb(224, 103, 75);
 }
 
+.opacity:hover{
+  background-color: rgba(255,255,255,0.8);
+}
+
 .proteinCard{
   margin-bottom: 20px;
 }

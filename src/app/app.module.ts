@@ -8,6 +8,8 @@ import { APP_ROUTING } from './app.routes';
 //servicios
 import { ProyectosService } from './service/proyectos.service';
 import { EquipoService } from './service/equipo.service';
+import { EggService } from './service/egg.service';
+import { HistoricosService } from './service/historicos.service';
 
 //componentes
 import { AppComponent } from './app.component';
@@ -32,7 +34,9 @@ import { FooterComponent } from './components/shared/footer/footer.component';
   ],
   providers: [
     ProyectosService,
-    EquipoService
+    EquipoService,
+    EggService,
+    HistoricosService
   ],
   bootstrap: [AppComponent]
 })

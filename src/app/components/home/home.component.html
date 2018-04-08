@@ -28,13 +28,13 @@
         <img class="d-block w-100" src="assets/img/slide/slide_06.jpg" alt="Third slide">
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselHeader" role="button" data-slide="prev">
+    <a class="carousel-control-prev opacity" href="#carouselHeader" role="button" data-slide="prev">
       <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
       <span class="d-none d-md-block"><i class="fa fa-5x fa-chevron-left" aria-hidden="true" style="color: rgb(224, 103, 75);"></i></span>
       <span class="d-block d-md-none"><i class="fa fa-2x fa-chevron-left" aria-hidden="true" style="color: rgb(224, 103, 75);"></i></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselHeader" role="button" data-slide="next">
+    <a class="carousel-control-next opacity" href="#carouselHeader" role="button" data-slide="next">
       <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
       <span class="d-none d-md-block"><i class="fa fa-5x fa-chevron-right" aria-hidden="true" style="color: rgb(224, 103, 75);"></i></span>
       <span class="d-block d-md-none"><i class="fa fa-2x fa-chevron-right" aria-hidden="true" style="color: rgb(224, 103, 75);"></i></span>
@@ -114,10 +114,27 @@
     </div>
     <div class="row team">
       <div class="col-6 col-md-3 proteinCard" *ngFor="let persona of equipo">
-        <img [src]="persona.imagen" [alt]="persona.nombre">
+        <img [src]="persona.imagen" [alt]="persona.nombre" (click)="egg(persona.nombre)">
         <h3>{{ persona.nombre }}</h3>
         <p>{{ persona.cargo }}</p>
         <a [href]="persona.linkedin" target="_blank" *ngIf="persona.linkedin" ><i class="fa fa-2x fa-linkedin-square"></i></a>
+      </div>
+    </div>
+    <div class="secBlanco" *ngIf="historico">
+      <div class="container secBlanco">
+        <div class="row separaSection">
+          <div class="col-12">
+            <h2>Muchas Gracias por haber aportado un granito de arena para ser lo que somos.</h2>
+          </div>
+        </div>
+        <div class="row team">
+          <div class="col-6 col-md-3 proteinCard" *ngFor="let personaHistorica of equipoHistorico">
+            <img [src]="personaHistorica.imagen" [alt]="personaHistorica.nombre">
+            <h3>{{ personaHistorica.nombre }}</h3>
+            <p>{{ personaHistorica.cargo }}</p>
+            <a [href]="personaHistorica.linkedin" target="_blank" *ngIf="personaHistorica.linkedin" ><i class="fa fa-2x fa-linkedin-square"></i></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>

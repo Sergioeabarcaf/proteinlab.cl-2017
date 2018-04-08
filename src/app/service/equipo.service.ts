@@ -7,6 +7,8 @@ export class EquipoService {
   public aux:Equipo = null;
   public desord:Equipo[] = [];
 
+  private nombres:string[] = [];
+
   private equipo:Equipo[] = [
     {
       nombre: "Diego Vilches",
@@ -91,6 +93,14 @@ export class EquipoService {
       this.desord[this.rand] = this.aux;
     }
     return this.desord
+  }
+
+  getNames():string[]{
+    this.nombres.splice(0,this.nombres.length)
+    for(let n=0; n < this.equipo.length; n++){
+      this.nombres.push(this.equipo[n].nombre);
+    }
+    return this.nombres
   }
 }
 
