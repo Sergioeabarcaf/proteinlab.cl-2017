@@ -47,12 +47,12 @@ export class HistoricosService {
     {
       nombre: "Rodrigo Muñoz",
       cargo: "Electrónica",
-      imagen: "assets/img/historicos/rodrigoMuñoz.jpg"
+      imagen: "assets/img/historicos/rodrigoMunoz.jpg"
     },
     {
       nombre: "Carla Pérez",
       cargo: "Electrónica",
-      imagen: "assets/img/historicos/carlaPErez.jpg"
+      imagen: "assets/img/historicos/carlaPerez.jpg"
     },
     {
       nombre: "Recsi Salas",
