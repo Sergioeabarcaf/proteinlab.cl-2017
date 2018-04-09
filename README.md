@@ -86,3 +86,7 @@ version 1.7 contiene las siguientes caracteristicas:
 * Mostrar de manera desordenada a los integrantes del equipo.
 * Actualizar tamaños de imagenes de infraestructura en home.
 * Correciones Ortograficas.
+
+### V1.7.4
+* Creacion de egg en fotos de equipo
+* Eliminación de funcion que desordenaba al equipo, pasando a un orden por jerarquia.
