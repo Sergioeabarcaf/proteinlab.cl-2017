@@ -90,3 +90,4 @@ version 1.7 contiene las siguientes caracteristicas:
 ### V1.7.4
 * Creacion de egg en fotos de equipo
 * Eliminación de funcion que desordenaba al equipo, pasando a un orden por jerarquia.
+* Pasado a producción en http://www.proteinlab.cl
