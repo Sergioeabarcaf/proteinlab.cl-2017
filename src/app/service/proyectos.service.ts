@@ -557,6 +557,38 @@ export class ProyectosService {
       tipo: "apoyo",
       id: "18"
     },
+    {
+      portada: {
+        nombre: "#cookingtextiles",
+        bajada: "Proyecto colaborativo de termofijado textil con herramientas hechas a partir de corte láser, con las estudiantes de diseño de vestuario Tania Dahuabe y Tatiana Liedtke, de la Universidad del Pacífico.",
+        categoria: "Textil"
+      },
+      contenido:{
+        nombre: "#cookingtextiles",
+        periodo: "2017-2018",
+        descripcion:[
+          "#cookingtextiles es una colaboración de diseño textil de desarrollo artesanal y digital entre ProteinLab UTEM y las tesistas de la carrera de Diseño de Vestuario y Textiles de la Universidad del Pacífico Tania Dahuabe y Tatiana Liedtke.",
+          "El proyecto se complementa de  corte láser como herramienta de fabricación digital y la técnica de termofijado textil.",
+          "Para la realización de este, se estudiaron distintas técnicas integradas en el diseño textil, junto con analizar el medio local de los diseñadores chilenos, llevando a un resultado gratificante que se basa en aportar al rubro textil e intentar potenciar la producción nacional.",
+          "Como objetivo del proyecto se buscó crear un muestrario de exhibición con una plataforma Open Design que permita a diseñadores integrar una técnica accesible y versátil a sus propuestas de diseño.",
+          "Puedes seguir nuestro proyecto en Instagram: @cookingtextiles y etiquetarnos en tus proyectos con el hashtag #cookingtextiles"
+        ],
+        link: "https://drive.google.com/open?id=1jjmvVgfTdRX5fDQ-isfWhBPSrZrLxaAz"
+      },
+      imagenes:{
+        grupal: "assets/img/cookingtextiles/grupal.jpg",
+        img1: "assets/img/cookingtextiles/1.jpg",
+        img2: "assets/img/cookingtextiles/2.jpg",
+        img3: "assets/img/cookingtextiles/3.jpg"
+      },
+      partner:{
+        nombre: "Tania Dahuabe - Tatiana Liedtke",
+        descripcion: "Egresadas de Diseño de Vestuario y Textiles de la Universidad del Pacífico, Santiago, Chile.",
+        img: "assets/img/partners/taniaTatiana.jpg"
+      },
+      tipo: "vinculacion",
+      id: "19"
+    }
     // {
     //   portada: {
     //     nombre: "MIO EXO",
