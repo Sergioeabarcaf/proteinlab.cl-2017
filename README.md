@@ -91,3 +91,7 @@ version 1.7 contiene las siguientes caracteristicas:
 * Creacion de egg en fotos de equipo
 * Eliminación de funcion que desordenaba al equipo, pasando a un orden por jerarquia.
 * Pasado a producción en http://www.proteinlab.cl
+
+### V1.7.5
+* Se agrega proyecto cookingtextiles.
+* Reparacion de BUG que no permitia abrir link de proyectos.
