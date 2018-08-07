@@ -99,3 +99,4 @@ version 1.7 contiene las siguientes caracteristicas:
 ## V1.7.6
 * Cambio de imagen Carlos Caceres
 * Se agrega Script de Hotjar
+* Se actualiza el favicon.ico
