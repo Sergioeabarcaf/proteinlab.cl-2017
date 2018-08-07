@@ -95,3 +95,7 @@ version 1.7 contiene las siguientes caracteristicas:
 ### V1.7.5
 * Se agrega proyecto cookingtextiles.
 * Reparacion de BUG que no permitia abrir link de proyectos.
+
+## V1.7.6
+* Cambio de imagen Carlos Caceres
+* Se agrega Script de Hotjar
