@@ -364,7 +364,7 @@ export class ProyectosService {
       },
       imagenes:{
         grupal: "assets/img/ESTOMAGO/grupal.jpg",
-        img1: "assets/img/ESTOMAGO/1.JPG",
+        img1: "assets/img/ESTOMAGO/1.jpg",
         img2: "assets/img/ESTOMAGO/2.jpg",
         img3: null
       },
