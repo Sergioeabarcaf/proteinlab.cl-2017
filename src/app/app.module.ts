@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from "@angular/http";
+import { HammerGestureConfig, HAMMER_GESTURE_CONFIG} from '@angular/platform-browser';
 
 //rutas
 import { APP_ROUTING } from './app.routes';
@@ -19,6 +20,12 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 
+export class MyHammerConfig extends HammerGestureConfig  {
+  overrides = <any>{
+      'swipe': {velocity: 0.4, threshold: 20} // override default settings
+  }
+}
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,8 +43,15 @@ import { FooterComponent } from './components/shared/footer/footer.component';
     ProyectosService,
     EquipoService,
     EggService,
-    HistoricosService
+    HistoricosService,
+    {
+      provide: HAMMER_GESTURE_CONFIG,
+      useClass: MyHammerConfig
+    }
   ],
   bootstrap: [AppComponent]
 })
+
+
+
 export class AppModule { }

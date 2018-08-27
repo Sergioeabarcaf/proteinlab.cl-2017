@@ -114,7 +114,7 @@
     </div>
     <div class="row team">
       <div class="col-6 col-md-3 proteinCard" *ngFor="let persona of equipo">
-        <img [src]="persona.imagen" [alt]="persona.nombre" (click)="egg(persona.nombre)">
+        <img [src]="persona.imagen" [alt]="persona.nombre" (click)="egg(persona.nombre)" (tap)="egg(persona.nombre)">
         <h3>{{ persona.nombre }}</h3>
         <p>{{ persona.cargo }}</p>
         <a [href]="persona.linkedin" target="_blank" *ngIf="persona.linkedin" ><i class="fa fa-2x fa-linkedin-square"></i></a>
