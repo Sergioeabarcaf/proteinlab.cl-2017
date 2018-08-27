@@ -1,6 +1,6 @@
 # Pagina Web proteinlab.cl 2018
 
-Aplicacion web desarrollada en Angular, que busca mostrar los distintos proyectos desarrollados en proteinlab y el equipo de trabajo. El diseño estuvo a cargo del equipo interno de proteinlab. Las mejoras se pueden ver en http://146.83.190.220 antes de pasar a produccion que sera la version 2.0.
+Aplicacion web desarrollada en Angular, que busca mostrar los distintos proyectos desarrollados en proteinlab y el equipo de trabajo. El diseño estuvo a cargo del equipo interno de proteinlab. 
 
 ## V1.5
 
@@ -100,3 +100,4 @@ version 1.7 contiene las siguientes caracteristicas:
 * Cambio de imagen Carlos Caceres
 * Se agrega Script de Hotjar
 * Se actualiza el favicon.ico
+* Actualizacion de parrafo descriptivo
