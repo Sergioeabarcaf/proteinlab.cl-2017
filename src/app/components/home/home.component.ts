@@ -12,27 +12,25 @@ import { Equipo } from '../../interfaces/equipo.interface';
 })
 export class HomeComponent implements OnInit {
 
-  equipo: Equipo[] = [];
   historico = false;
   equipoHistorico: any[] = [];
 
   constructor( private _proyectosService: ProyectosService,
-               private _equipoService: EquipoService,
+               protected _equipoService: EquipoService,
                private _eggService: EggService,
-               private _historicosService: HistoricosService,
+               protected _historicosService: HistoricosService,
                private _proyectoService: ProyectosService) {
                  _proyectoService.getProyectosApoyo();
                  _proyectoService.getProyectosPropios();
                  _proyectoService.getProyectosVinculacion();
+                 _equipoService.getEquipo();
                }
 
-  ngOnInit() {
-    this.equipo = this._equipoService.getEquipo();
-  }
+  ngOnInit() {}
 
   egg(nombre: string) {
     this._eggService.names.push(nombre);
-    if (this._eggService.names.length === this.equipo.length) {
+    if (this._eggService.names.length === this._equipoService.equipo.length) {
       if (this._eggService.validarOrden()) {
         this.equipoHistorico = this._historicosService.getEquipoHistorico();
         this.historico = true;
