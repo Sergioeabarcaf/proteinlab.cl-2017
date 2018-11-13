@@ -8,9 +8,9 @@ export class ProyectosService {
   public proyectosPropios: Proyecto[] = [];
   public proyectosVinculacion: Proyecto[] = [];
   public proyectosApoyo: Proyecto[] = [];
-  public loadingPropios = true;
-  public loadingVinculacion = true;
-  public loadingApoyo = true;
+  public loadingpropio = true;
+  public loadingvinculacion = true;
+  public loadingapoyo = true;
 
   constructor(private http: HttpClient) {}
 
@@ -19,7 +19,7 @@ export class ProyectosService {
      this.http.get('https://webproteinlab.firebaseio.com/proyectos/propio.json').subscribe((proyectos: Proyecto[]) => {
        this.proyectosPropios = proyectos;
        this.proyectosPropios = this.randomArray(this.proyectosPropios);
-       this.loadingPropios = false;
+       this.loadingpropio = false;
      });
     }else {
       this.proyectosPropios = this.randomArray(this.proyectosPropios);
@@ -32,7 +32,7 @@ export class ProyectosService {
      this.http.get('https://webproteinlab.firebaseio.com/proyectos/vinculacion.json').subscribe((proyectos: Proyecto[]) => {
        this.proyectosVinculacion = proyectos;
        this.proyectosVinculacion = this.randomArray(this.proyectosVinculacion);
-       this.loadingVinculacion = false;
+       this.loadingvinculacion = false;
      });
     }else {
       this.proyectosVinculacion = this.randomArray(this.proyectosVinculacion);
@@ -45,7 +45,7 @@ export class ProyectosService {
      this.http.get('https://webproteinlab.firebaseio.com/proyectos/apoyo.json').subscribe((proyectos: Proyecto[]) => {
        this.proyectosApoyo = proyectos;
        this.proyectosApoyo = this.randomArray(this.proyectosApoyo);
-       this.loadingApoyo = false;
+       this.loadingapoyo = false;
      });
     }else {
       this.proyectosApoyo = this.randomArray(this.proyectosApoyo);
@@ -67,12 +67,15 @@ export class ProyectosService {
 
   getProyecto( topic: string, idx: string ) {
     if (topic === 'propio') {
+      this.getProyectosPropios();
       return this.proyectosPropios.filter( proyecto => proyecto.id === idx);
     }
     if (topic === 'vinculacion') {
+      this.getProyectosVinculacion();
       return this.proyectosVinculacion.filter( proyecto => proyecto.id === idx);
     }
     if (topic === 'apoyo') {
+      this.getProyectosApoyo();
       return this.proyectosApoyo.filter( proyecto => proyecto.id === idx);
     }
   }

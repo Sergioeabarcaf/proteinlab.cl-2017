@@ -20,6 +20,7 @@ import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { LoadingComponent } from './components/shared/loading/loading.component';
 
 export class MyHammerConfig extends HammerGestureConfig  {
   overrides = <any>{
@@ -34,7 +35,8 @@ export class MyHammerConfig extends HammerGestureConfig  {
     ProyectoComponent,
     ProyectosComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,

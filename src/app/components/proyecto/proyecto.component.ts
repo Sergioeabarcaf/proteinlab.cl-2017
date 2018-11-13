@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ProyectosService } from '../../service/proyectos.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { Proyecto } from '../../interfaces/proyecto.interface';
 
 @Component({
   selector: 'app-proyecto',
@@ -9,7 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class ProyectoComponent {
 
-  proyecto: any = {};
+  proyecto: Proyecto;
 
   constructor(private activatedRoute: ActivatedRoute,
               private _proyectoService: ProyectosService,

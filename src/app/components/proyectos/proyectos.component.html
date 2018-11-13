@@ -1,36 +1,49 @@
-<div class="container" *ngIf="_proyectosService.proyectosVinculacion">
+<div class="container">
     <h2 class="tipo">Proyectos de Transferencia Tecnológica</h2>
     <hr>
-    <div class="card-columns">
-        <div class="card" *ngFor="let proyectoVinculacion of _proyectosService.proyectosVinculacion; let i = index">
-            <img class="card-img-top rounded" [src]=proyectoVinculacion.imagenes.grupal [alt]="proyectoVinculacion.portada.nombre">
-            <div class="card-body">
-                <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ proyectoVinculacion.portada.nombre | lowercase }}</strong></h4>
-                <p class="card-text text-justify" style="font-size:12px;">{{ proyectoVinculacion.portada.bajada }}</p>
-                <button (click)="verProyecto('vinculacion',proyectoVinculacion.id)" type="button" class="btn btn-dark btn-block">Ver más ...
-        </button>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted" style="font-size:10px;"><strong>Categoria:</strong> {{ proyectoVinculacion.portada.categoria }}</small>
+    <div class="row justify-content-md-center">
+        <div class="col-6" *ngIf="_proyectosService.loadingVinculacion">
+            <app-loading></app-loading>
+        </div>
+        <div class="col-12" *ngIf="!_proyectosService.loadingVinculacion">
+            <div class="card-columns">
+                <div class="card" *ngFor="let proyectoVinculacion of _proyectosService.proyectosVinculacion; let i = index">
+                    <img class="card-img-top rounded" [src]=proyectoVinculacion.imagenes.grupal [alt]="proyectoVinculacion.portada.nombre">
+                    <div class="card-body">
+                        <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ proyectoVinculacion.portada.nombre | lowercase }}</strong></h4>
+                        <p class="card-text text-justify" style="font-size:12px;">{{ proyectoVinculacion.portada.bajada }}</p>
+                        <button (click)="verProyecto('vinculacion',proyectoVinculacion.id)" type="button" class="btn btn-dark btn-block">Ver más ...</button>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted" style="font-size:10px;"><strong>Categoria:</strong> {{ proyectoVinculacion.portada.categoria }}</small>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
 </div>
 
 <div class="container">
     <h2 class="tipo">Proyectos de Apoyo a Emprendimientos</h2>
     <hr>
-    <div class="card-columns">
-        <div class="card" *ngFor="let proyectoApoyo of _proyectosService.proyectosApoyo ; let i = index">
-            <img class="card-img-top rounded" [src]=proyectoApoyo.imagenes.grupal [alt]="proyectoApoyo.portada.nombre">
-            <div class="card-body">
-                <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ proyectoApoyo.portada.nombre | lowercase }}</strong></h4>
-                <p class="card-text text-justify" style="font-size:12px;">{{ proyectoApoyo.portada.bajada }}</p>
-                <button (click)="verProyecto('apoyo',proyectoApoyo.id)" type="button" class="btn btn-dark btn-block">Ver más ...
-        </button>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted" style="font-size:10px;"><strong>Categoria:</strong> {{ proyectoApoyo.portada.categoria }}</small>
+    <div class="row justify-content-md-center">
+        <div class="col-6" *ngIf="_proyectosService.loadingApoyo">
+            <app-loading></app-loading>
+        </div>
+        <div class="col-12" *ngIf="!_proyectosService.loadingApoyo">
+            <div class="card-columns">
+                <div class="card" *ngFor="let proyectoApoyo of _proyectosService.proyectosApoyo ; let i = index">
+                    <img class="card-img-top rounded" [src]=proyectoApoyo.imagenes.grupal [alt]="proyectoApoyo.portada.nombre">
+                    <div class="card-body">
+                        <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ proyectoApoyo.portada.nombre | lowercase }}</strong></h4>
+                        <p class="card-text text-justify" style="font-size:12px;">{{ proyectoApoyo.portada.bajada }}</p>
+                        <button (click)="verProyecto('apoyo',proyectoApoyo.id)" type="button" class="btn btn-dark btn-block">Ver más ...</button>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted" style="font-size:10px;"><strong>Categoria:</strong> {{ proyectoApoyo.portada.categoria }}</small>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -39,18 +52,25 @@
 <div class="container">
     <h2 class="tipo">Proyectos de Investigación</h2>
     <hr>
-    <div class="card-deck">
-        <div class="card" *ngFor="let proyectoPropio of _proyectosService.proyectosPropios; let i = index">
-            <img class="card-img-top rounded" [src]=proyectoPropio.imagenes.grupal [alt]="proyectoPropio.portada.nombre">
-            <div class="card-body">
-                <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ proyectoPropio.portada.nombre | lowercase }}</strong></h4>
-                <p class="card-text text-justify" style="font-size:12px;">{{ proyectoPropio.portada.bajada }}</p>
-                <button (click)="verProyecto('propio',proyectoPropio.id)" type="button" class="btn btn-dark btn-block">Ver más ...
-        </button>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted" style="font-size:10px;"><strong>Categoria:</strong> {{ proyectoPropio.portada.categoria }}</small>
+    <div class="row justify-content-md-center">
+        <div class="col-6" *ngIf="_proyectosService.loadingPropios">
+            <app-loading></app-loading>>
+        </div>
+        <div class="col-12" *ngIf="!_proyectosService.loadingPropios">
+            <div class="card-deck">
+                <div class="card" *ngFor="let proyectoPropio of _proyectosService.proyectosPropios; let i = index">
+                    <img class="card-img-top rounded" [src]=proyectoPropio.imagenes.grupal [alt]="proyectoPropio.portada.nombre">
+                    <div class="card-body">
+                        <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ proyectoPropio.portada.nombre | lowercase }}</strong></h4>
+                        <p class="card-text text-justify" style="font-size:12px;">{{ proyectoPropio.portada.bajada }}</p>
+                        <button (click)="verProyecto('propio',proyectoPropio.id)" type="button" class="btn btn-dark btn-block">Ver más ...</button>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted" style="font-size:10px;"><strong>Categoria:</strong> {{ proyectoPropio.portada.categoria }}</small>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
 </div>
