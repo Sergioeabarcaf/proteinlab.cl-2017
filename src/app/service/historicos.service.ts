@@ -74,7 +74,7 @@ export class HistoricosService {
 
   constructor() { }
 
-  getEquipoHistorico():any[]{
+  getEquipoHistorico(): any[] {
     return this.equipoHistorico
   }
 

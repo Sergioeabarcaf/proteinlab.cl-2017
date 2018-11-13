@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
+import { Equipo } from './equipo.service';
 
 @Injectable()
 export class EquipoService {
 
-  private nombres:string[] = [];
+  private nombres: string[] = [];
 
-  private equipo:Equipo[] = [
+  private equipo: Equipo[] = [
     {
       nombre: "Héctor Torres",
       cargo: "Dirección",
@@ -77,22 +78,15 @@ export class EquipoService {
   constructor() {
   }
 
-  getEquipo():Equipo[]{
+  getEquipo(): Equipo[] {
     return this.equipo;
   }
 
-  getNames():string[]{
-    this.nombres.splice(0,this.nombres.length)
-    for(let n=0; n < this.equipo.length; n++){
+  getNames(): string[] {
+    this.nombres.splice(0, this.nombres.length);
+    for (let n = 0; n < this.equipo.length; n++) {
       this.nombres.push(this.equipo[n].nombre);
     }
-    return this.nombres
+    return this.nombres;
   }
-}
-
-export interface Equipo{
-  nombre: string;
-  cargo: string;
-  imagen: string;
-  linkedin: string;
 }

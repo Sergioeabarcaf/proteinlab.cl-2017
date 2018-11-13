@@ -1,0 +1,169 @@
+[{
+        "nombre": "Héctor Torres",
+        "cargo": "Dirección",
+        "imagen": "assets/img/equipo/hectorTorres.jpg",
+        "actual": true,
+        "linkedin": "https://www.linkedin.com/in/proteinlab/"
+    },
+    {
+        "nombre": "Macarena Valenzuela",
+        "cargo": "Dirección",
+        "imagen": "assets/img/equipo/macarenaValenzuela.jpg",
+        "actual": true,
+        "linkedin": "https://cl.linkedin.com/in/macarena-valenzuela-zubiaur-223b772b"
+    },
+    {
+        "nombre": "Hugo Durney",
+        "cargo": "Investigación",
+        "imagen": "assets/img/equipo/hugoDurney.jpg",
+        "actual": true,
+        "linkedin": "https://www.linkedin.com/in/hugo-durney-wasaff-9141368/"
+    },
+    {
+        "nombre": "Víctor Escobar",
+        "cargo": "Investigación",
+        "imagen": "assets/img/equipo/victorEscobar.jpg",
+        "actual": true,
+        "linkedin": "https://cl.linkedin.com/in/victor-escobar-jeria-91549925"
+    },
+    {
+        "nombre": "Diego Vilches",
+        "cargo": "Diseño",
+        "imagen": "assets/img/equipo/diegoVilchez.jpg",
+        "actual": true,
+        "linkedin": "https://cl.linkedin.com/in/diego-vilches-183290a8"
+    },
+    {
+        "nombre": "Josué Alarcón",
+        "cargo": "Diseño",
+        "imagen": "assets/img/equipo/josueAlarcon.jpg",
+        "actual": true,
+        "linkedin": "https://www.linkedin.com/in/josu%C3%A9-alarcon-837712142/"
+    },
+    {
+        "nombre": "Francis Soto",
+        "cargo": "Electrónica",
+        "imagen": "assets/img/equipo/francisSoto.jpg",
+        "actual": true,
+        "linkedin": "https://www.linkedin.com/in/francis-soto-pacheco-43b40556/"
+    },
+    {
+        "nombre": "Víctor Meza",
+        "cargo": "Electrónica",
+        "imagen": "assets/img/equipo/victorMeza.jpg",
+        "actual": true,
+        "linkedin": "https://www.linkedin.com/in/victormezaherrera/"
+    },
+    {
+        "nombre": "Sergio Abarca",
+        "cargo": "Informática",
+        "imagen": "assets/img/equipo/sergioAbarca.jpg",
+        "actual": true,
+        "linkedin": "https://www.linkedin.com/in/sergioeabarcaf"
+    },
+    {
+        "nombre": "Pamela Armstrong",
+        "cargo": "Asesor externo",
+        "imagen": "assets/img/equipo/pamelaAmstrong.jpg",
+        "actual": true,
+        "linkedin": "https://www.linkedin.com/in/pamela-armstrong-543a0a31/"
+    },
+    {
+        "nombre": "Carlos Cáceres",
+        "cargo": "Asesor externo",
+        "imagen": "assets/img/equipo/carlosCaceres.jpg",
+        "actual": true,
+        "linkedin": "https://www.linkedin.com/in/carlos-c%C3%A1ceres-inostroza-7b269420/"
+    },
+    {
+        "nombre": "Paz Ayala",
+        "cargo": "Diseño",
+        "imagen": "assets/img/historicos/pazAyala.jpg",
+        "actual": false,
+        "linkedin": "https://www.linkedin.com/in/paz-ayala-rapim%C3%A1n-67aa10109/"
+    },
+    {
+        "nombre": "Cristian Becerra",
+        "cargo": "Informática",
+        "imagen": "assets/img/historicos/cristianBecerra.jpg",
+        "actual": false,
+        "linkedin": null
+    },
+    {
+        "nombre": "Francisco Sanchez",
+        "cargo": "Informática",
+        "imagen": "assets/img/historicos/franciscoSanchez.jpg",
+        "actual": false,
+        "linkedin": "https://www.linkedin.com/in/fransafu/"
+    },
+    {
+        "nombre": "Helene Schmelzer",
+        "cargo": "Electrónica",
+        "imagen": "assets/img/historicos/heleneSchmelzer.jpg",
+        "actual": false,
+        "linkedin": null
+    },
+    {
+        "nombre": "Marlene Lopez",
+        "cargo": "Diseño",
+        "imagen": "assets/img/historicos/marleneLopez.jpg",
+        "actual": false,
+        "linkedin": "https://www.linkedin.com/in/marlenelopeznanco/"
+    },
+    {
+        "nombre": "Raul Higueras",
+        "cargo": "Diseño",
+        "imagen": "assets/img/historicos/raulHigueras.jpg",
+        "actual": false,
+        "linkedin": "https://www.linkedin.com/in/raulhc3521/"
+    },
+    {
+        "nombre": "Jose Miranda",
+        "cargo": "Diseño",
+        "imagen": "assets/img/historicos/joseMiranda.jpg",
+        "actual": false,
+        "linkedin": "https://www.linkedin.com/in/jos%C3%A9-ignacio-miranda-leiva-3a0279a8/"
+    },
+    {
+        "nombre": "Elisa halvorsen",
+        "cargo": "Diseño",
+        "imagen": "assets/img/historicos/elisaHalvorsen.jpg",
+        "actual": false,
+        "linkedin": null
+    },
+    {
+        "nombre": "Rodrigo Muñoz",
+        "cargo": "Electrónica",
+        "imagen": "assets/img/historicos/rodrigoMunoz.jpg",
+        "actual": false,
+        "linkedin": "https://www.linkedin.com/in/rodrigo-mu%C3%B1oz-25633864/"
+    },
+    {
+        "nombre": "Carla Pérez",
+        "cargo": "Electrónica",
+        "imagen": "assets/img/historicos/carlaPerez.jpg",
+        "actual": false,
+        "linkedin": "https://www.linkedin.com/in/carla-p%C3%A9rez-v%C3%A1squez-541a2451/"
+    },
+    {
+        "nombre": "Recsi Salas",
+        "cargo": "Diseño",
+        "imagen": "assets/img/historicos/recsiSalas.jpg",
+        "actual": false,
+        "linkedin": "https://www.linkedin.com/in/recsi-salas-98678811a/"
+    },
+    {
+        "nombre": "Andrea Ordenes",
+        "cargo": "Dirección",
+        "imagen": "assets/img/historicos/andreaOrdenes.jpg",
+        "actual": false,
+        "linkedin": "https://www.linkedin.com/in/andrea-ordenes-godoy-7817a816/"
+    },
+    {
+        "nombre": "Alejandro Collao",
+        "cargo": "Electrónica",
+        "imagen": "assets/img/historicos/alejandroCollao.jpg",
+        "actual": false,
+        "linkedin": "https://www.linkedin.com/in/alejandro-collao-a1132471/"
+    }
+]
