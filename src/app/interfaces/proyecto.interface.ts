@@ -37,9 +37,8 @@ export interface Portada {
     //     nombre: "MIO EXO",
     //     periodo: "2017",
     //     descripcion:[
-    //       "Este proyecto corresponde al trabajo final para la obtención del Título Profesional en Ingeniería Electrónica de los alumnos Carla Pérez y Mauricio Olivares.",
-    //       "Este proyecto considera el diseño y construcción de un dispositivo electro-mecánico accionando mediante señales mioeléctricas con un formato de exoesqueleto e implementado en pacientes con falta de movilidad, producto de algún daño neuromuscular, traumatismo craneal o lesiones de médula espinal que le hayan provocado al afectado una pérdida muscular en extremidades superiores.",
-    //       "El trabajo se inició a fines del año 2016, con el desarrollo del proyecto y posteriormente se apoyó para la postulación a financiamiento externo. En Mayo del 2017 se adjudicó financiamiento CORFO, mediante el programa de apoyo al emprendimiento STARTUP CHILE"
+    //       "Este proyecto corresponde al trabajo final para la obtención del Título ",
+    //       "Este proyecto considera el diseño y construcción de un dispositivo electro.",
     //     ],
     //     link: null
     //   },

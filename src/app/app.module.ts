@@ -1,18 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpModule } from "@angular/http";
+import { HttpModule } from '@angular/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { HammerGestureConfig, HAMMER_GESTURE_CONFIG} from '@angular/platform-browser';
 
-//rutas
+// rutas
 import { APP_ROUTING } from './app.routes';
 
-//servicios
+// servicios
 import { ProyectosService } from './service/proyectos.service';
 import { EquipoService } from './service/equipo.service';
 import { EggService } from './service/egg.service';
 import { HistoricosService } from './service/historicos.service';
 
-//componentes
+// componentes
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
@@ -37,6 +38,8 @@ export class MyHammerConfig extends HammerGestureConfig  {
   ],
   imports: [
     BrowserModule,
+    HttpModule,
+    HttpClientModule,
     APP_ROUTING
   ],
   providers: [

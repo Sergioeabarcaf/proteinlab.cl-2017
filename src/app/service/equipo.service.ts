@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Equipo } from './equipo.service';
+import { Equipo } from '../interfaces/equipo.interface';
 
 @Injectable()
 export class EquipoService {

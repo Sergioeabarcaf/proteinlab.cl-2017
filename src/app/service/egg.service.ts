@@ -12,7 +12,7 @@ export class EggService {
 
   validarOrden(): boolean {
     for (let i = 0; i < this.nameSort.length; i++) {
-      if (this.nameSort[i] != this.names[i]) {
+      if (this.nameSort[i] !== this.names[i]) {
         return false;
       }
     }
