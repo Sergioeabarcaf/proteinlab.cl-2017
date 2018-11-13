@@ -7,7 +7,7 @@
             <div class="card-body">
                 <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ proyectoVinculacion.portada.nombre | lowercase }}</strong></h4>
                 <p class="card-text text-justify" style="font-size:12px;">{{ proyectoVinculacion.portada.bajada }}</p>
-                <button (click)="verProyecto(proyectoVinculacion.id)" type="button" class="btn btn-dark btn-block">Ver más ...
+                <button (click)="verProyecto('vinculacion',proyectoVinculacion.id)" type="button" class="btn btn-dark btn-block">Ver más ...
         </button>
             </div>
             <div class="card-footer">
@@ -26,7 +26,7 @@
             <div class="card-body">
                 <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ proyectoApoyo.portada.nombre | lowercase }}</strong></h4>
                 <p class="card-text text-justify" style="font-size:12px;">{{ proyectoApoyo.portada.bajada }}</p>
-                <button (click)="verProyecto(proyectoApoyo.id)" type="button" class="btn btn-dark btn-block">Ver más ...
+                <button (click)="verProyecto('apoyo',proyectoApoyo.id)" type="button" class="btn btn-dark btn-block">Ver más ...
         </button>
             </div>
             <div class="card-footer">
@@ -45,7 +45,7 @@
             <div class="card-body">
                 <h4 class="card-title text-center text-capitalize" style="font-size:14px;"><strong>{{ proyectoPropio.portada.nombre | lowercase }}</strong></h4>
                 <p class="card-text text-justify" style="font-size:12px;">{{ proyectoPropio.portada.bajada }}</p>
-                <button (click)="verProyecto(proyectoPropio.id)" type="button" class="btn btn-dark btn-block">Ver más ...
+                <button (click)="verProyecto('propio',proyectoPropio.id)" type="button" class="btn btn-dark btn-block">Ver más ...
         </button>
             </div>
             <div class="card-footer">

@@ -14,9 +14,9 @@ export class ProyectoComponent {
   constructor(private activatedRoute: ActivatedRoute,
               private _proyectoService: ProyectosService,
               private route: Router) {
-    // this.activatedRoute.params.subscribe( params => {
-    //   this.proyecto = this._proyectoService.getProyecto( params['id']);
-    // });
+    this.activatedRoute.params.subscribe( params => {
+      this.proyecto = this._proyectoService.getProyecto( params['topic'], params['id'])[0];
+    });
    }
 
    regresar() {

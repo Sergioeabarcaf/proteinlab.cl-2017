@@ -6,7 +6,7 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'proyecto/:id', component: ProyectoComponent },
+  { path: 'proyecto/:topic/:id', component: ProyectoComponent },
   { path: 'proyectos', component: ProyectosComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];

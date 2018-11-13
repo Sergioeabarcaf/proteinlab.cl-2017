@@ -17,8 +17,7 @@ export class ProyectosComponent {
     this._proyectosService.getProyectosPropios();
   }
 
-  verProyecto( id: string ) {
-    this.router.navigate( ['/proyecto', id]);
+  verProyecto( topico: string, id: string ) {
+    this.router.navigate( ['/proyecto', topico, id]);
   }
-
 }
