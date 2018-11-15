@@ -21,35 +21,41 @@ export class ProyectosService {
     this.getProyectosVinculacion();
   }
 
-  getProyectosPropios(): Proyecto[] {
-    if (this.proyectosPropios.length === 0) {
-     this.http.get('https://webproteinlab.firebaseio.com/proyectos/propio.json').subscribe((proyectos: Proyecto[]) => {
-       this.proyectosPropios = proyectos;
-       this.proyectosPropios = this.randomArray(this.proyectosPropios);
-       this.loadingpropio = false;
-       console.log(`loading propio ${ this.loadingpropio }`);
-     });
-    }else {
-      this.proyectosPropios = this.randomArray(this.proyectosPropios);
-    }
-    return this.proyectosPropios;
+  getProyectosPropios() {
+    return new Promise( (resolve, reject) => {
+      if (this.proyectosPropios.length === 0) {
+       this.http.get('https://webproteinlab.firebaseio.com/proyectos/propio.json').subscribe((proyectos: Proyecto[]) => {
+         this.proyectosPropios = proyectos;
+         this.proyectosPropios = this.randomArray(this.proyectosPropios);
+         this.loadingpropio = false;
+         console.log(`loading propio ${ this.loadingpropio }`);
+         resolve();
+       });
+      }else {
+        this.proyectosPropios = this.randomArray(this.proyectosPropios);
+        resolve();
+      }
+    });
   }
 
-  getProyectosVinculacion(): Proyecto[] {
-    if (this.proyectosVinculacion.length === 0) {
-     this.http.get('https://webproteinlab.firebaseio.com/proyectos/vinculacion.json').subscribe((proyectos: Proyecto[]) => {
-       this.proyectosVinculacion = proyectos;
-       this.proyectosVinculacion = this.randomArray(this.proyectosVinculacion);
-       this.loadingvinculacion = false;
-       console.log(`loading vinculacion ${ this.loadingvinculacion }`);
-     });
-    }else {
-      this.proyectosVinculacion = this.randomArray(this.proyectosVinculacion);
-    }
-    return this.proyectosVinculacion;
+  getProyectosVinculacion() {
+    return new Promise( (resolve, reject) => {
+      if (this.proyectosVinculacion.length === 0) {
+       this.http.get('https://webproteinlab.firebaseio.com/proyectos/vinculacion.json').subscribe((proyectos: Proyecto[]) => {
+         this.proyectosVinculacion = proyectos;
+         this.proyectosVinculacion = this.randomArray(this.proyectosVinculacion);
+         this.loadingvinculacion = false;
+         console.log(`loading vinculacion ${ this.loadingvinculacion }`);
+         resolve();
+       });
+      }else {
+        this.proyectosVinculacion = this.randomArray(this.proyectosVinculacion);
+        resolve();
+      }
+    });
   }
 
-  getProyectosApoyo(): Proyecto[] {
+  getProyectosApoyo() {
 
     return new Promise( (resolve, reject) => {
       if (this.proyectosApoyo.length === 0) {
@@ -58,9 +64,11 @@ export class ProyectosService {
          this.proyectosApoyo = this.randomArray(this.proyectosApoyo);
          this.loadingapoyo = false;
          console.log(`loading apoyo ${ this.loadingapoyo }`);
+         resolve();
        });
       }else {
         this.proyectosApoyo = this.randomArray(this.proyectosApoyo);
+        resolve();
       }
     });
   }
@@ -79,13 +87,31 @@ export class ProyectosService {
 
   getProyecto( topic: string, idx: string ) {
     if (topic === 'propio') {
-      console.log(this.proyecto);
+      if (this.proyectosPropios.length === 0) {
+        this.getProyectosPropios().then( () => {
+          this.proyecto = this.proyectosPropios.filter(proyecto => proyecto.id === idx)[0];
+        });
+      } else {
+        this.proyecto = this.proyectosPropios.filter(proyecto => proyecto.id === idx)[0];
+      }
      }
     if (topic === 'vinculacion') {
-      console.log(this.proyecto);
+      if (this.proyectosVinculacion.length === 0) {
+        this.getProyectosVinculacion().then( () => {
+          this.proyecto = this.proyectosVinculacion.filter(proyecto => proyecto.id === idx)[0];
+        });
+      } else {
+        this.proyecto = this.proyectosVinculacion.filter(proyecto => proyecto.id === idx)[0];
+      }
      }
     if (topic === 'apoyo') {
-      console.log(this.proyecto);
+      if (this.proyectosApoyo.length === 0) {
+        this.getProyectosApoyo().then( () => {
+          this.proyecto = this.proyectosApoyo.filter(proyecto => proyecto.id === idx)[0];
+        });
+      } else {
+        this.proyecto = this.proyectosApoyo.filter(proyecto => proyecto.id === idx)[0];
+      }
      }
   }
 }
