@@ -11,7 +11,7 @@ import { Proyecto } from '../../interfaces/proyecto.interface';
 export class ProyectosComponent {
 
 
-  constructor( protected _proyectosService: ProyectosService, private router: Router ) {
+  constructor( public _proyectosService: ProyectosService, public router: Router ) {
     this._proyectosService.getProyectosApoyo();
     this._proyectosService.getProyectosVinculacion();
     this._proyectosService.getProyectosPropios();

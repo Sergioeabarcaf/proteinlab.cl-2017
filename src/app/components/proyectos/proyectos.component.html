@@ -2,10 +2,10 @@
     <h2 class="tipo">Proyectos de Transferencia Tecnológica</h2>
     <hr>
     <div class="row justify-content-md-center">
-        <div class="col-6" *ngIf="_proyectosService.loadingVinculacion">
+        <div class="col-6" *ngIf="_proyectosService.loadingvinculacion">
             <app-loading></app-loading>
         </div>
-        <div class="col-12" *ngIf="!_proyectosService.loadingVinculacion">
+        <div class="col-12" *ngIf="!_proyectosService.loadingvinculacion">
             <div class="card-columns">
                 <div class="card" *ngFor="let proyectoVinculacion of _proyectosService.proyectosVinculacion; let i = index">
                     <img class="card-img-top rounded" [src]=proyectoVinculacion.imagenes.grupal [alt]="proyectoVinculacion.portada.nombre">
@@ -28,10 +28,10 @@
     <h2 class="tipo">Proyectos de Apoyo a Emprendimientos</h2>
     <hr>
     <div class="row justify-content-md-center">
-        <div class="col-6" *ngIf="_proyectosService.loadingApoyo">
+        <div class="col-6" *ngIf="_proyectosService.loadingapoyo">
             <app-loading></app-loading>
         </div>
-        <div class="col-12" *ngIf="!_proyectosService.loadingApoyo">
+        <div class="col-12" *ngIf="!_proyectosService.loadingapoyo">
             <div class="card-columns">
                 <div class="card" *ngFor="let proyectoApoyo of _proyectosService.proyectosApoyo ; let i = index">
                     <img class="card-img-top rounded" [src]=proyectoApoyo.imagenes.grupal [alt]="proyectoApoyo.portada.nombre">
@@ -53,10 +53,10 @@
     <h2 class="tipo">Proyectos de Investigación</h2>
     <hr>
     <div class="row justify-content-md-center">
-        <div class="col-6" *ngIf="_proyectosService.loadingPropios">
+        <div class="col-6" *ngIf="_proyectosService.loadingpropio">
             <app-loading></app-loading>>
         </div>
-        <div class="col-12" *ngIf="!_proyectosService.loadingPropios">
+        <div class="col-12" *ngIf="!_proyectosService.loadingpropio">
             <div class="card-deck">
                 <div class="card" *ngFor="let proyectoPropio of _proyectosService.proyectosPropios; let i = index">
                     <img class="card-img-top rounded" [src]=proyectoPropio.imagenes.grupal [alt]="proyectoPropio.portada.nombre">

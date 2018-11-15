@@ -15,11 +15,11 @@ export class HomeComponent implements OnInit {
   historico = false;
   equipoHistorico: any[] = [];
 
-  constructor( private _proyectosService: ProyectosService,
-               protected _equipoService: EquipoService,
-               private _eggService: EggService,
-               protected _historicosService: HistoricosService,
-               private _proyectoService: ProyectosService) {
+  constructor( public _proyectosService: ProyectosService,
+               public _equipoService: EquipoService,
+               public _eggService: EggService,
+               public _historicosService: HistoricosService,
+               public _proyectoService: ProyectosService) {
                }
 
   ngOnInit() {}
