@@ -103,3 +103,6 @@ version 1.7 contiene las siguientes caracteristicas:
 * Actualizacion de parrafo descriptivo
 * Reparacion imagen Estomago1
 * Instalacion de hammerJS para reconocer TAP en EGG 
+
+### V1.7.7
+*   Traspasar informacion estatica de proyecto y equipo hacia Firebase.
