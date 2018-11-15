@@ -9,6 +9,7 @@ export class EquipoService {
   public equipo: Equipo[] = [];
 
   constructor(private http: HttpClient) {
+    this.getEquipo();
   }
 
   getEquipo() {

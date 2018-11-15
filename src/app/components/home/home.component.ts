@@ -20,10 +20,6 @@ export class HomeComponent implements OnInit {
                private _eggService: EggService,
                protected _historicosService: HistoricosService,
                private _proyectoService: ProyectosService) {
-                 _proyectoService.getProyectosApoyo();
-                 _proyectoService.getProyectosPropios();
-                 _proyectoService.getProyectosVinculacion();
-                 _equipoService.getEquipo();
                }
 
   ngOnInit() {}
