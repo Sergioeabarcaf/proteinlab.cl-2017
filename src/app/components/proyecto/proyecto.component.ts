@@ -10,13 +10,11 @@ import { Proyecto } from '../../interfaces/proyecto.interface';
 })
 export class ProyectoComponent {
 
-  proyecto: Proyecto;
-
   constructor(private activatedRoute: ActivatedRoute,
-              private _proyectoService: ProyectosService,
+              protected _proyectoService: ProyectosService,
               private route: Router) {
     this.activatedRoute.params.subscribe( params => {
-      this.proyecto = this._proyectoService.getProyecto( params['topic'], params['id'])[0];
+      this._proyectoService.getProyecto( params['topic'], params['id']);
     });
    }
 
