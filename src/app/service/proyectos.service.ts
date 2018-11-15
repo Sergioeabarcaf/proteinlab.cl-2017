@@ -28,7 +28,6 @@ export class ProyectosService {
          this.proyectosPropios = proyectos;
          this.proyectosPropios = this.randomArray(this.proyectosPropios);
          this.loadingpropio = false;
-         console.log(`loading propio ${ this.loadingpropio }`);
          resolve();
        });
       }else {
@@ -45,7 +44,6 @@ export class ProyectosService {
          this.proyectosVinculacion = proyectos;
          this.proyectosVinculacion = this.randomArray(this.proyectosVinculacion);
          this.loadingvinculacion = false;
-         console.log(`loading vinculacion ${ this.loadingvinculacion }`);
          resolve();
        });
       }else {
@@ -63,7 +61,6 @@ export class ProyectosService {
          this.proyectosApoyo = proyectos;
          this.proyectosApoyo = this.randomArray(this.proyectosApoyo);
          this.loadingapoyo = false;
-         console.log(`loading apoyo ${ this.loadingapoyo }`);
          resolve();
        });
       }else {
