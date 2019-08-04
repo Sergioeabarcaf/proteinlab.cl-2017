@@ -108,3 +108,8 @@ version 1.7 contiene las siguientes caracteristicas:
 * Traspasar informacion estatica de proyecto y equipo hacia Firebase.
 * Version desplegada en hosting de firebase.
 
+### V1.8
+* Se agrega seccion AltaRoma.
+* Se despliega en Carrusel información del concuso AltaRoma.
+* Version desplegada en hosting oficial.
+
