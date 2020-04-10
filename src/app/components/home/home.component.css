@@ -2,6 +2,10 @@ a{
     color: white;
 }
 
+#carrousel p{
+    margin-bottom: 0px;
+}
+
 #equipo img {
     width: 100%;
     color: rgba(0, 0, 0, 0.5);
