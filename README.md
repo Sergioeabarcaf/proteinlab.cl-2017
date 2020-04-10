@@ -111,5 +111,7 @@ version 1.7 contiene las siguientes caracteristicas:
 ### V1.8
 * Se agrega seccion AltaRoma.
 * Se despliega en Carrusel información del concuso AltaRoma.
-* Version desplegada en hosting oficial.
+* Se agrega información de colaboracion por Covid-19
+* Se repara error al mostrar galeria de imagenes en proyectos cuando no habian imagenes en galeria.
+* Version desplegada en hosting oficial el 10 mayo 2020
 
